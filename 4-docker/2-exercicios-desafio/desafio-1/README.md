@@ -7,7 +7,7 @@
 * O container deve ser executado em background;
 * O serviço deve ser disponivel na porta 8080 e redirecionar para a porta 80 do container.
 
-![baixando imagem](/images/1.png)
+![baixando imagem](./images/1.png)
 
 ### 2. Customize a mensagem apresentada em seu navegador quando é acessado o endereço http://localhost:8080.
 
@@ -16,7 +16,7 @@
 * Ainda dentro do container, subistitua a mensagem atual por uma nova "Ola mundo!" que esta no arquivo index.html.
 * Saia do container e verifique se a nova mensagem foi inserida.
 
-![editando index.html](/images/2.png)
+![editando index.html](./images/2.png)
 
 ### 3. Pare o container que esta sendo executado.
-![editando index.html](/images/2.png)
+![editando index.html](./images/3.png)
