@@ -1,6 +1,6 @@
 # :whale: Desafio 4
 
-### 1. 1 Provisione uma aplicacao e persista os dados dela. Vamos utilizar neste exercicio o docker-compose.
+### 1. 1 Provisione uma aplicacao e persista os dados dela. Vamos utilizar neste exercicio o docker-compose. - [x]
 - [x] Crie uma pasta para conter a estutura do seu projeto;
 - [x] Neste exercicio vamos utilizar uma aplicacao em python e um redis;
 - [x] Crie os arquivos:<br>
