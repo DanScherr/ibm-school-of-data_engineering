@@ -27,5 +27,3 @@
 1. Curso, didática, material, organização e "vibe" muito boas!!!
 2. Tag MAINTAINER do Exercício 2 dos Exercícios guiados foi descontinuada.
 3. No exercício 3 dos Desafios, seguiu-se a [documentação](https://hub.docker.com/_/httpd) da imagem no docker hub do apache, as quais promoveram grandes mudanças na forma como foi realizado, divergindo das instruções.
-* ## Considerações:
-* Gostei muito de ter adquirido conhecimento nessa ferramenta que tanto tem a se explorar e de grande utilidade, espero continuar me desenvolvendo nela, seja através dos meus trabalhos profissionais ou pessoais!
