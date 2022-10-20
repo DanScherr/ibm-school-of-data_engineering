@@ -1,6 +1,6 @@
 # :whale: Desafio 4
 
-### 1. 1 Provisione uma aplicacao e persista os dados dela. Vamos utilizar neste exercicio o docker-compose.
+### 1. Provisione uma aplicacao e persista os dados dela. Vamos utilizar neste exercicio o docker-compose.
 - [x] Crie uma pasta para conter a estutura do seu projeto;
 - [x] Neste exercicio vamos utilizar uma aplicacao em python e um redis;
 - [x] Crie os arquivos:<br>
@@ -17,7 +17,7 @@ b) requirements.txt<br>
 
 ![imagem-3](./images/3.jpg)
 
-### 4. Considerações
+### 4. Considerações e Resultados
 * Fique bem atento pois estao faltando varias declaracoes para que suba a sua aplicacao em python e o redis que devem serem executados. Repare que existe uma declaracao de volume. Isso significa que os dados do redis serao armazenados e mesmo que o container se encerre os dados nao serao perdidos;
 
 * Apos a construcao do arquivo, execute o comando necessario para que realize o build da aplicacao e entao suba os dois servicos;
