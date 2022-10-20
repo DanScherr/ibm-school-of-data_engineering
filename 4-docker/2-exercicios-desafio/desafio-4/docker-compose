@@ -1,0 +1,22 @@
+version: 
+services:
+  pythonAPI:
+    image: python-with-flask
+    ports:
+      - "8000:5000"
+    restart: always
+    environment:
+      - FLASK_APP: ${FLASK_APP}
+      - FLASK_RUN_HOST: ${FLASK_RUN_HOST}
+
+  redis:
+    image: redis
+    ports:
+      - '6379:6379'
+    volumes: 
+      - ./cache:/data
+    restart: always
+
+volumes:
+  cache:
+    driver: local
