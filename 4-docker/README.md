@@ -29,6 +29,7 @@
 1. Curso, didática, material, organização e "vibe" muito boas!!!
 2. <ins>Tag MAINTAINER</ins> do <ins>Exercício 2</ins> dos **Exercícios guiados** foi descontinuada.
 3. No <ins>exercício 3</ins> dos **Desafios**, seguiu-se a [documentação da imagem do apache](https://hub.docker.com/_/httpd) no docker hub, as quais promoveram grandes mudanças na forma como foi realizado, *divergindo das instruções*.
+4. No <ins>exercício 4</ins> dos **Desafios**, teve-se que criar o Docker file importando a imagem do python com o **Alpine** (*"FROM python:3-alpine"*) para rodar o comando *"RUN apk add --no-cache gcc musl-dev linux-headers"*. Por conta disso, foi gasto um tempo considerável para passar dessa camada. Fora isso, sem grandes complicações.
 ### :man_technologist: Feedback final
 * Gostei muito de ter adquirido conhecimento nessa ferramenta que tanto tem a se explorar e de grande utilidade. Espero continuar me desenvolvendo nela, seja através dos meus trabalhos profissionais ou pessoais!
 
