@@ -1,28 +1,32 @@
 # :whale: Desafio 4
 
-### 1. Crie uma imagem utilizando o _Dockerfile_ baseado nos parâmetros abaixo:
-- [X] Crie uma pasta em seu desktop e nele crie um arquivo chamado index.html e nele construa uma pagina com um hello world!
-- [X] A imagem que deve ser utilizada é httpd:2.4 (apache) ; 
-- [X] Exponha o valor definido na variável de ambiente PORT para que os usuários do contêiner saibam como acessar o Apache Web Server;
+### 1. 1 Provisione uma aplicacao e persista os dados dela. Vamos utilizar neste exercicio o docker-compose.
+- [x] Crie uma pasta para conter a estutura do seu projeto;
+- [x] Neste exercicio vamos utilizar uma aplicacao em python e um redis;
+- [x] Crie os arquivos:<br>
+a) app.py<br>
+b) requirements.txt
 
 ![imagem-1](./images/1.png)
 
-- [X] Build image
 
-### 2. Run container
-- [X] O nome do container deve ser apache;
-- [X] Executa-lo em modo daemon;
-- [X] Faça o redirecionamento de porta 8080 para 80;
-- [X] Faça o mapeamento da pasta que você criou com o arquivo index.html para dentro do container (local dentro do container: /usr/local/apache2/htdocs/);
+### 2. Crie um arquivo Dockerfile.
+![imagem-2](./images/2.png)
 
-### 3. Apos o container executado utilize o comando curl ou o seu navegador para acessar o arquivo index.html que foi criado.
+### 3. Crie um arquivo docker-compose.yml. Nele voce deve ter a estrutura para que seja feita o build da sua aplicacao e suba junto uma outra aplicacao que o redis.
 
-![imagem-1](./images/2.png)
+![imagem-3](./images/3.png)
 
-### 4. Testando volume *(alterar documento index.html, atualizar localhost:8080 e verificar alteração em tempo real)*
+### 4. Considerações
+* Fique bem atento pois estao faltando varias declaracoes para que suba a sua aplicacao em python e o redis que devem serem executados. Repare que existe uma declaracao de volume. Isso significa que os dados do redis serao armazenados e mesmo que o container se encerre os dados nao serao perdidos;
 
-![imagem-1](./images/4.png)
+* Apos a construcao do arquivo, execute o comando necessario para que realize o build da aplicacao e entao suba os dois servicos;
 
-***
+* O resultado final deve ser semelhante ao abaixo:
 
-* To see **challenge origin**, [click here](https://github.com/ricardocapeli/DockerStart/blob/main/exercicios/3_Desafio.md). :point_left::computer_mouse:
+![Localhost](./imagens/pyredis.png)
+
+* Repare que a cada refresh no seu navegador o numero e modificado;
+
+* Execute o comando para baixar os dois servicos e entao suba novamente o docker-compose e veja se o numero permanece o mesmo ou ele inicia a partir do 1. Se iniciar a partir do 1 ele estara errado. E necessario rever a parte do volume do seu docker-compose.
+
