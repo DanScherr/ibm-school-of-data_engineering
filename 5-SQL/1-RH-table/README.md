@@ -2,7 +2,8 @@
 ### :game_die::chains: SQL classes; :man_technologist: First class
 
 ***
-* ## First lesson 
+* ## First lesson: CRUD
+    [check-code](CRUD-inicial.sql)
 ### 1. SQLite usage on VSCode
 ![imagem-1](./images/1.png)
 
