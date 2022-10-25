@@ -2,7 +2,7 @@
 ### :game_die::chains: SQL classes; :man_technologist: First class
 
 ***
-
+* ## First lesson 
 ### 1. SQLite usage on VSCode
 ![imagem-1](./images/1.png)
 
@@ -17,3 +17,4 @@
     Não que depois não se possa implementá-los.
 #### III. INSERT
     // é aqui que normalmente se implementa o Semantic Integrity Constraint (normalmente através das regras de negócio).
+
