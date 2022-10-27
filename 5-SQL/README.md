@@ -48,3 +48,10 @@
 * [1-RH_table-Introducao](./1-RH_table-Introducao). :point_left::computer_mouse:
 ### 2. Criando query
 * [2-RH_table-exercicio_1](./2-RH_table-exercicio). :point_left::computer_mouse:
+
+<br><br>
+
+***
+
+* ## SQL x NoSQL
+    > à desenvolver
