@@ -16,6 +16,19 @@
 - Os bancos de dados relacionais são projetados desde o início para fornecer a maior disponibilidade possível e o desempenho mais rápido. Eles fornecem simultaneidade e conformidade com ACID para que os dados sejam precisos, estejam sempre disponíveis e sejam facilmente acessíveis.
 - Eles armazenam os dados em tabelas após extrair os relacionamentos entre os dados para que estes possam ser usados por qualquer aplicação, garantindo uma única fonte confiável.
 
+### II.i. Relacionamento entre tabelas e ACID:
+- Para tornar possível, cria-se encadeamentos entre tabelas, como correntes, que são implementadas em SQL como:<br>
+
+    CONSTRAINTS
+
+- E seguem os tipos a seguir:<br>
+    i. Entity Integrity Constraint: PRIMARY KEY.
+    <br>ii. Referential Integrity Constraint: FOREIGN KEY + PRIMARY KEYS.
+    <br>iii. Semantic Integrity Constraint: Correção do significado do dado (normalmente implementado seguindo regras de negócio na camada de aplicação).
+    <br>iv. Domain Constraint: Especifica os valores permitidos para um determinado atributo (também normalmente implementado na camada de aplicação).
+    <br>v. Null Constraint: Não pode ser nulo. (normalmente implementado no CREATE TABLE *nome-tabela* NOT NULL,)
+    <br>vi. Check constraint: limitação de aceite de valores (normalemnte, utiliza-se o CHECK no CREATE TABLE).
+
 ## III. SQLite:
 - SQLite é uma biblioteca em linguagem C que implementa um banco de dados SQL embutido. Programas que usam a biblioteca SQLite podem ter acesso a banco de dados SQL sem executar um processo SGBD separado.
     SQLite não é uma biblioteca cliente usada para conectar com um grande servidor de banco de dados, mas sim o próprio servidor. A biblioteca SQLite lê e escreve diretamente no arquivo de banco de dados no disco.
