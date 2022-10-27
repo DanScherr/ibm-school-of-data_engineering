@@ -60,8 +60,13 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 
 * # Conceitos extras
 
-* ## OLTP x OLAP (Online Analytical Processing)
+* ## Sistemas de bancos de dados
+
+### i. OLTP x OLAP (Online Analytical Processing)
 > à desenvolver
 
-* ## SQL x NoSQL
+### ii. Data-Mesh com Buckets AWS (SOR, SOT e SPEC)
+> à desenvolver
+
+* ### SQL x NoSQL
 > à desenvolver
