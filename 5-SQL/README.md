@@ -49,12 +49,16 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 
 ***
 
+* # Exercícios
+
 ### 1. AMBIENTAÇÃO E CRUD (DML + TRUNCATE)
 * [1-RH_table-Introducao](./1-RH_table-Introducao). :point_left::computer_mouse:
 ### 2. Criando query
 * [2-RH_table-exercicio_1](./2-RH_table-exercicio). :point_left::computer_mouse:
 
 ***
+
+* # Conceitos extras
 
 * ## OLTP x OLAP (Online Analytical Processing)
 > à desenvolver
