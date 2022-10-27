@@ -3,13 +3,17 @@
 
 ***
 * # Introdução
-## I. Banco de dados transacionais:
+## I. Banco de dados transacionais (**OLTP**<sup>a</sup>):
 - O OLTP (online transaction processing) são sistemas que se encarregam de registrar todas as transações contidas em uma determinada operação organizacional.
 - A arquitetura mais comum de um sistema OLTP que usa dados transacionais é uma arquitetura de três camadas que normalmente consiste em uma camada de apresentação, uma camada de lógica de negócios e uma camada de armazenamento de dados.
-- Uma transação é registrada corretamente somente se todas as etapas envolvidas forem executadas e registradas, seguindo os parametros da camada de negócios, normalmente implementadas pela camada lógica. 
-    Se houver algum erro em qualquer uma das etapas, toda a transação deve ser abortada e todas as etapas devem ser excluídas do sistema. Assim, os sistemas OLTP devem estar em conformidade com as propriedades atômicas, consistentes, isoladas e duráveis (**ACID**) para garantir a precisão dos dados no sistema.
+- Uma transação é registrada corretamente somente se <u>todas as etapas envolvidas forem executadas e registradas</u>, seguindo os parametros da camada de negócios, normalmente implementadas pela camada lógica.<br
+Se houver algum erro em qualquer uma das etapas, <u>toda a transação deve ser abortada e todas as etapas devem ser excluídas do sistema</u>. Assim, os sistemas OLTP devem estar em conformidade com as ***propriedades atômicas, consistentes, isoladas e duráveis*** (**ACID**<sup>b</sup>) para garantir a precisão dos dados no sistema.
 <br><br>
-**OBS:** para informações e conteúdo mais detalhado sobre OLTP, consultar [link](https://www.oracle.com/br/database/what-is-oltp/). :point_left::computer_mouse:
+**OBS:** para informações e conteúdo mais detalhado sobre:
+<br>
+a. **OLTP**, consultar [link](https://www.oracle.com/br/database/what-is-oltp/). :point_left::computer_mouse:
+<br>
+b. **ACID**, consultar [link](https://pt.wikipedia.org/wiki/ACID). :point_left::computer_mouse:
 
 ## II. SQL (structured query language):
 - Os bancos de dados relacionais foram construídos especificamente para aplicações de transação. Eles incorporam todos os elementos essenciais necessários para armazenar e processar grandes volumes de transações, ao mesmo tempo em que são continuamente atualizados com novos recursos e funcionalidades para extrair mais valor desses ricos dados de transações.
@@ -33,7 +37,7 @@
 
 ## III. SQLite:
 - SQLite é uma biblioteca em linguagem C que implementa um banco de dados SQL embutido. Programas que usam a biblioteca SQLite podem ter acesso a banco de dados SQL sem executar um processo SGBD separado.
-    SQLite não é uma biblioteca cliente usada para conectar com um grande servidor de banco de dados, mas sim o próprio servidor. A biblioteca SQLite lê e escreve diretamente no arquivo de banco de dados no disco.
+SQLite não é uma biblioteca cliente usada para conectar com um grande servidor de banco de dados, mas sim o próprio servidor. A biblioteca SQLite lê e escreve diretamente no arquivo de banco de dados no disco.
 - O uso do SQLite é recomendado onde a simplicidade da administração, implementação e manutenção são mais importantes que incontáveis recursos que SGBDs, mais voltados para aplicações complexas, possivelmente implementam.
 <br><br>
 **OBS:** para interagir com um SQLite online, acessar [link](https://sqliteonline.com/).:point_left::computer_mouse:
@@ -52,6 +56,8 @@
 <br><br>
 
 ***
+
+* ## 
 
 * ## SQL x NoSQL
     > à desenvolver
