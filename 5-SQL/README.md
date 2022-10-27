@@ -1,7 +1,12 @@
 # :robot: IBM school of data engineering 
 ### :game_die::chains: SQL classes; :man_technologist: First class
 
+<br>
+
 ***
+
+<br>
+
 * # Introdução
 ## I. Banco de dados transacionais (**OLTP**<sup>a</sup>):
 - O OLTP (online transaction processing) são sistemas que se encarregam de registrar todas as transações contidas em uma determinada operação organizacional.
@@ -46,16 +51,22 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 - O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 - É, atualmente, um dos editores de textos mais utilizados para desenvolver arquiteturas de software, versionar (com o git e github), testar e etc.
 
+<br>
+
 ***
+
+<br>
 
 ### 1. AMBIENTAÇÃO E CRUD (DML + TRUNCATE)
 * [1-RH_table-Introducao](./1-RH_table-Introducao). :point_left::computer_mouse:
 ### 2. Criando query
 * [2-RH_table-exercicio_1](./2-RH_table-exercicio). :point_left::computer_mouse:
 
-<br><br>
+<br>
 
 ***
+
+<br>
 
 * ## OLTP x OLAP (Online Analytical Processing)
 > à desenvolver
