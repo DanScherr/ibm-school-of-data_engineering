@@ -15,6 +15,8 @@
 - Os bancos de dados relacionais foram construídos especificamente para aplicações de transação. Eles incorporam todos os elementos essenciais necessários para armazenar e processar grandes volumes de transações, ao mesmo tempo em que são continuamente atualizados com novos recursos e funcionalidades para extrair mais valor desses ricos dados de transações.
 - Os bancos de dados relacionais são projetados desde o início para fornecer a maior disponibilidade possível e o desempenho mais rápido. Eles fornecem simultaneidade e conformidade com ACID para que os dados sejam precisos, estejam sempre disponíveis e sejam facilmente acessíveis.
 - Eles armazenam os dados em tabelas após extrair os relacionamentos entre os dados para que estes possam ser usados por qualquer aplicação, garantindo uma única fonte confiável.
+- Segue um Schema de uma Banco de Dados Relacionais:
+![schema-banco-de-dados-relacionais](./images/sql-schemas.png)
 
 ### II.i. Relacionamento entre tabelas e ACID:
 - Para tornar possível, cria-se encadeamentos entre tabelas, como correntes, que são implementadas em SQL como:<br>
