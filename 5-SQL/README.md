@@ -57,7 +57,8 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 
 ***
 
-* ## 
+* ## OLTP x OLAP (Online Analytical Processing)
+> à desenvolver
 
 * ## SQL x NoSQL
-    > à desenvolver
+> à desenvolver
