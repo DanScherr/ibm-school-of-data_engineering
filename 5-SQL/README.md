@@ -9,11 +9,11 @@
 - A arquitetura mais comum de um sistema OLTP que usa dados transacionais é uma arquitetura de três camadas que normalmente consiste em uma camada de apresentação, uma camada de lógica de negócios e uma camada de armazenamento de dados.
 - Uma transação é registrada corretamente somente se <u>todas as etapas envolvidas forem executadas e registradas</u>, seguindo os parametros da camada de negócios, normalmente implementadas pela camada lógica.<br
 Se houver algum erro em qualquer uma das etapas, <u>toda a transação deve ser abortada e todas as etapas devem ser excluídas do sistema</u>. Assim, os sistemas OLTP devem estar em conformidade com as ***propriedades atômicas, consistentes, isoladas e duráveis*** (**ACID**<sup>b</sup>) para garantir a precisão dos dados no sistema.
-<br><br>
-**OBS:** para informações e conteúdo mais detalhado sobre:
-<br>
+
+* **OBS:** para informações e conteúdo mais detalhado sobre:
+
 a. **OLTP**, consultar [link](https://www.oracle.com/br/database/what-is-oltp/). :point_left::computer_mouse:
-<br>
+
 b. **ACID**, consultar [link](https://pt.wikipedia.org/wiki/ACID). :point_left::computer_mouse:
 
 ## II. SQL (structured query language):
