@@ -58,7 +58,7 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 
 ***
 
-* # Conceitos extras
+* # Conceitos extras :fire::books:
 
 * ## Sistemas de bancos de dados
 
@@ -68,5 +68,6 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 ### ii. Data-Mesh com Buckets AWS (SOR, SOT e SPEC)
 > à desenvolver
 
-* ### SQL x NoSQL
+* ## Paradigmas de linguagens e estruturas na implementação de banco de dados
+### i. SQL x NoSQL
 > à desenvolver
