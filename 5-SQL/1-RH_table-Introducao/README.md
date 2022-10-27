@@ -4,7 +4,7 @@
 ***
 * ## Tema geral: 
 ## - AMBIENTAÇÃO E CRUD (DML)
-[check-code](CRUD-inicial.sql) :point_left::computer_mouse:
+[check-code](CRUD-inicial.sql). :point_left::computer_mouse:
 
 ### 1. SQLite usage on VSCode
 ![imagem-1](./images/1.png)
