@@ -3,7 +3,7 @@
 
 ***
 
-* # Introdução
+* # Introdução :man_student::books:
 ## I. Banco de dados transacionais (**OLTP**<sup>a</sup>):
 - O OLTP (online transaction processing) são sistemas que se encarregam de registrar todas as transações contidas em uma determinada operação organizacional.
 - A arquitetura mais comum de um sistema OLTP que usa dados transacionais é uma arquitetura de três camadas que normalmente consiste em uma camada de apresentação, uma camada de lógica de negócios e uma camada de armazenamento de dados.
@@ -49,7 +49,7 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 
 ***
 
-* # Exercícios
+* # Exercícios :man_technologist::books:
 
 ### 1. AMBIENTAÇÃO E CRUD (DML + TRUNCATE)
 * [1-RH_table-Introducao](./1-RH_table-Introducao). :point_left::computer_mouse:
