@@ -11,18 +11,34 @@
 
 ***
 * ## Desenvolvimento:
-* ### Exercícios guiados
+
+* ### Exercícios guiados :man_technologist::books:
+
+:date: **Postagem:** 14/10/2021
+
 1. [Exercício 1](1-exercicios-guiados/1-container-Mysql)
 2. [Exercício 2](1-exercicios-guiados/2-img-apache)
 3. [Exercício 3](1-exercicios-guiados/3-wordpress)
 
-***
+:chart_with_upwards_trend: **Resolução:**  
+**Começo:** 18/09/2022; **Fim:** 18/09/2022.
 
-* ### Desafios
+* ### Desafios :man_technologist::books:
+:date: **Postagem** 14/10/2021
 1. [Exercício 1](2-exercicios-desafio/desafio-1)
 2. [Exercício 2](2-exercicios-desafio/desafio-2)
 3. [Exercício 3](2-exercicios-desafio/desafio-3)
 4. [Exercício 4](2-exercicios-desafio/desafio-4)
+
+:chart_with_upwards_trend: **Resolução:**  
+**Começo:** 18/09/2022; **Fim:** 20/09/2022.
+
+***
+
+* ### Datas:
+:date: **Expectativa de entrega do desafio:** 1 semana.
+
+:chart_with_upwards_trend: Término:
 
 ***
 * ## Conclusão:
