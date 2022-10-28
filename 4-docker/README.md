@@ -38,7 +38,7 @@
 * ### Datas:
 :date: **Expectativa de entrega do desafio:** 4 dias.
 
-:chart_with_upwards_trend: Término: 4 dias (começo atrasado por conta de curso obrigatório).
+:chart_with_upwards_trend: **Término:** 4 dias (começo atrasado por conta de curso obrigatório).
 
 ***
 * ## Conclusão:
