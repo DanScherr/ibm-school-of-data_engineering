@@ -10,7 +10,24 @@ Código com instruções no seguinte [link](./challenge_scope/desafio.ipynb). :p
 
 * ## Resolução:
 
-Seguir [codigo suporte](./resolucao/). :point_left::computer_mouse:
+### Seguir [resolução](./resolucao/). :point_left::computer_mouse:
+
+Dividida em:
+
+i. [Main code](./resolucao/main.ipynb) em Jupyter Notebook
+
+ii. Classes:
+
+ii.a. [Banco](./resolucao/class_Banco.py)
+
+ii.b. [Cartao de Credito](./resolucao/class_CartaoDeCredito.py)
+
+ii.c. [Conta](./resolucao/class_Conta.py)
+
+ii.d. [Classe suporte](./resolucao/class_Others/class_Depena_String.py)
+
+iii. [Documento](./README.md) de suporte.
+
 
 <br>
 
