@@ -39,6 +39,6 @@ iii. [Documento](./README.md) de suporte.
 
 <br>
 
-:date: **Expectativa:** 1 semana.
+:date: **Expectativa de entrega do desafio:** 1 semana.
 
-:chart_with_upwards_trend: **Entrega:** 1 semana.
+:chart_with_upwards_trend: **Entrega do desafio:** 1 semana.
