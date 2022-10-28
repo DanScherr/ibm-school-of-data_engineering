@@ -8,3 +8,9 @@
 
 * ## Resolução:
 Seguir [link](./resolucao/). :point_left::computer_mouse:
+
+- [x] Desafio recebido: 26/08/2022
+- [x] Desafio concluído: 30/08/2022
+- [x] Desafio corrigido: 31/08/2022
+> Houve ruído no entendimento do desafio, o qual foi necessário ser refeito.
+- [x] Desafio reenviado: 01/08/2022
