@@ -47,15 +47,15 @@ iii. [Documento](./README.md) de suporte.
 
 ***
 
-## <center> **Desafio desenvolvido por:**
+## **Desafio desenvolvido por:**
 * #### Daniel Soares <i>-> Data Engineer</i>
 
-## <center><b>Resolvido pelos integrantes:</b>
+## <b>Resolvido pelos integrantes:</b>
 * #### Daniel Scheicher; Harão Tavares; Victoria Gomes; <i>-> Interns</i>
 
 ---
 
-## <center> **Método:**
+## **Método:**
 1. Por conta do desafio ter **3 (três) classes** e **3 (três) integrantes**, *cada integrante irá desenvolver uma classe*, para que todos tenham a oportunidade de serem protagonistas no projeto.
 2. Também serão realizadas **Dailys** *às 10hrs da manhã*, para que os integrantes possam alinhar o andamento e colaborarem em grupo quanto a sugestões e eventuais dúvidas.
 3. Além disso, será usado o **git e o github** para fins de descentralização e autonomia de desenvolvimento de código.
@@ -63,10 +63,10 @@ iii. [Documento](./README.md) de suporte.
 
 ![UML Diagram](Images/13_09_22-Diagrama-UML.png)
 
-## <center>**Data de Entrega:**
+## **Data de Entrega:**
 * 16/09/2022  ->  totalizando 5 (cinco) dias úteis de desenvolvimento e 1 (uma) semana desde a entrega do desafio.
 
-## <center>**Resultados:**
+## **Resultados:**
 * ### Aprendizado:
 
 ### **Escopo:** 
@@ -75,30 +75,30 @@ Foi criado um programa o qual, através das classes Banco, Conta e CartaDeCredit
 
 ### **Daily**: 
 
-**Bom:** Comunicação efetiva para desenvolvimento do projeto, Alinhamento para conhecimento mútuo, Contribuição continua, oportunidade de um horario fixo para possibilidar ajuda planeja do Daniel (desafio desenvolvido por);
+- **Bom:** Comunicação efetiva para desenvolvimento do projeto, Alinhamento para conhecimento mútuo, Contribuição continua, oportunidade de um horario fixo para possibilidar ajuda planeja do Daniel (desafio desenvolvido por);
 
-**Ruim:** Sem gestor a parte para conduzir conteúdo, objetividade e tempo;
+- **Ruim:** Sem gestor a parte para conduzir conteúdo, objetividade e tempo;
 
-**O que poderia manter:** Efetividade de comunicação, bom relacionamento entre os integrantes e horário;
+- **O que poderia manter:** Efetividade de comunicação, bom relacionamento entre os integrantes e horário;
 
-**O que poderia melhorar:** Prestar mais atenção com tempo, conteúdo e objetividade;
+- **O que poderia melhorar:** Prestar mais atenção com tempo, conteúdo e objetividade;
 
 ### **Git/GitHub**:
 
-**Bom:** Aprendemos a solucionar problemas, paciência, documentação, conhecimento de desenvolvimento de codigo de forma colaborativa, resolver conflitos de codigo, organização de codigo, versionamento, cada um pode trabalhar de forma separada e ter sincronicidade de código;
+- **Bom:** Aprendemos a solucionar problemas, paciência, documentação, conhecimento de desenvolvimento de codigo de forma colaborativa, resolver conflitos de codigo, organização de codigo, versionamento, cada um pode trabalhar de forma separada e ter sincronicidade de código;
 
-**Ruim:** Conflitos de codigo, dificuldades do primeiro contato, VSCode (nem todo mundo usava o VSCode para o git);
+- **Ruim:** Conflitos de codigo, dificuldades do primeiro contato, VSCode (nem todo mundo usava o VSCode para o git);
 
-**O que poderia manter:** Organizacao, versionamento, colaboracao sincronizada;
+- **O que poderia manter:** Organizacao, versionamento, colaboracao sincronizada;
 
-**O que poderia mudar:** Aprender mais sobre Git e Comandos Linux;
+- **O que poderia mudar:** Aprender mais sobre Git e Comandos Linux;
 
 ### **Diagrama UML**: 
 
-**Bom:** Ficou bonito no README.md;
+- **Bom:** Ficou bonito no README.md;
 
-**Ruim:** Apenas um integrante realizou a construção, pois já tinha o conhecimento, e, por isso, os outros participantes não tiveram oportunidade de aprendizado nesta construção;
+- **Ruim:** Apenas um integrante realizou a construção, pois já tinha o conhecimento, e, por isso, os outros participantes não tiveram oportunidade de aprendizado nesta construção;
 
-**O que poderia manter:** O README.md bonito;
+- **O que poderia manter:** O README.md bonito;
 
-**O que poderia mudar:** A construção poderia ter sido feita de forma conjunta para que todo mundo aprendesse um pouquinho;
+- **O que poderia mudar:** A construção poderia ter sido feita de forma conjunta para que todo mundo aprendesse um pouquinho;
