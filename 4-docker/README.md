@@ -1,3 +1,8 @@
+# :robot: IBM school of data engineering 
+#### :mortar_board: *This folder contains the Docker challenges* :whale:
+
+***
+
 # :whale: Desafios de Docker
 ### :mortar_board: Escolinha de Engenharia de Dados da IBM
 
@@ -36,3 +41,8 @@
 ***
 
 * To see **original repository**, [click here](https://github.com/ricardocapeli/DockerStart). :point_left::computer_mouse:
+
+***
+
+Além das aulas e desafios, também realizou-se um [curso]().
+Pode-se encontrar os projetos aplicados no curso no seguinte [link]().
