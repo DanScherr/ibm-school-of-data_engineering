@@ -3,7 +3,7 @@
 
 ***
 
-* ## Enunciado:
+* ## Enunciado:  :man_teacher:
 ### 1. **Nivelamento:**
 
 Seguir [enunciado](./1-nivelamento/images/enunciado.png).:point_left::computer_mouse:
@@ -13,7 +13,7 @@ Seguir [enunciado](./1-nivelamento/images/enunciado.png).:point_left::computer_m
 Seguir [enunciado](./2-desafio/images/enunciado.png).:point_left::computer_mouse:
 
 
-* ## Resolução:
+* ## Resolução: :man_technologist::books:
 ### 1. **Nivelamento:**
 
 Seguir [resolução](./1-nivelamento/resolucao/). :point_left::computer_mouse:
