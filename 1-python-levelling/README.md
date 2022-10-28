@@ -32,3 +32,10 @@ Seguir [resolução](./2-desafio/resolucao/). :point_left::computer_mouse:
 :date: **Expctativa:** indeterminado
 
 :chart_with_upwards_trend: **Total:** 18 dias
+
+***
+
+* No desenvolver da interação, aproveitou-se para realizar aperfeiçoamento:
+> 9horas e 36minutos de [curso](https://www.udemy.com/course/100-days-of-code/).
+
+> Topicos de POO, List Comprehension, funções (args e kwargs), pandas, open/read/write files, etc.
