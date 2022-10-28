@@ -36,6 +36,8 @@ iii. [Documento](./README.md) de suporte.
 - [x] **Segunda aula, API com FLASK**: 30/09/2022
 - [x] **Curso completo de API com FLASK**: [link](https://www.udemy.com/course/rest-apis-com-python-e-flask/?gclid=Cj0KCQjw--2aBhD5ARIsALiRlwBiyunW-IpKef2JKCfWl1x8tlyTEHj8QKx9iqGiQgmA8coBjoBjMp8aAgenEALw_wcB). 12 horas de curso.
 
+Projetos de API com FLASK no [link](https://github.com/DanScherr/learning-courses/tree/main/python/api-restful). :point_left::computer_mouse:
+
 
 <br>
 
