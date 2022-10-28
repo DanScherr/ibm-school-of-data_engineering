@@ -15,5 +15,8 @@ Seguir [link](./resolucao/). :point_left::computer_mouse:
 > Houve ruído no entendimento do desafio, o qual foi necessário ser refeito.
 - [x] Desafio reenviado: 01/08/2022
 
-:date: Expctativa: 4 dias
-:chart_with_upwards_trend: Resolvido em: 6 dias
+<br>
+
+:date: **Expctativa:** 4 dias
+
+:chart_with_upwards_trend: **Resolvido em:** 6 dias
