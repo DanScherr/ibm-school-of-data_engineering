@@ -3,10 +3,6 @@
 
 ***
 
-# :whale: Desafios de Docker
-### :mortar_board: Escolinha de Engenharia de Dados da IBM
-
-***
 
 * ## Metodologia:
 1. Foram realizadas aulas online e ao vivo, com o [Ricardo Capeli](https://github.com/ricardocapeli) (responsável por conduzir o tema de Docker e Github).
