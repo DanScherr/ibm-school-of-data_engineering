@@ -10,9 +10,9 @@
 3. Por fim, realizou-se desafios, que serviram como uma maneira de praticar o conteúdo absorvido e exercitado, só que de forma independente.
 
 ***
-* ## Desenvolvimento:
+* ## Desenvolvimento: :man_technologist::books:
 
-* ### Exercícios guiados :man_technologist::books:
+* ### Exercícios guiados
 
 :date: **Postagem:** 14/10/2021
 
@@ -23,7 +23,7 @@
 :chart_with_upwards_trend: **Resolução:**  
 **Começo:** 18/09/2022; **Fim:** 18/09/2022.
 
-* ### Desafios :man_technologist::books:
+* ### Desafios 
 :date: **Postagem** 14/10/2021
 1. [Exercício 1](2-exercicios-desafio/desafio-1)
 2. [Exercício 2](2-exercicios-desafio/desafio-2)
