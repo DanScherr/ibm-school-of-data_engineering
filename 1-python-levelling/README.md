@@ -9,6 +9,8 @@
 * ## Resolução:
 Seguir [link](./resolucao/). :point_left::computer_mouse:
 
+<br>
+
 - [x] Desafio recebido: 26/08/2022
 - [x] Desafio concluído: 30/08/2022
 - [x] Desafio corrigido: 31/08/2022
