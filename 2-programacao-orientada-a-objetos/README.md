@@ -67,55 +67,38 @@ iii. [Documento](./README.md) de suporte.
 * 16/09/2022  ->  totalizando 5 (cinco) dias úteis de desenvolvimento e 1 (uma) semana desde a entrega do desafio.
 
 ## <center>**Resultados:**
-> * Aprendizado:
-    <ol>
-        <li>**Escopo:** Foi criado um programa o qual, através das classes Banco, Conta e CartaDeCredito, é possível efetuar o cadastro de clientes, fazer o levamentamento dos dados dos mesmos e gerar cartões de crédito com analise de disponibilidade de crédito.<br></li>
-        <li>**Daily**: 
-            <ul>
-                <li>
-                    Bom: Comunicação efetiva para desenvolvimento do projeto, Alinhamento para conhecimento mútuo, Contribuição continua, oportunidade de um horario fixo para possibilidar ajuda planeja do Daniel (desafio desenvolvido por);
-                </li>
-                <li> 
-                    Ruim: Sem gestor a parte para conduzir conteúdo, objetividade e tempo;
-                </li>
-                <li>
-                    O que poderia manter: Efetividade de comunicação, bom relacionamento entre os integrantes e horário;
-                </li>
-                <li>
-                    O que poderia melhorar: Prestar mais atenção com tempo, conteúdo e objetividade;
-                </li>
-            </ul>
-        </li>
-        <li>**Git/GitHub**:
-            <ul>
-                <li>
-                    Bom: Aprendemos a solucionar problemas, paciência, documentação, conhecimento de desenvolvimento de codigo de forma colaborativa, resolver conflitos de codigo, organização de codigo, versionamento, cada um pode trabalhar de forma separada e ter sincronicidade de código;
-                </li>
-                <li> 
-                    Ruim: Conflitos de codigo, dificuldades do primeiro contato, VSCode (nem todo mundo usava o VSCode para o git);
-                </li>
-                <li>
-                    O que poderia manter: Organizacao, versionamento, colaboracao sincronizada;
-                </li>
-                <li>
-                    O que poderia mudar: Aprender mais sobre Git e Comandos Linux;
-                </li>
-            </ul>
-        </li>
-        <li>**Diagrama UML**: 
-            <ul>
-                <li>
-                    Bom: Ficou bonito no README.md;
-                </li>
-                <li> 
-                    Ruim: Apenas um integrante realizou a construção, pois já tinha o conhecimento, e, por isso, os outros participantes não tiveram oportunidade de aprendizado nesta construção;
-                </li>
-                <li>
-                    O que poderia manter: O README.md bonito;
-                </li>
-                <li>
-                    O que poderia mudar: A construção poderia ter sido feita de forma conjunta para que todo mundo aprendesse um pouquinho;<br>
-                </li>
-            </ul>
-        </li>
-    </ol>
+* ### Aprendizado:
+
+### **Escopo:** 
+
+Foi criado um programa o qual, através das classes Banco, Conta e CartaDeCredito, é possível efetuar o cadastro de clientes, fazer o levamentamento dos dados dos mesmos e gerar cartões de crédito com analise de disponibilidade de crédito.
+
+### **Daily**: 
+
+**Bom:** Comunicação efetiva para desenvolvimento do projeto, Alinhamento para conhecimento mútuo, Contribuição continua, oportunidade de um horario fixo para possibilidar ajuda planeja do Daniel (desafio desenvolvido por);
+
+**Ruim:** Sem gestor a parte para conduzir conteúdo, objetividade e tempo;
+
+**O que poderia manter:** Efetividade de comunicação, bom relacionamento entre os integrantes e horário;
+
+**O que poderia melhorar:** Prestar mais atenção com tempo, conteúdo e objetividade;
+
+### **Git/GitHub**:
+
+**Bom:** Aprendemos a solucionar problemas, paciência, documentação, conhecimento de desenvolvimento de codigo de forma colaborativa, resolver conflitos de codigo, organização de codigo, versionamento, cada um pode trabalhar de forma separada e ter sincronicidade de código;
+
+**Ruim:** Conflitos de codigo, dificuldades do primeiro contato, VSCode (nem todo mundo usava o VSCode para o git);
+
+**O que poderia manter:** Organizacao, versionamento, colaboracao sincronizada;
+
+**O que poderia mudar:** Aprender mais sobre Git e Comandos Linux;
+
+### **Diagrama UML**: 
+
+**Bom:** Ficou bonito no README.md;
+
+**Ruim:** Apenas um integrante realizou a construção, pois já tinha o conhecimento, e, por isso, os outros participantes não tiveram oportunidade de aprendizado nesta construção;
+
+**O que poderia manter:** O README.md bonito;
+
+**O que poderia mudar:** A construção poderia ter sido feita de forma conjunta para que todo mundo aprendesse um pouquinho;
