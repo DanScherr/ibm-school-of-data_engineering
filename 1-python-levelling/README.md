@@ -39,3 +39,7 @@ Seguir [resolução](./2-desafio/resolucao/). :point_left::computer_mouse:
 > 9horas e 36minutos de [curso](https://www.udemy.com/course/100-days-of-code/).
 
 > Topicos de POO, List Comprehension, funções (args e kwargs), pandas, open/read/write files, etc.
+
+> Section 17 -> 27
+
+> Some projects can be found on [link](https://github.com/DanScherr/learning-courses/tree/main/python/100-days-python). :point_left::computer_mouse:
