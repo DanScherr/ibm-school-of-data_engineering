@@ -1,5 +1,5 @@
 # :robot: IBM school of data engineering 
-### :game_die::chains: SQL classes; :man_technologist: First class
+#### :mortar_board: *This folder contains the SQL challenges* :game_die::chains:
 
 ***
 
