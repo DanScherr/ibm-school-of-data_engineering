@@ -11,8 +11,8 @@ Seguir [link](./resolucao/). :point_left::computer_mouse:
 
 <br>
 
-- [x] Desafio recebido: 18/08/2022
-- [x] Desafio concluído: 19/08/2022
+- [x] **Desafio recebido:** 18/08/2022
+- [x] **Desafio concluído:** 19/08/2022
 
 <br>
 

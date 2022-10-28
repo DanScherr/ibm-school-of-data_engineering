@@ -24,8 +24,8 @@ Seguir [resolução](./2-desafio/resolucao/). :point_left::computer_mouse:
 
 <br>
 
-- [x] Começo da interação com o envio do nivelamento: 18/08/2022
-- [x] Último contato com a correção do desafio: 05/09/2022
+- [x] **Começo da interação com o envio do nivelamento:** 18/08/2022
+- [x] **Último contato com a correção do desafio:** 05/09/2022
 
 <br>
 
