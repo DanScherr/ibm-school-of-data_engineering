@@ -1,5 +1,5 @@
 # :robot: IBM school of data engineering 
-#### :mortar_board: *This folder contains the python topic*
+#### :mortar_board: *This folder contains the python topic* :snake:
 
 ***
 
