@@ -22,6 +22,6 @@ Seguir [codigo suporte](./resolucao/). :point_left::computer_mouse:
 
 <br>
 
-:date: **Expectativa:** indeterminado
+:date: **Expectativa:** 1 semana.
 
-:chart_with_upwards_trend: **Total:** 21 dias
+:chart_with_upwards_trend: **Entrega:** 1 semana.
