@@ -3,12 +3,12 @@
 
 ***
 
-* ## Enunciado:
+* ## Enunciado: :man_teacher:
 Código com instruções no seguinte [link](./challenge_scope/desafio.ipynb). :point_left::computer_mouse:
 ![enunciado](./Images/enunciado-1.png)
 ![enunciado](./Images/enunciado-2.png)
 
-* ## Resolução:
+* ## Resolução: :man_technologist::books:
 
 ### Seguir [resolução](./resolucao/). :point_left::computer_mouse:
 
