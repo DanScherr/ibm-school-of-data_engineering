@@ -1,7 +1,7 @@
 # :robot: IBM school of data engineering 
-### :octocat: SQL classes; :man_technologist: First class
+### :octocat::man_technologist: Git e GitHub classes
 
 ***
 
-* # Introdução :man_student::books:
-## I. Banco de dados transacionais (**OLTP**<sup>a</sup>):
+* # Forked Repo: :man_student::books:
+Access link [here](https://github.com/DanScherr/GitStart). :point_left::computer_mouse:
