@@ -24,4 +24,4 @@
 
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
 
-![imagem](../images/the-end-img.png)
+![imagem](./images/the-end-img.png)
