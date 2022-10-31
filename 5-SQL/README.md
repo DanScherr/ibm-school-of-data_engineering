@@ -22,7 +22,7 @@ Se houver algum erro em qualquer uma das etapas, <u>toda a transação deve ser 
 - Os bancos de dados relacionais são projetados desde o início para fornecer a maior disponibilidade possível e o desempenho mais rápido. Eles fornecem simultaneidade e conformidade com ACID para que os dados sejam precisos, estejam sempre disponíveis e sejam facilmente acessíveis.
 - Eles armazenam os dados em tabelas após extrair os relacionamentos entre os dados para que estes possam ser usados por qualquer aplicação, garantindo uma única fonte confiável.
 - Segue um Schema de uma Banco de Dados Relacionais:
-<img src="./images/diagrama-sql-1.png" width=100%>
+<img src="./images/diagrama-sql-1.png" width=50%>
 
 
 ### i. Relacionamento entre tabelas e ACID:
