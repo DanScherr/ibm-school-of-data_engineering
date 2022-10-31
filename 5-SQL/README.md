@@ -22,13 +22,13 @@ Se houver algum erro em qualquer uma das etapas, <u>toda a transação deve ser 
 - Os bancos de dados relacionais são projetados desde o início para fornecer a maior disponibilidade possível e o desempenho mais rápido. Eles fornecem simultaneidade e conformidade com ACID para que os dados sejam precisos, estejam sempre disponíveis e sejam facilmente acessíveis.
 - Eles armazenam os dados em tabelas após extrair os relacionamentos entre os dados para que estes possam ser usados por qualquer aplicação, garantindo uma única fonte confiável.
 - Segue um Schema de uma Banco de Dados Relacionais:
-<img src="./images/sql-schemas.png" width=50%>
+<img src="./images/diagrama-sql-1.png" width=100%>
 
 
 ### i. Relacionamento entre tabelas e ACID:
 - Para tornar possível, cria-se encadeamentos entre tabelas, como correntes, que são implementadas em SQL como:<br>
 
-    CONSTRAINTS
+    **CONSTRAINTS**
 
 - E seguem os tipos a seguir:<br>
     i. Entity Integrity Constraint: PRIMARY KEY.
@@ -38,14 +38,14 @@ Se houver algum erro em qualquer uma das etapas, <u>toda a transação deve ser 
     <br>v. Null Constraint: Não pode ser nulo. (normalmente implementado no CREATE TABLE *nome-tabela* NOT NULL,)
     <br>vi. Check constraint: limitação de aceite de valores (normalemnte, utiliza-se o CHECK no CREATE TABLE).
 
-## III. SQLite:
+## 3. SQLite:
 - SQLite é uma biblioteca em linguagem C que implementa um banco de dados SQL embutido. Programas que usam a biblioteca SQLite podem ter acesso a banco de dados SQL sem executar um processo SGBD separado.
 SQLite não é uma biblioteca cliente usada para conectar com um grande servidor de banco de dados, mas sim o próprio servidor. A biblioteca SQLite lê e escreve diretamente no arquivo de banco de dados no disco.
 - O uso do SQLite é recomendado onde a simplicidade da administração, implementação e manutenção são mais importantes que incontáveis recursos que SGBDs, mais voltados para aplicações complexas, possivelmente implementam.
 <br><br>
 **OBS:** para interagir com um SQLite online, acessar [link](https://sqliteonline.com/).:point_left::computer_mouse:
 
-## IV. VSCode:
+## 4. VSCode:
 - O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 - É, atualmente, um dos editores de textos mais utilizados para desenvolver arquiteturas de software, versionar (com o git e github), testar e etc.
 
