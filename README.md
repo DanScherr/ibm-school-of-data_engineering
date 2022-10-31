@@ -5,13 +5,13 @@
 
 ***
 
-* ## Datas:
+* ## Dates:
 
 <img src="./images/datas-1.png" width=50% height=50%><img src="./images/datas-2.png" width=50% height=50%>
 
 ***
 
-* ## Tópicos:
+* ## Topics:
 
 1. [Python/Pandas](1-python-levelling)
 2. [POO/Flask(api)](2-POO-banking_app)
