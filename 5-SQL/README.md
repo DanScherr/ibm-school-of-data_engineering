@@ -102,3 +102,12 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 ## 2. Paradigmas de linguagens e estruturas na implementação de banco de dados
 ### i. SQL x NoSQL
 > à desenvolver
+
+***
+
+* [Voltar ao topo](#robot-ibm-school-of-data-engineering)
+
+* [Voltar ao menu principal](../)
+
+
+![imagem](../images/the-end-img.png)
