@@ -2,29 +2,29 @@
 #### :mortar_board: *This folder contains the SQL challenges* :game_die::chains:
 
 ***
-- [Introdução](#introdução-man_studentbooks)
+- ### [Introdução](#introdução-man_studentbooks)
 
-    1. [Bancos de dados transacionais](#1-banco-de-dados-transacionais-oltpi)
-    <br>i. [OLTP](#i-oltp-consultar-link-point_leftcomputer_mouse)
-    <br>ii. [ACID](#ii-acid-consultar-link-point_leftcomputer_mouse)
+1. [Bancos de dados transacionais](#1-banco-de-dados-transacionais-oltpi)
+<br>i. [OLTP](#i-oltp-consultar-link-point_leftcomputer_mouse)
+<br>ii. [ACID](#ii-acid-consultar-link-point_leftcomputer_mouse)
 
-    2. [SQL](#2-sql-structured-query-language)
-        <br>i. [Relacionamento entre tableas acid](#i-relacionamento-entre-tabelas-e-acid)
+2. [SQL](#2-sql-structured-query-language)
+    <br>i. [Relacionamento entre tableas acid](#i-relacionamento-entre-tabelas-e-acid)
 
-    3. [SQLite](#3-sqlite)
-    4. [VsCode](#4-vscode)
+3. [SQLite](#3-sqlite)
+4. [VsCode](#4-vscode)
 
-- [Exercícios](#exercícios-man_technologistbooks)
-    1. [Ambientação e CRUD](#1-ambientação-e-crud-dml--truncate)
-    2. [Relacionando tabelas](#2-criando-query)
+- ### [Exercícios](#exercícios-man_technologistbooks)
+1. [Ambientação e CRUD](#1-ambientação-e-crud-dml--truncate)
+2. [Relacionando tabelas](#2-criando-query)
 
-- [Conceitos extras](#conceitos-extras-firebooks)
-    1. [Sistemas de Bancos de Dados](#1-sistemas-de-bancos-de-dados)
+- ### [Conceitos extras](#conceitos-extras-firebooks)
+1. [Sistemas de Bancos de Dados](#1-sistemas-de-bancos-de-dados)
 
-        i. [OLTP x OLAP](#i-oltp-x-olap-online-analytical-processing)
-        ii. [Data Mesh](#ii-data-mesh-com-buckets-aws-sor-sot-e-spec)
+    i. [OLTP x OLAP](#i-oltp-x-olap-online-analytical-processing)
+    ii. [Data Mesh](#ii-data-mesh-com-buckets-aws-sor-sot-e-spec)
 
-    2. [Paradigmas](#2-paradigmas-de-linguagens-e-estruturas-na-implementação-de-banco-de-dados)
+2. [Paradigmas](#2-paradigmas-de-linguagens-e-estruturas-na-implementação-de-banco-de-dados)
 
 ***
 
