@@ -7,7 +7,7 @@
 
 * ## Dates:
 
-<img src="./images/datas-1.png" width=50% height=80%>
+<img src="./images/datas-1.png" width=70%>
 
 ***
 
