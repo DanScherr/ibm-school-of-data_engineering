@@ -25,7 +25,7 @@
 1. [Sistemas de Bancos de Dados](#1-sistemas-de-bancos-de-dados)
 
     i. [OLTP x OLAP](#i-oltp-x-olap-online-analytical-processing)
-    ii. [Data Mesh](#ii-data-mesh-com-buckets-aws-sor-sot-e-spec)
+    <br>ii. [Data Mesh](#ii-data-mesh-com-buckets-aws-sor-sot-e-spec)
 
 2. [Paradigmas](#2-paradigmas-de-linguagens-e-estruturas-na-implementação-de-banco-de-dados)
 
