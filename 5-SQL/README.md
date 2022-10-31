@@ -2,20 +2,46 @@
 #### :mortar_board: *This folder contains the SQL challenges* :game_die::chains:
 
 ***
+- [Introdução](#introdução-man_studentbooks)
+
+    1. [Bancos de dados transacionais](#1-banco-de-dados-transacionais-oltpi)
+    <br>i. [OLTP](#i-oltp-consultar-link-point_leftcomputer_mouse)
+    <br>ii. [ACID](#ii-acid-consultar-link-point_leftcomputer_mouse)
+
+    2. [SQL](#2-sql-structured-query-language)
+        <br>i. [Relacionamento entre tableas acid](#i-relacionamento-entre-tabelas-e-acid)
+
+    3. [SQLite](#3-sqlite)
+    4. [VsCode](#4-vscode)
+
+- [Exercícios](#exercícios-man_technologistbooks)
+    1. [Ambientação e CRUD](#1-ambientação-e-crud-dml--truncate)
+    2. [Relacionando tabelas](#2-criando-query)
+
+- [Conceitos extras](#conceitos-extras-firebooks)
+    1. [Sistemas de Bancos de Dados](#1-sistemas-de-bancos-de-dados)
+
+        i. [OLTP x OLAP](#i-oltp-x-olap-online-analytical-processing)
+        ii. [Data Mesh](#ii-data-mesh-com-buckets-aws-sor-sot-e-spec)
+
+    2. [Paradigmas](#2-paradigmas-de-linguagens-e-estruturas-na-implementação-de-banco-de-dados)
+
+***
 
 * # Introdução :man_student::books:
 
 ## 1. Banco de dados transacionais (**OLTP**<sup>i</sup>):
 - O OLTP (online transaction processing) são sistemas que se encarregam de registrar todas as transações contidas em uma determinada operação organizacional.
 - A arquitetura mais comum de um sistema OLTP que usa dados transacionais é uma arquitetura de três camadas que normalmente consiste em uma camada de apresentação, uma camada de lógica de negócios e uma camada de armazenamento de dados.
-- Uma transação é registrada corretamente somente se <u>todas as etapas envolvidas forem executadas e registradas</u>, seguindo os parametros da camada de negócios, normalmente implementadas pela camada lógica.<br
+- Uma transação é registrada corretamente somente se <u>todas as etapas envolvidas forem executadas e registradas</u>, seguindo os parametros da camada de negócios, normalmente implementadas pela camada lógica.
+<br>
 Se houver algum erro em qualquer uma das etapas, <u>toda a transação deve ser abortada e todas as etapas devem ser excluídas do sistema</u>. Assim, os sistemas OLTP devem estar em conformidade com as ***propriedades atômicas, consistentes, isoladas e duráveis*** (**ACID**<sup>ii</sup>) para garantir a precisão dos dados no sistema.
 
 * **OBS:** para informações e conteúdo mais detalhado sobre:
 
-    1. **OLTP**, consultar [link](https://www.oracle.com/br/database/what-is-oltp/). :point_left::computer_mouse:
+    #### i. **OLTP**, consultar [link](https://www.oracle.com/br/database/what-is-oltp/). :point_left::computer_mouse:
 
-    2. **ACID**, consultar [link](https://pt.wikipedia.org/wiki/ACID). :point_left::computer_mouse:
+    #### ii. **ACID**, consultar [link](https://pt.wikipedia.org/wiki/ACID). :point_left::computer_mouse:
 
 ## 2. SQL (structured query language):
 - Os bancos de dados relacionais foram construídos especificamente para aplicações de transação. Eles incorporam todos os elementos essenciais necessários para armazenar e processar grandes volumes de transações, ao mesmo tempo em que são continuamente atualizados com novos recursos e funcionalidades para extrair mais valor desses ricos dados de transações.
@@ -62,7 +88,7 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 
 * # Conceitos extras :fire::books:
 
-* ## Sistemas de bancos de dados
+## 1. Sistemas de bancos de dados
 
 ### i. OLTP x OLAP (Online Analytical Processing)
 > à desenvolver
@@ -70,6 +96,6 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 ### ii. Data-Mesh com Buckets AWS (SOR, SOT e SPEC)
 > à desenvolver
 
-* ## Paradigmas de linguagens e estruturas na implementação de banco de dados
+## 2. Paradigmas de linguagens e estruturas na implementação de banco de dados
 ### i. SQL x NoSQL
 > à desenvolver
