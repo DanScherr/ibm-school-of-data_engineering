@@ -10,7 +10,7 @@ Access link [here](https://github.com/DanScherr/GitStart). :point_left::computer
 
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
 
-* [Voltar ao menu principal](../)
+* [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
 
 
 ![imagem](../images/the-end-img.png)

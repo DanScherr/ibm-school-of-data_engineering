@@ -48,7 +48,7 @@ Seguir [resolução](./2-desafio/resolucao/). :point_left::computer_mouse:
 
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
 
-* [Voltar ao menu principal](../)
+* [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
 
 
 ![imagem](../images/the-end-img.png)
