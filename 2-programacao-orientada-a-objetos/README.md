@@ -14,19 +14,20 @@ Código com instruções no seguinte [link](./challenge_scope/desafio.ipynb). :p
 
 Dividida em:
 
-i. [Main code](./resolucao/main.ipynb) em Jupyter Notebook
 
-ii. Classes:
+1. [Main code](./resolucao/main.ipynb) em Jupyter Notebook
 
-ii.a. [Banco](./resolucao/class_Banco.py)
+2. Classes:
 
-ii.b. [Cartao de Credito](./resolucao/class_CartaoDeCredito.py)
+    1. [Banco](./resolucao/class_Banco.py)
 
-ii.c. [Conta](./resolucao/class_Conta.py)
+    2. [Cartao de Credito](./resolucao/class_CartaoDeCredito.py)
 
-ii.d. [Classe suporte](./resolucao/class_Others/class_Depena_String.py)
+    3. [Conta](./resolucao/class_Conta.py)
 
-iii. [Documento](./README.md) de suporte.
+    4. [Classe suporte](./resolucao/class_Others/class_Depena_String.py)
+
+3. [Documento](./README.md) de suporte.
 
 
 <br>
@@ -47,17 +48,20 @@ Projetos de API com FLASK no [link](https://github.com/DanScherr/learning-course
 
 ***
 
-***
+# <u>DESENVOLVIMENTO:</u>
+
+
+# :man_technologist: Integrantes 
 
 ## **Desafio desenvolvido por:**
 * #### Daniel Soares <i>-> Data Engineer</i>
 
-## <b>Resolvido pelos integrantes:</b>
+## <b>Resolvido por:</b>
 * #### Daniel Scheicher; Harão Tavares; Victoria Gomes; <i>-> Interns</i>
 
 ---
 
-## **Método:**
+# :scientist: **Método:**
 1. Por conta do desafio ter **3 (três) classes** e **3 (três) integrantes**, *cada integrante irá desenvolver uma classe*, para que todos tenham a oportunidade de serem protagonistas no projeto.
 2. Também serão realizadas **Dailys** *às 10hrs da manhã*, para que os integrantes possam alinhar o andamento e colaborarem em grupo quanto a sugestões e eventuais dúvidas.
 3. Além disso, será usado o **git e o github** para fins de descentralização e autonomia de desenvolvimento de código.
@@ -65,42 +69,47 @@ Projetos de API com FLASK no [link](https://github.com/DanScherr/learning-course
 
 ![UML Diagram](Images/13_09_22-Diagrama-UML.png)
 
-## **Data de Entrega:**
+# :date: **Data de Entrega:**
 * 16/09/2022  ->  totalizando 5 (cinco) dias úteis de desenvolvimento e 1 (uma) semana desde a entrega do desafio.
 
-## **Resultados:**
-* ### Aprendizado:
+# :detective: **Resultados:**
+* ## Aprendizado:
 
-### **Escopo:** 
+1. ### **Escopo:** 
 
 Foi criado um programa o qual, através das classes Banco, Conta e CartaDeCredito, é possível efetuar o cadastro de clientes, fazer o levamentamento dos dados dos mesmos e gerar cartões de crédito com analise de disponibilidade de crédito.
 
-### **Daily**: 
+2. ### **Daily**: 
 
-- **Bom:** Comunicação efetiva para desenvolvimento do projeto, Alinhamento para conhecimento mútuo, Contribuição continua, oportunidade de um horario fixo para possibilidar ajuda planeja do Daniel (desafio desenvolvido por);
+    1. **Bom:** Comunicação efetiva para desenvolvimento do projeto, Alinhamento para conhecimento mútuo, Contribuição continua, oportunidade de um horario fixo para possibilidar ajuda planeja do Daniel (desafio desenvolvido por);
 
-- **Ruim:** Sem gestor a parte para conduzir conteúdo, objetividade e tempo;
+    2. **Ruim:** Sem gestor a parte para conduzir conteúdo, objetividade e tempo;
 
-- **O que poderia manter:** Efetividade de comunicação, bom relacionamento entre os integrantes e horário;
+    3. **O que poderia manter:** Efetividade de comunicação, bom relacionamento entre os integrantes e horário;
 
-- **O que poderia melhorar:** Prestar mais atenção com tempo, conteúdo e objetividade;
+    4. **O que poderia melhorar:** Prestar mais atenção com tempo, conteúdo e objetividade;
 
-### **Git/GitHub**:
+3. ### **Git/GitHub**:
 
-- **Bom:** Aprendemos a solucionar problemas, paciência, documentação, conhecimento de desenvolvimento de codigo de forma colaborativa, resolver conflitos de codigo, organização de codigo, versionamento, cada um pode trabalhar de forma separada e ter sincronicidade de código;
+    1. **Bom:** Aprendemos a solucionar problemas, paciência, documentação, conhecimento de desenvolvimento de codigo de forma colaborativa, resolver conflitos de codigo, organização de codigo, versionamento, cada um pode trabalhar de forma separada e ter sincronicidade de código;
 
-- **Ruim:** Conflitos de codigo, dificuldades do primeiro contato, VSCode (nem todo mundo usava o VSCode para o git);
+    2. **Ruim:** Conflitos de codigo, dificuldades do primeiro contato, VSCode (nem todo mundo usava o VSCode para o git);
 
-- **O que poderia manter:** Organizacao, versionamento, colaboracao sincronizada;
+    3. **O que poderia manter:** Organizacao, versionamento, colaboracao sincronizada;
 
-- **O que poderia mudar:** Aprender mais sobre Git e Comandos Linux;
+    4. **O que poderia mudar:** Aprender mais sobre Git e Comandos Linux;
 
-### **Diagrama UML**: 
+4. ### **Diagrama UML**: 
 
-- **Bom:** Ficou bonito no README.md;
+    1. **Bom:** Ficou bonito no README.md;
 
-- **Ruim:** Apenas um integrante realizou a construção, pois já tinha o conhecimento, e, por isso, os outros participantes não tiveram oportunidade de aprendizado nesta construção;
+    2. **Ruim:** Apenas um integrante realizou a construção, pois já tinha o conhecimento, e, por isso, os outros participantes não tiveram oportunidade de aprendizado nesta construção;
 
-- **O que poderia manter:** O README.md bonito;
+    3. **O que poderia manter:** O README.md bonito;
 
-- **O que poderia mudar:** A construção poderia ter sido feita de forma conjunta para que todo mundo aprendesse um pouquinho;
+    4. **O que poderia mudar:** A construção poderia ter sido feita de forma conjunta para que todo mundo aprendesse um pouquinho;
+
+***
+
+
+![imagem](../images/the-end-img.png)
