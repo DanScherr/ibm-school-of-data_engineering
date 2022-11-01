@@ -14,4 +14,6 @@ Access link [here](https://github.com/DanScherr/GitStart). :point_left::computer
 * [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
 
 
-<img src='../images/the-end-img.png' width=50%>
+<a href="https://github.com/DanScherr">
+    <img src='../images/the-end-img.png' width=50%>
+</a>
