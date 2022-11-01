@@ -111,3 +111,5 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 
 
 ![imagem](../images/the-end-img.png)
+
+<img src='../images/the-end-img.png' width=50%>
