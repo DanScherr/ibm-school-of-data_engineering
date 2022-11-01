@@ -35,7 +35,7 @@ GROUP BY
 DROP TABLE IF EXISTS TEMP_E_B_DAY;
 
 -- CREATE TABLE TO INSERT DATE
-CREATE TABLE IF NOT EXISTS TEMP_E_B_DAY (
+CREATE TEMPORARY TABLE IF NOT EXISTS TEMP_E_B_DAY (
   EMP_ID CHAR(9) NOT NULL,
   DIA CHAR(2) NOT NULL,
   MES CHAR(2) NOT NULL,
@@ -56,7 +56,7 @@ FROM
 DROP TABLE IF EXISTS TEMP_E_B_DATE;
 
 -- RELACIONA COM TABELA ORIGINAL TRANSFORMANDO A DATA
-CREATE TABLE IF NOT EXISTS 'TEMP_E_B_DATE' AS
+CREATE TEMPORARY TABLE IF NOT EXISTS 'TEMP_E_B_DATE' AS
   SELECT 
     E.EMP_ID, DATE(ANO || "-" || MES || "-" || DIA) AS DATA_T,
     F_NAME || ' ' || L_NAME AS FULL_NAME
@@ -76,7 +76,7 @@ FROM
 
 -- DROPING TEMP TABLES
 DROP TABLE IF EXISTS TEMP_E_B_DATE;
-DROP TABLE IF EXISTS TEMP_E_B_DAY;
+
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
 -- EX 3 ------------------------------------------------------------------------------
@@ -92,7 +92,7 @@ DROP TABLE IF EXISTS TEMP_E_B_DAY;
 DROP TABLE IF EXISTS TEMP_E_S_DAY;
 
 -- CREATE TABLE TO INSERT DATE
-CREATE TABLE IF NOT EXISTS TEMP_E_S_DAY (
+CREATE TEMPORARY TABLE IF NOT EXISTS TEMP_E_S_DAY (
   EMPL_ID CHAR(9) NOT NULL,
   DIA CHAR(2) NOT NULL,
   MES CHAR(2) NOT NULL,
@@ -113,7 +113,7 @@ FROM
 DROP TABLE IF EXISTS TEMP_E_S_DATE;
 
 -- RELACIONA COM TABELA ORIGINAL TRANSFORMANDO A DATA
-CREATE TABLE IF NOT EXISTS 'TEMP_E_S_DATE' AS
+CREATE TEMPORARY TABLE IF NOT EXISTS 'TEMP_E_S_DATE' AS
   SELECT 
     E.EMP_ID, DATE(ANO || "-" || MES || "-" || DIA) AS DATA,
     F_NAME || ' ' || L_NAME AS FULL_NAME, SALARY
@@ -128,7 +128,7 @@ CREATE TABLE IF NOT EXISTS 'TEMP_E_S_DATE' AS
 DROP TABLE IF EXISTS TEMP_E_CONTIBUICAO;
 
 -- CREATE TABLE COM COLUNA DE CONTRIBUICAO
-CREATE TABLE IF NOT EXISTS TEMP_E_CONTIBUICAO AS
+CREATE TEMPORARY TABLE IF NOT EXISTS TEMP_E_CONTIBUICAO AS
   SELECT
     EMP_ID, FULL_NAME, DATA, SALARY,
     (ROUND((JULIANDAY(DATE('now')) - JULIANDAY(DATA)) / 365)) AS CONTRIBUICAO
@@ -145,4 +145,149 @@ CASE
 FROM 
   TEMP_E_CONTIBUICAO;
 
----------------------------------------------------------------------------------------
+-- DROPING CREATED TABLE
+DROP TABLE IF EXISTS TEMP_E_S_DAY;
+DROP TABLE IF EXISTS TEMP_E_S_DATE;
+DROP TABLE IF EXISTS TEMP_E_CONTIBUICAO;
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+-- EX 4 ------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+-- 4. A empresa presta serviço de consultoria para diversas empresas. Dessa forma, 
+-- contratamos 3 novos funcionários para ajustar os quadros. Precisamos incluir no
+-- sistema as informações desses novos colaboradores. Os salários seguem as tabelas
+-- de remuneração jos mínima.
+--    > - Nome: Carlos Almeida; NASC: 22/04/1997; SSN: 123420; SEXO: M; Endereço: 
+--    Avenida Paes de Barros, 2300, Mooca, SP, Brasil; Posição: SCRUM MASTER, 
+--    MANAGER_ID:30003 <br>
+--    > - Nome: Amanda Torres; NASC: 22/04/1998; SSN: 123421; SEXO: F; Endereço:
+--    R. Industrias , 500, Amadora, Lisboa, Portual; Posição: UX Designer, 
+--    MANAGER_ID:30006 <br>
+--    > - Nome: Kshulia Zila; NASC: 22/04/1990; SSN: 123422; SEXO: M; Endereço: 
+--    Zuari Rd, 1450, New Vadden, GOA, INDIA; Posição: Architect Group, MANAGER_ID:30005
+-------------------------------------------------------------------------------------
+-- DROP IF NEEDED
+DROP TABLE IF EXISTS ADC_FUNCIONARIOS;
+
+-- CREATE TEMP TABLE FOR THE 3 COL -> MESMO SCHEMA DO EMPLOYEES
+CREATE TEMPORARY TABLE IF NOT EXISTS ADC_FUNCIONARIOS (
+                          EMP_ID CHAR(9) NOT NULL,
+                          F_NAME VARCHAR(15) NOT NULL,
+                          L_NAME VARCHAR(15) NOT NULL,
+                          SSN CHAR(9),
+                          B_DATE DATE,
+                          SEX CHAR,
+                          ADDRESS VARCHAR(30),
+                          JOB_ID CHAR(9),
+                          SALARY DECIMAL(10,2), 
+                          MANAGER_ID CHAR(9),
+                          DEP_ID CHAR(9),
+                          PRIMARY KEY (EMP_ID),
+                          FOREIGN KEY (JOB_ID) REFERENCES JOB_HISTORY(JOB_ID),
+                          FOREIGN KEY (JOB_ID) REFERENCES Jobs(JOB_IDENT),
+                          FOREIGN KEY (DEP_ID) REFERENCES Departments(DEPT_ID_DEP)
+                        );
+
+-- INSERIR NA TABELA RECEM CRIADA OS 3 FUNCIONARIOS SEM O SALARIO (PODE SER NULL)
+INSERT INTO 
+  ADC_FUNCIONARIOS
+VALUES
+( 'E1021', 'Carlos', 'Almeida', '123420','22/04/1997', 'M', 'Avenida Paes de Barros, 2300, Mooca, SP, Brasil', NULL, NULL,30003, NULL),
+( 'E1022', 'Amanda', 'Torres', '123421', '22/04/1998', 'F', 'R. Industrias , 500, Amadora, Lisboa, Portugal', NULL, NULL, '30006', NULL),
+( 'E1023', 'Kshulia', 'Zila', '123422', '22/04/1990', 'M', 'Zuari Rd, 1450, New Vadden, GOA, INDIA', NULL, NULL, '30005', NULL);
+
+-- CALCULATE MIN VALUE FOR THEIR JOBS
+----- INSERTING MIN SALARIES
+-- E1021
+UPDATE ADC_FUNCIONARIOS SET SALARY = (
+  SELECT
+    MIN(MIN_SALARY)
+  FROM 
+    JOBS
+  WHERE
+    JOB_TITLE LIKE "%Scrum%"
+)
+WHERE 
+  EMP_ID = 'E1021';
+
+-- E1022
+UPDATE ADC_FUNCIONARIOS SET SALARY = (
+  SELECT
+    MIN(MIN_SALARY)
+  FROM 
+    JOBS
+  WHERE
+    JOB_TITLE LIKE "%UX Designer%"
+)
+WHERE 
+  EMP_ID = 'E1022';
+
+-- E1023
+UPDATE ADC_FUNCIONARIOS SET SALARY = (
+  SELECT
+    MIN(MIN_SALARY)
+  FROM 
+    JOBS
+  WHERE
+    JOB_TITLE LIKE "%Architect%"
+)
+WHERE 
+  EMP_ID = 'E1023';
+
+----- INSERTING DEPARTMENTS
+-- E1021
+UPDATE ADC_FUNCIONARIOS SET DEP_ID = (
+  SELECT
+    R.DEPT_ID_DEP
+  FROM 
+    ADC_FUNCIONARIOS AS L
+  JOIN 
+    DEPARTMENTS AS R
+  ON
+    L.MANAGER_ID = R.MANAGER_ID
+  WHERE
+    L.EMP_ID = 'E1021'
+)
+WHERE 
+  EMP_ID = 'E1021';
+
+-- E1022
+UPDATE ADC_FUNCIONARIOS SET DEP_ID = (
+  SELECT
+    R.DEPT_ID_DEP
+  FROM 
+    ADC_FUNCIONARIOS AS L
+  JOIN 
+    DEPARTMENTS AS R
+  ON
+    L.MANAGER_ID = R.MANAGER_ID
+  WHERE
+    L.EMP_ID = 'E1022'
+)
+WHERE 
+  EMP_ID = 'E1022';
+
+-- E1023
+UPDATE ADC_FUNCIONARIOS SET DEP_ID = (
+  SELECT
+    R.DEPT_ID_DEP
+  FROM 
+    ADC_FUNCIONARIOS AS L
+  JOIN 
+    DEPARTMENTS AS R
+  ON
+    L.MANAGER_ID = R.MANAGER_ID
+  WHERE
+    L.EMP_ID = 'E1023'
+)
+WHERE 
+  EMP_ID = 'E1023';
+
+-- INSERT INTO TABLE
+INSERT INTO EMPLOYEES
+SELECT * FROM ADC_FUNCIONARIOS;
+
+-- DROP IF NEEDED
+DROP TABLE IF EXISTS ADC_FUNCIONARIOS;
+-------------------------------------------------------------------------------------
