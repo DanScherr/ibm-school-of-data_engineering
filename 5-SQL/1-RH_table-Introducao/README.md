@@ -28,3 +28,12 @@ Não que depois não se possa implementá-los.
 #### III. INSERT
 - É aqui que normalmente se implementa o Semantic Integrity Constraint (normalmente através das regras de negócio).
 
+
+***
+
+* [Voltar ao topo](#robot-ibm-school-of-data-engineering)
+
+* [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
+
+
+<img src='../../images/the-end-img.png' width=50%>

@@ -110,6 +110,4 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 * [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
 
 
-![imagem](../images/the-end-img.png)
-
 <img src='../images/the-end-img.png' width=50%>

@@ -44,6 +44,7 @@ Seguir [resolução](./2-desafio/resolucao/). :point_left::computer_mouse:
 
 > Some projects can be found on [link](https://github.com/DanScherr/learning-courses/tree/main/python/100-days-python). :point_left::computer_mouse:
 
+
 ***
 
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
@@ -51,4 +52,4 @@ Seguir [resolução](./2-desafio/resolucao/). :point_left::computer_mouse:
 * [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
 
 
-![imagem](../images/the-end-img.png)
+<img src='../images/the-end-img.png' width=50%>

@@ -28,3 +28,12 @@
 
 ## Utilizar Modelo de Entidades e Relacionamento (MER):
 ![imagem-do-mer](./images/uml-mer.png)
+
+***
+
+* [Voltar ao topo](#robot-ibm-school-of-data-engineering)
+
+* [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
+
+
+<img src='../../images/the-end-img.png' width=50%>

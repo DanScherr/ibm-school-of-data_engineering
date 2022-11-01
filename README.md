@@ -24,4 +24,4 @@
 
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
 
-![imagem](./images/the-end-img.png)
+<img src='./images/the-end-img.png' width=50%>
