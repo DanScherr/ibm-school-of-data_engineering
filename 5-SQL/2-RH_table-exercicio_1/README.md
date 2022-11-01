@@ -27,7 +27,7 @@
 ***
 
 ## Utilizar Modelo de Entidades e Relacionamento (MER):
-![imagem-do-mer](./images/uml-mer.png)
+![imagem-do-mer](../images/uml-mer.png)
 
 ***
 

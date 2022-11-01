@@ -57,7 +57,11 @@ Para isso será necessário comparar duas tabelas tabelao 1 e 2.
 
 # Resolução: :man_technologist:
 
+- Primeiramente, buildou-se o banco de dados com a [query-inicial](./query-inicial.sql)
+
 - [ ] 1.
+> ### Explicação: 
+
 - [ ] 2.
 - [ ] 3.
 - [ ] 4.
