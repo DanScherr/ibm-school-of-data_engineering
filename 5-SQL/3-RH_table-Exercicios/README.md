@@ -59,18 +59,29 @@ Para isso será necessário comparar duas tabelas tabelao 1 e 2.
 
 - Primeiramente, buildou-se o banco de dados com a [query-inicial](./query-inicial.sql)
 
-- [ ] 1.
-> ### Explicação: 
+- Explicação abstrata (geral:
+> - Em um banco de dados relacional, os dados são normalizados<sup>i</sup> para obtenção do ACID. Ou seja, para uma tabela T (entidade), evitamos ao máximo atributos de outras tabelas os quais não estão intrinsicamente ligados ao 'cerne' de T (chegar ao cerne de T não é algo subjetivo. Obtem este ao aplicar-se a metodologia de normalização).
+>- Quando, em consultas, queremos relacionar entidades diferenças e unir em uma mesma visão atibutos de tabelas distintas, utilizamos as chaves primárias e estrangerias (PRIMARY AND FOREIGN KEY), pois para cada linha de uma X tabela, temos uma chave/código/id especificador. Então, se em A temos uma chave estrangeira, chave primária da tabela B, podemos relacioná-las e obter quaisquer atributos de forma atômica e precisa, desde uma visão micro ao macro.
 
-- [ ] 2.
-- [ ] 3.
-- [ ] 4.
-- [ ] 5.
-- [ ] 6.
-- [ ] 7.
-- [ ] 8.
-- [ ] 9.
-- [ ] 10.
+
+i. [Normalização](https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-banco-de-dados-5647cdf84a12).
+
+- Explicações específicas, caso necessário.
+
+    - [ ] 1.
+    > ### Explicação: 
+    > RELACIONOU: EMPLOYEES <-> JOB_HISTORY | <-> DEPARTMENTS
+    > FILTRAGEM: "F", "Software Group e Architect Group"
+
+    - [ ] 2.
+    - [ ] 3.
+    - [ ] 4.
+    - [ ] 5.
+    - [ ] 6.
+    - [ ] 7.
+    - [ ] 8.
+    - [ ] 9.
+    - [ ] 10.
 
 ***
 
