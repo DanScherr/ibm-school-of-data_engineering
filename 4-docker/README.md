@@ -61,6 +61,7 @@ Além das aulas e desafios, também realizou-se um [curso](https://www.udemy.com
 
 Pode-se encontrar os projetos aplicados no curso no seguinte [link](https://github.com/DanScherr/learning-courses/tree/main/docker).
 
+
 ***
 
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
@@ -68,4 +69,6 @@ Pode-se encontrar os projetos aplicados no curso no seguinte [link](https://gith
 * [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
 
 
-![imagem](../images/the-end-img.png)
+<a href="https://github.com/DanScherr">
+    <img src='../images/the-end-img.png' width=50%>
+</a>

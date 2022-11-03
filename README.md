@@ -24,4 +24,6 @@
 
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
 
-![imagem](./images/the-end-img.png)
+<a href="https://github.com/DanScherr">
+    <img src='./images/the-end-img.png' width=50%>
+</a>

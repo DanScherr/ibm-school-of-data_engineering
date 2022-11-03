@@ -109,6 +109,7 @@ Foi criado um programa o qual, através das classes Banco, Conta e CartaDeCredit
 
     4. **O que poderia mudar:** A construção poderia ter sido feita de forma conjunta para que todo mundo aprendesse um pouquinho;
 
+
 ***
 
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
@@ -116,4 +117,6 @@ Foi criado um programa o qual, através das classes Banco, Conta e CartaDeCredit
 * [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
 
 
-![imagem](../images/the-end-img.png)
+<a href="https://github.com/DanScherr">
+    <img src='../images/the-end-img.png' width=50%>
+</a>
