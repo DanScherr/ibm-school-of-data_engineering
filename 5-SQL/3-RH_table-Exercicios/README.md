@@ -18,14 +18,14 @@ para compreenderem as regras de negócio.
 A nossa empresa é global possui diversos colaboradores e grupos de trabalho ao redor do mundo. 
 Recebemos uma solicitação da equipe de RH para a campanha "mulheres na tecnologia", na qual precisamos informar 
 a quantidade de funcionários do sexo Feminino dos grupos de trabalho Software Group e Architect Group que temos atualmente na empresa.<br>
-[:pencil2: ***Resolução***](#1a-explicação)
+[:pencil2: ***Resolução***](#1a-resolução)
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - ### 2<sup>o</sup> Enunciado:
 Anualmente, o RH realiza campanha ligadas a qualidade de vida dos trabalhadores, no mês de novembro é realizado novembro azul ligados
 a prevenção do cancêr de prostáta. Dessa forma, precisamos selecionar a lista de funcionários masculinos com idade acima dos 40 anos de idade
 para o RH enviar um webmail de convite para a campanha.<br>
-[:pencil2: ***Resolução***](#2a-explicação)
+[:pencil2: ***Resolução***](#2a-resolução)
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - ### 3<sup>o</sup> Enunciado:
@@ -33,13 +33,13 @@ A empresa está com um novo plano de bonificação de resultado para os funcion�
 que quando o funcionário tanto masculino quanto feminino tiver 10 ou mais anos de casa ele receberá com base no salário 
 um percentual de 25 % de bonificação (1.25). Assim, construa uma nova coluna com a bonificacao das pessoas selecionadas na regra,
 as que estiverem fora mantém o mesmo salário.<br>
-[:pencil2: ***Resolução***](#3a-explicação)
+[:pencil2: ***Resolução***](#3a-resolução)
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - ### 4<sup>o</sup> Enunciado:
 A empresa presta serviço de consultoria para diversas empresas. Dessa forma, contratamos 3 novos funcionários para ajustar os quadros.
 Precisamos incluir no sistema as informações desses novos colaboradores. Os salários seguem as tabelas de remuneração mínima.<br>
-[:pencil2: ***Resolução***](#4a-explicação)
+[:pencil2: ***Resolução***](#4a-resolução)
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
     > - Nome: Carlos Almeida; NASC: 22/04/1997; SSN: 123420; SEXO: M; Endereço: Avenida Paes de Barros, 2300, Mooca, SP, Brasil; Posição: SCRUM MASTER, MANAGER_ID:30003 <br>
@@ -49,37 +49,37 @@ Precisamos incluir no sistema as informações desses novos colaboradores. Os sa
 - ### 5<sup>o</sup> Enunciado:
 Após inserir os funcionários e juntar novamente as tabelas no tabelão você notou alguns brancos, ou seja, valores nulos nas tabelas.
 Explique por que isso ocorreu? Além disso, realize um plano de ação para que que não tenhamos informações nulas na tabela.<br>
-[:pencil2: ***Resolução***](#5a-explicação)
+[:pencil2: ***Resolução***](#5a-resolução)
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - ### 6<sup>o</sup> Enunciado:
 O RH solicitou para a equipe de desenvolvimento que o Tabelao de registro dos funcionários precisava de um acréscimo de duas colunas, a primeira 
 coluna com o ano no qual o funcionário ingressou na empresa, a segunda do ano de nascimento do funcionário.<br>
-[:pencil2: ***Resolução***](#6a-explicação)
+[:pencil2: ***Resolução***](#6a-resolução)
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - ### 7<sup>o</sup> Enunciado:
 Um desenvolvedor da equipe de FRONT_END da empresa precisa consumir uma coluna que possua o primeiro e o segundo nome dos funcionários da empresa
 para o sistema de RH. Assim, construa uma coluna com a concatenação dos nomes e um espaçamento entre eles.<br>
-[:pencil2: ***Resolução***](#7a-explicação)
+[:pencil2: ***Resolução***](#7a-resolução)
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - ### 8<sup>o</sup> Enunciado:
 A Contabilidade da empresa precisa da média dos salários dos funcionários. Dessa forma, construa uma coluna que tenha a média por grupo de trabalho.<br>
-[:pencil2: ***Resolução***](#8a-explicação)
+[:pencil2: ***Resolução***](#8a-resolução)
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - ### 9<sup>o</sup> Enunciado:
 A empresa está realizando um grande mapeamento de funcionários, dessa forma, a gerência quer ter ciência de quantos funcionários por país temos 
 atualmente.<br>
-[:pencil2: ***Resolução***](#9a-explicação)
+[:pencil2: ***Resolução***](#9a-resolução)
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - ### 10<sup>o</sup> Enunciado:
 Desafio-Opcional. A equipe de desenvolvimento realizou uma carga de dados, porém precisamos montar uma lógica que confira se os dados já foram carregados
 para que não tenhamos duplicidade quando realizar a carga ou recarga. Ou seja, carregar apenas os dados que não estão presentes no tabelao_1.
 Para isso será necessário comparar duas tabelas tabelao 1 e 2.<br>
-[:pencil2: ***Resolução***](#10a-explicação)
+[:pencil2: ***Resolução***](#10a-resolução)
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 
