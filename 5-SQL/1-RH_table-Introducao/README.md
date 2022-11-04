@@ -33,9 +33,12 @@ Não que depois não se possa implementá-los.
 
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
 
+* [Voltar a pasta SQL](../../5-SQL/)
+
 * [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
 
+***
 
 <a href="https://github.com/DanScherr">
-    <img src='../images/the-end-img.png' width=50%>
+    <img src='../../images/the-end-img.png' width=50%>
 </a>
