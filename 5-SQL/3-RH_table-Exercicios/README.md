@@ -69,19 +69,46 @@ i. [Normalização](https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-
 - Explicações específicas, caso necessário.
 
     - [x] 1.
-    > ### Explicação: 
-    > RELACIONOU: EMPLOYEES <-> JOB_HISTORY | <-> DEPARTMENTS
-    > FILTRAGEM: "F", "Software Group e Architect Group"
+        > ### Explicação: 
+        > - RELACIONOU: EMPLOYEES <-> JOB_HISTORY | <-> DEPARTMENTS
+        > - FILTRAGEM: "F", "Software Group e Architect Group"
 
     - [x] 2.
+        > ### Explicação:
+        -  
+
     - [x] 3.
+        > ### Explicação:
+        - 
+
     - [x] 4.
-    - [ ] 5.
-    - [ ] 6.
-    - [ ] 7.
-    - [ ] 8.
-    - [ ] 9.
-    - [ ] 10.
+        > ### Explicação:
+        - 
+
+    - [x] 5.
+        > ### Explicação:
+        - 
+
+    - [x] 6.
+        > ### Explicação:
+        - 
+
+    - [x] 7.
+        > ### Explicação:
+        - 
+
+    - [x] 8.
+        > ### Explicação:
+        - 
+
+    - [x] 9.
+        > ### Explicação:
+        - 
+
+    - [x] 10.
+        > ### Explicação:
+        - 
+
 
 ***
 
