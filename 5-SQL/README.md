@@ -5,7 +5,7 @@
 
 ## SUMÁRIO: :round_pushpin:
 
-- ### [Introdução](#introdução-man_studentbooks)
+- ### [Introdução](#introdução-man_studentbooks) :man_student::books:
 
 1. [Bancos de dados transacionais](#1-banco-de-dados-transacionais-oltpi)
 <br>i. [OLTP](#i-oltp-consultar-link-point_leftcomputer_mouse)
@@ -17,12 +17,12 @@
 3. [SQLite](#3-sqlite)
 4. [VsCode](#4-vscode)
 
-- ### [Exercícios](#exercícios-man_technologistbooks)
+- ### [Exercícios](#exercícios-man_technologistbooks) :man_technologist::books:
 1. [Ambientação e CRUD](#1-ambientação-e-crud-dml--truncate)
 2. [Relacionando tabelas](#2-criando-query)
 3. [Casos de negócios](#3-casos-de-negócios)
 
-- ### [Conceitos extras](#conceitos-extras-firebooks)
+- ### [Conceitos extras](#conceitos-extras-firebooks) :fire::books:
 1. [Sistemas de Bancos de Dados](#1-sistemas-de-bancos-de-dados)
 
     i. [OLTP x OLAP](#i-oltp-x-olap-online-analytical-processing)
