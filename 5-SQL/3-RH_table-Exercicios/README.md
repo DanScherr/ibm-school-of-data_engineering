@@ -201,6 +201,7 @@ iv. [Data-types](https://www.sqlite.org/datatype3.html).
 
 * [Voltar ao menu principal](https://github.com/DanScherr/ibm-school-of-data_engineering)
 
+***
 
 <a href="https://github.com/DanScherr">
     <img src='../../images/the-end-img.png' width=50%>
