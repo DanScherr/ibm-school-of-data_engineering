@@ -134,7 +134,7 @@ Para isso será necessário comparar duas tabelas tabelao 1 e 2.<br>
 ***
 
 # Resolução: :man_technologist:
-
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - Primeiramente, buildou-se o banco de dados com a [query-inicial](./query-inicial.sql)
 
 - ## Explicação abstrata (geral:
