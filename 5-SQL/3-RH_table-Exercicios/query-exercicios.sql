@@ -21,6 +21,7 @@ WHERE
   AND DEP_NAME IN ("Software Group", "Architect Group")
 GROUP BY
   DEP_NAME
+
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
 -- EX 2 ---------------------------------------------------------------------------
@@ -72,7 +73,9 @@ SELECT
   EMP_ID, FULL_NAME,
   ROUND((JULIANDAY(DATE('now')) - JULIANDAY(DATA_T)) / 365) AS IDADE
 FROM 
-  TEMP_E_B_DATE;
+  TEMP_E_B_DATE
+WHERE
+  IDADE >= 40;
 
 -- DROPING TEMP TABLES
 DROP TABLE IF EXISTS TEMP_E_B_DATE;
@@ -171,7 +174,7 @@ DROP TABLE IF EXISTS TEMP_E_CONTIBUICAO;
 DROP TABLE IF EXISTS ADC_FUNCIONARIOS;
 
 -- CREATE TEMP TABLE FOR THE 3 COL -> MESMO SCHEMA DO EMPLOYEES
-CREATE TABLE IF NOT EXISTS ADC_FUNCIONARIOS (
+CREATE TEMPORARY TABLE IF NOT EXISTS ADC_FUNCIONARIOS (
                           EMP_ID CHAR(9),
                           F_NAME VARCHAR(15),
                           L_NAME VARCHAR(15),
