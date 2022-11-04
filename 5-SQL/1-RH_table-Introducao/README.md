@@ -3,13 +3,15 @@
 
 ***
 * ## Tema geral: 
-## - AMBIENTAÇÃO E CRUD (DML)
+- ## AMBIENTAÇÃO E CRUD (DML)
 [check-code](CRUD-inicial.sql). :point_left::computer_mouse:
 
 ### 1. SQLite usage on VSCode
 ![imagem-1](./images/1.png)
 
 ### 2. Criando query
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
 - Realizou-se, primeiramente, o CRUD, DDL statments, na seguinte ordem:
 #### I. DROP 
 - Em contextos nos quais se intende realizar uma atualização na qual é necessária a exclusão, primeiramente, de uma tabela (schema + dados) - criou-se de forma errada uma tabela e necessita-se criar o schema novamente - recomenda-se iniciar uma query de construção com o DROP (deleta schema + dados). 
