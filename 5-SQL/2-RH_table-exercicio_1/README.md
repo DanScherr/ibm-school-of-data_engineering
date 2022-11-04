@@ -2,10 +2,24 @@
 ### :game_die::chains: SQL classes; :man_technologist: First class
 
 ***
+
+## SUMÁRIO: :round_pushpin:
+
+* [Tema Geral](#tema-geral)
+* [Exercícios](#exercícios)
+    - [1.CRUD](#1-crud-de-população-de-tabela-consertar-código)
+    - [2. JOINS](#2-relacionar-últimas-2-tabelas-do-modelo)
+    - [3. Testes](#3-testagem-de-relacionamento)
+
+* [MER](#utilizar-modelo-de-entidades-e-relacionamento-mer)
+
+
+***
 * ## Tema geral: 
 ### - Relacionamento entre tabelas.
 
 * ## Exercícios:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 ### 1. CRUD de população de tabela, consertar código.
 [check-code:](CRUD-inicial.sql)  CRUD de população de tabela :point_left::computer_mouse:
 
