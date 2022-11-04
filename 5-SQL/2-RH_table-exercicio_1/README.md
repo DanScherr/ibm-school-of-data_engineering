@@ -27,6 +27,8 @@
 ***
 
 ## Utilizar Modelo de Entidades e Relacionamento (MER):
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
 ![imagem-do-mer](../images/uml-mer.png)
 
 ***
