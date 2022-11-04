@@ -106,7 +106,7 @@ i. [Normalização](https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-
 <br>[:page_facing_up: ***Enunciado***](#1o-enunciado)
 
     - [x] 2.
-        > ### 2<sup>o</sup> Enunciado::
+        > ### 2<sup>a</sup> Resolução:
         -  Para conseguirmos saber quantos anos se passaram, a partir de uma determinada data, no padrão pelo qual foi salvo neste schema específico - dd/mm/AAAA, foi necessário usarmos a função ***JULIANDAY()***<sup>i</sup> que aceita apenas um outro padrão de formato - AAAA/mm/dd. Portanto, foi necessario primeiro realizar a transformação da data, para depois usar a função para o cálculo.
         - Primeiramente, para realizar tal feito, criou-se uma tabela temporaria que separou a coluna de data em 3 colunas de DIA, MES e ANO (com a função ***SUBSTR()***<sup>ii</sup>), e manteve-se, também, os IDs relativos à cada data (para conseguir realizar os devidos relacionamentos).
         - Em seguida, criou-se outra tabela também temporaria, para juntar as 3 colunas (DIA, MES e ANO) no formato aceito pela função ***JULIANDAY()***.
@@ -115,7 +115,7 @@ i. [Normalização](https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-
 <br>[:page_facing_up: ***Enunciado***](#2o-enunciado)
 
     - [x] 3.
-        > ### 3<sup>o</sup> Enunciado::
+        > ### 3<sup>a</sup> Resolução:
         -  Para conseguirmos saber quantos anos se passaram, a partir de uma determinada data, no padrão pelo qual foi salvo neste schema específico - dd/mm/AAAA, foi necessário usarmos a função ***JULIANDAY()***<sup>i</sup> que aceita apenas um outro padrão de formato - AAAA/mm/dd. Portanto, foi necessario primeiro realizar a transformação da data, para depois usar a função para o cálculo.
         - Primeiramente, para realizar tal feito, criou-se uma tabela temporaria que separou a coluna de data em 3 colunas de DIA, MES e ANO (com a função ***SUBSTR()***<sup>ii</sup>), e manteve-se, também, os IDs relativos à cada data (para conseguir realizar os devidos relacionamentos).
         - Em seguida, criou-se outra tabela também temporaria, para juntar as 3 colunas (DIA, MES e ANO) no formato aceito pela função ***JULIANDAY()***.
@@ -125,7 +125,7 @@ i. [Normalização](https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-
 <br>[:page_facing_up: ***Enunciado***](#3o-enunciado)
 
     - [x] 4.
-        > ### 4<sup>o</sup> Enunciado::
+        > ### 4<sup>a</sup> Resolução:
         - Devido a termos ***CONSTRAINTS*** na tabela EMPLOYEES, optou-se por criar uma tabela sobressalente chamada ADC_FUNCIONARIOS, que seguirá a mesma estrutura lógica da EMPLOYEES, para serem adicionados os dados sem nenhuma restrição de esquema, para por fim, realizar um INSERT na tabela de EMPLOYEES tendo todos os dados sidos inseridos corretamente e terem passado por todos os testes de validade.
         - Criou-se uma lógica de implementação automática, dinâmica e iterativa do ID para realizar as inserções (primeiro campo a se preencher).
         - Depois, a partir dos IDs preenchidos, realizou-se UPDATE das outras colunas a partir do relacionamento entre tabelas.
@@ -133,7 +133,7 @@ i. [Normalização](https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-
 <br>[:page_facing_up: ***Enunciado***](#4o-enunciado)
 
     - [x] 5.
-        > ### 5<sup>o</sup> Enunciado::
+        > ### 5<sup>a</sup> Resolução:
         - Resposta:<br>
             - Não há possibilidade de colunas em branco a não ser se não forem inseridos valores na tabela de EMPLOYEES. O que pode acontecer, é de alguns dados (linhas) faltarem, caso as novas linhas adicionadas em EMPLOYEES faltarem alguma chave estrangeira utilizada para relacionar na query que constitui a Tabelona, por ter sido usado inner join.
 
@@ -154,33 +154,33 @@ i. [Normalização](https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-
         <br>
 
     - [x] 6.
-        > ### 6<sup>o</sup> Enunciado::
+        > ### 6<sup>a</sup> Resolução:
         - Adicionou-se as devidas colunas com o ***ALTER TABLE***, optando-se por utilizar o ***data-type***<sup>iv</sup> de ***INT4*** para restringir o input de dados em apenas 4bytes.
         - E, em seguida, realizou-se o update dos valores dessas colunas com o ***UPDATE SET***.
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 <br>[:page_facing_up: ***Enunciado***](#6o-enunciado)
 
     - [x] 7.
-        > ### 7<sup>o</sup> Enunciado::
+        > ### 7<sup>a</sup> Resolução:
         - Utilizou-se o método de concatenação entre colunas do SQLite '||', em uma nova coluna, cujo tipo de dado admite a soma dos valores admitidos pela soma das duas colunas concatenadas.
         - Para criação da coluna utilizou-se o ***ALTER TABLE*** e depois para inserção dos dados o ***UPDATE SET***.
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 <br>[:page_facing_up: ***Enunciado***](#7o-enunciado)
 
     - [x] 8.
-        > ### 8<sup>o</sup> Enunciado::
+        > ### 8<sup>a</sup> Resolução:
         - Utilizou-se o ***GROUP BY*** a partir do DEP_ID (primary key), transformado com a função ***CAST()***<sup>iv</sup> em INTEGER para fins de ordenação - ***ORDER BY***, para trazer a média dos salários (com a função ***AVG()***) de forma arredondada(com a função ***ROUND()***).
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 <br>[:page_facing_up: ***Enunciado***](#8o-enunciado)
 
     - [x] 9.
-        > ### 9<sup>o</sup> Enunciado::
+        > ### 9<sup>a</sup> Resolução:
         - Utilizou-se o ***GROUP BY*** a partir do COUNTRY_LOC, para trazer a contagem com a função ***COUNT()***.
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 <br>[:page_facing_up: ***Enunciado***](#9o-enunciado)
 
     - [x] 10.
-        > ### 10<sup>o</sup> Enunciado::
+        > ### 10<sup>a</sup> Resolução:
         - Realizou-se o desafio de duas formas:
             - A primeira, através do ***JOIN*** outer left, trazendo apenas os dados fora da intersecção do lado esquerdo.
             - A segunda, através de uma ***SUBQUERIE*** de ordenação, a qual busca ordenar a tabela de modo decrescente para pegar o último ID inserido na tabela de histórico, para, em seguida, trazer os dados os quais são maiores que estes.
