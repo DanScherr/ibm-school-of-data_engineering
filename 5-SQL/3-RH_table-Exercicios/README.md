@@ -75,11 +75,18 @@ i. [Normalização](https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-
 
     - [x] 2.
         > ### Explicação:
-        -  
+        -  Para conseguirmos saber quantos anos se passaram, a partir de uma determinada data, no padrão pelo qual foi salvo neste schema específico - dd/mm/AAAA, foi necessário usarmos a função ***JULIANDAY()***<sup>i</sup> que aceita apenas um outro padrão de formato - AAAA/mm/dd. Portanto, foi necessario primeiro realizar a transformação da data, para depois usar a função para o cálculo.
+        - Primeiramente, para realizar tal feito, criou-se uma tabela temporaria que separou a coluna de data em 3 colunas de DIA, MES e ANO (com a função ***SUBSTR()***<sup>ii</sup>), e manteve-se, também, os IDs relativos à cada data (para conseguir realizar os devidos relacionamentos).
+        - Em seguida, criou-se outra tabela também temporaria, para juntar as 3 colunas (DIA, MES e ANO) no formato aceito pela função ***JULIANDAY()***.
+        - Por último, utilizou-se a função para chegar no cálculo pretendido.
 
     - [x] 3.
         > ### Explicação:
-        - 
+        -  Para conseguirmos saber quantos anos se passaram, a partir de uma determinada data, no padrão pelo qual foi salvo neste schema específico - dd/mm/AAAA, foi necessário usarmos a função ***JULIANDAY()***<sup>i</sup> que aceita apenas um outro padrão de formato - AAAA/mm/dd. Portanto, foi necessario primeiro realizar a transformação da data, para depois usar a função para o cálculo.
+        - Primeiramente, para realizar tal feito, criou-se uma tabela temporaria que separou a coluna de data em 3 colunas de DIA, MES e ANO (com a função ***SUBSTR()***<sup>ii</sup>), e manteve-se, também, os IDs relativos à cada data (para conseguir realizar os devidos relacionamentos).
+        - Em seguida, criou-se outra tabela também temporaria, para juntar as 3 colunas (DIA, MES e ANO) no formato aceito pela função ***JULIANDAY()***.
+        - Depois, utilizou-se a função para chegar no cálculo pretendido em anos.
+        - E, por último, realizou-se os calculos de contribuição com o ***CASE WHEN***<sup>iii</sup>.
 
     - [x] 4.
         > ### Explicação:
@@ -109,6 +116,10 @@ i. [Normalização](https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-
         > ### Explicação:
         - 
 
+- Referências:<br>
+i. [Data and Time SQLite Functions](https://www.sqlite.org/lang_datefunc.html).<br>
+ii. [Built-in-Functions](https://www.sqlite.org/lang_corefunc.html#substr).<br>
+iii. [SQL-Language-Expressions](https://www.sqlite.org/lang_expr.html)
 
 ***
 
