@@ -33,7 +33,7 @@
 ***
 
 * # Introdução :man_student::books:
-[:top: ***Voltar ao topo***](#🤖-ibm-school-of-data-engineering)
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 ## 1. Banco de dados transacionais (**OLTP**<sup>i</sup>):
 - O OLTP (online transaction processing) são sistemas que se encarregam de registrar todas as transações contidas em uma determinada operação organizacional.
@@ -83,7 +83,7 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 ***
 
 * # Exercícios :man_technologist::books:
-[:top: ***Voltar ao topo***](#🤖-ibm-school-of-data-engineering)
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 ### 1. AMBIENTAÇÃO E CRUD (DML + TRUNCATE)
 * [1-RH_table-Introducao](./1-RH_table-Introducao). :point_left::computer_mouse:
@@ -96,7 +96,7 @@ SQLite não é uma biblioteca cliente usada para conectar com um grande servidor
 ***
 
 * # Conceitos extras :fire::books:
-[:top: ***Voltar ao topo***](#🤖-ibm-school-of-data-engineering)
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 ## 1. Sistemas de bancos de dados
 
 ### i. OLTP x OLAP (Online Analytical Processing)
