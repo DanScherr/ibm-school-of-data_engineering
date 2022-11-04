@@ -99,7 +99,7 @@ i. [Normalização](https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-
 - ## Explicações específicas:
 
     - [x] 1.
-        > ### 1<sup>o</sup> Enunciado:: 
+        > ### 1<sup>a</sup> Resolução:
         > - RELACIONOU: EMPLOYEES <-> JOB_HISTORY | <-> DEPARTMENTS
         > - FILTRAGEM: "F", "Software Group e Architect Group"
 <br>[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
