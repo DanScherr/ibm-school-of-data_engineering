@@ -3,7 +3,54 @@
 
 ***
 
-# Enunciado::man_teacher:
+## SUMÁRIO: :round_pushpin:
+
+* [Enunciado](#enunciado-man_teacher)
+
+* 1:
+    - [1<sup>o</sup> Enunciado:](#1o-enunciado)
+    - [1<sup>a</sup> Resolução:](#1a-resolução)
+
+* 2:
+    - [2<sup>o</sup> Enunciado:](#2o-enunciado)
+    - [3<sup>a</sup> Resolução:](#2a-resolução)
+
+* 3:
+    - [3<sup>o</sup> Enunciado:](#3o-enunciado)
+    - [3<sup>a</sup> Resolução:](#3a-resolução)
+
+* 4:
+    - [4<sup>o</sup> Enunciado:](#4o-enunciado)
+    - [4<sup>a</sup> Resolução:](#4a-resolução)
+
+* 5:
+    - [5<sup>o</sup> Enunciado:](#5o-enunciado)
+    - [5<sup>a</sup> Resolução:](#5a-resolução)
+
+* 6:
+    - [6<sup>o</sup> Enunciado:](#6o-enunciado)
+    - [6<sup>a</sup> Resolução:](#6a-resolução)
+
+* 7:
+    - [7<sup>o</sup> Enunciado:](#7o-enunciado)
+    - [7<sup>a</sup> Resolução:](#7a-resolução)
+
+* 8:
+    - [8<sup>o</sup> Enunciado:](#8o-enunciado)
+    - [8<sup>a</sup> Resolução:](#8a-resolução)
+
+* 9:
+    - [9<sup>o</sup> Enunciado:](#9o-enunciado)
+    - [9<sup>a</sup> Resolução:](#9a-resolução)
+
+* 10:
+    - [10<sup>o</sup> Enunciado:](#10o-enunciado)
+    - [10<sup>a</sup> Resolução:](#10a-resolução)
+
+
+***
+
+# Enunciado: :man_teacher:
 
 :speech_balloon: Meu nome é Maurício sou P.O (Product Owner) de vocês.
 <br>- Teremos várias questões que representam os problemas de negócios para resolverem.
