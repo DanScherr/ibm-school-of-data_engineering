@@ -13,7 +13,7 @@
 
 * 2:
     - [2<sup>o</sup> Enunciado:](#2o-enunciado)
-    - [3<sup>a</sup> Resolução:](#2a-resolução)
+    - [2<sup>a</sup> Resolução:](#2a-resolução)
 
 * 3:
     - [3<sup>o</sup> Enunciado:](#3o-enunciado)
@@ -51,6 +51,7 @@
 ***
 
 # Enunciado: :man_teacher:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 :speech_balloon: Meu nome é Maurício sou P.O (Product Owner) de vocês.
 <br>- Teremos várias questões que representam os problemas de negócios para resolverem.
