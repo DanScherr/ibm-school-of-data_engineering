@@ -24,6 +24,8 @@ i. PostgreSQL<sup>1</sup>
 ii. pgAdmin<sup>2</sup>
 >- $ docker pull dpage/pgadmin
 
+<br>
+
 - Referências:
 1. [PostgreSQL on DockerHUB](https://hub.docker.com/_/postgres/).
 2. [pgAdmin on DockerHUB](https://hub.docker.com/r/dpage/pgadmin4/).
@@ -35,6 +37,8 @@ ii. pgAdmin<sup>2</sup>
 >- $ docker network create --driver bridge postgres-network
 
 ``In terms of Docker, a bridge network uses a software bridge which allows containers connected to the same bridge network to communicate, while providing isolation from containers which are not connected to that bridge network.``<sup>1</sup>
+
+<br>
 
 - Referências:
 1. [Docker Bridge Network](https://docs.docker.com/network/bridge/).
