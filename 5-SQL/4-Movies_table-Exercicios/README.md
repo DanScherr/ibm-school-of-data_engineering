@@ -9,7 +9,11 @@
 
 ***
 
-# Enunciado: :man_teacher:
+- # Enunciado: :man_teacher:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+> pipipipopopo
 
+<br>
+
+- # DER: DIAGRAMA DE ENTIDADE E RELACIONAMENTO
 ![imagem-der](./images/der-disney.png)
