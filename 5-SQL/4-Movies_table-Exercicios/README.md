@@ -38,7 +38,7 @@ ii. pgAdmin<sup>2</sup>
 
 ``Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration.``
 
-### i. Coding it with YAML:
+### i. Create docker-compose with YAML:
 - [check-code](docker-compose.yml)
 - it can be programmed to be restarted every time you get down your services
 - it shows the logs live
