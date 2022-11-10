@@ -5,12 +5,22 @@ services:
 
   db:
     image: postgres
+    restart: always
+    ports:
+      -"8001:5432"
     volumes:
       - C:\Users\017924631\Docker\postgres:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+  
+  pgadmin:
+    image: dpage/pgadmin
+    restart: always
+    depends_on:
+      - db
     ports:
-      - 5432:5432
-    
-  volumes:
-    db-data:
-    driver: local
-
+      -8080:80
+    environment:
+      PDADMIN_DEFAULT_EMAIL: username@email.com
+      PDADMIN_DEFAULT_PASSWORD: 123456
