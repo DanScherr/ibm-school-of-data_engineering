@@ -1,4 +1,6 @@
--- DDL RUNNING CODES
+------------------------------------------
+--DDL statement for table 'HR' database--
+------------------------------------------
 
 -- DROPING TABLE IF EXISTS
 DROP TABLE IF EXISTS disney_plus_titles;

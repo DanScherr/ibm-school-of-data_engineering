@@ -121,7 +121,37 @@ ii. pgAdmin<sup>2</sup>
 
 - # Enunciado: :man_teacher:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
-> pipipipopopo
+<br>
+
+- Contexto: <br>
+``Somos uma empresa de Streaming que conseguiu um contrato para retransmitir dos nossos parceiros netflix, disney_plus e amazon_prime os seus conteúdos. A equipe de dados solicitou ao time diversas entregas que precisam ser realizadas para ajustes na base assim como as regras de negócio.``
+
+- Questões: <br>
+1. ``A base possui diversos valores nulos. Preencha nas colunas onde os valores são nulls com 'NAN'.``
+2. ``Normalize a coluna CAST criando uma nova tabela 'cast_table' de modo que tenhamos separadamente, ou seja, uma coluna com o nome do elenco de cada filme.``<br><br>
+Exemplo:<br>
+Linha: n1 joao, maria, roberto<br><br>
+coluna:<br>
+id CAST <br>
+n1 joao<br>
+n1 maria<br>
+n1 roberto<br>
+
+3. ``Normalize a coluna listed_in criando uma nova tabela  genre_table' de modo que tenhamos separadamente os gêneros de cada programação.`` <br><br>
+Exemplo:<br>
+Linha: n1 Ação, Aventura, Comédia<br><br>
+coluna:<br>
+n1 Ação<br>
+n1 Comédia<br>
+n1 Aventura<br>
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+
 
 <br>
 
