@@ -21,10 +21,10 @@
 obs: pulling the images is optional, because they can be pulled atomatically when you execute ***step ()***.
 
 i. PostgreSQL<sup>1</sup>
->-  $ docker pull postgres
+-  $ docker pull postgres
 
 ii. pgAdmin<sup>2</sup>
->- $ docker pull dpage/pgadmin
+- $ docker pull dpage/pgadmin
 
 <br>
 
@@ -47,7 +47,7 @@ ii. pgAdmin<sup>2</sup>
 ``In terms of Docker, a bridge network uses a software bridge which allows containers connected to the same bridge network to communicate, while providing isolation from containers which are not connected to that bridge network.``<sup>1</sup>
 
 ### ii. Building docker-compose:
-> - $ docker-compose -f docker-compose.yml up --remove-orphans<br>
+- $ docker-compose -f docker-compose.yml up --remove-orphans<br>
 ![](./images/running-docker_compose.png)
 
 ## 3. Accessing and configurating pgAdmin:
@@ -76,7 +76,7 @@ ii. pgAdmin<sup>2</sup>
 ![](./images/postgresql-extension.png)
 
 ### iii. Connecting to server
-> - crtl + shift + P -> new query<br>
+- crtl + shift + P -> new query<br>
 ![](./images/new-query.png)
 - Type server name as localhost<br>
 ![](./images/localhost-vscode.png)
@@ -92,11 +92,11 @@ ii. pgAdmin<sup>2</sup>
 
 ## 5. Running query and CREATEing TABLE:
 ### i. Run CREATE, INSERT TABLE query:
-> - [Check query](./queries/disney_plus_titles-create-insert-table.sql).<br>
+- [Check query](./queries/disney_plus_titles-create-insert-table.sql).<br>
 ![](./images/run-disney_plus_titles-create-insert-table.png)
 
 ### ii. Run SELECT query to check it's creation:
-> - [Check query.](./queries/disney_plus_titles-select-table.sql)<br>
+- [Check query.](./queries/disney_plus_titles-select-table.sql)<br>
 ![](./images/run-disney_plus_titles-select-table.png)
 
 
