@@ -47,26 +47,26 @@ ii. pgAdmin<sup>2</sup>
 ``In terms of Docker, a bridge network uses a software bridge which allows containers connected to the same bridge network to communicate, while providing isolation from containers which are not connected to that bridge network.``<sup>1</sup>
 
 ### ii. Building docker-compose:
-> - $ docker-compose -f docker-compose.yml up --remove-orphans
+> - $ docker-compose -f docker-compose.yml up --remove-orphans<br>
 ![](./images/running-docker_compose.png)
 
 ## 3. Accessing and configurating pgAdmin:
 ### i. Accessing pgAdmin:
-- You must access via browser on: [localhost:8080](localhost:8080).
+- You must access via browser on: [localhost:8080](localhost:8080).<br>
 ![](./images/accessing-pgadmin.png)
-- You must insert the e-mail you gave on the docker-compose and password to login.
+- You must insert the e-mail you gave on the docker-compose and password to login.<br>
 ![](./images/inside-pgadmin.png)
 
 ### ii. Registering server:
-- RIght-click on Servers -> Register -> Server...
+- RIght-click on Servers -> Register -> Server...<br>
 ![](./images/click-to-register-server.png)
-- Type-in a name on General tab.
+- Type-in a name on General tab.<br>
 ![](./images/entering-server-name.png)
 - Type-in
     - Host-name (container name from docker-compose)
     - Port (port configured on the postgre container on docker-compose)
     - Username (setted on environment on docker-compose)
-    - Password (setted on environment on docker-compose)
+    - Password (setted on environment on docker-compose)<br>
     ![](./images/entering-connection-informations.png)
 
 ## 4. Connecting to VsCode:
@@ -76,27 +76,27 @@ ii. pgAdmin<sup>2</sup>
 ![](./images/postgresql-extension.png)
 
 ### iii. Connecting to server
-> - crtl + shift + P -> new query
+> - crtl + shift + P -> new query<br>
 ![](./images/new-query.png)
-- Type server name as localhost
+- Type server name as localhost<br>
 ![](./images/localhost-vscode.png)
 - No need to insert database (optional).
-- Username (postgres like given on docker-compose - and its the postgresql .deffault)
+- Username (postgres like given on docker-compose - and its the postgresql .deffault)<br>
 ![](./images/username-query.png)
-- Insert password (like given on docker-compose).
+- Insert password (like given on docker-compose).<br>
 ![](./images/insert-password-query.png)
-- Insert door (host door given on docker-compose - 8001).
+- Insert door (host door given on docker-compose - 8001).<br>
 ![](./images/port-query.png)
-- Check the connection successfully pop-up !
+- Check the connection successfully pop-up !<br>
 ![](./images/query-connection-successfully.png)
 
 ## 5. Running query and CREATEing TABLE:
 ### i. Run CREATE, INSERT TABLE query:
-> - [Check query](./queries/disney_plus_titles-create-insert-table.sql).
+> - [Check query](./queries/disney_plus_titles-create-insert-table.sql).<br>
 ![](./images/run-disney_plus_titles-create-insert-table.png)
 
 ### ii. Run SELECT query to check it's creation:
-> - [Check query.](./queries/disney_plus_titles-select-table.sql)
+> - [Check query.](./queries/disney_plus_titles-select-table.sql)<br>
 ![](./images/run-disney_plus_titles-select-table.png)
 
 
