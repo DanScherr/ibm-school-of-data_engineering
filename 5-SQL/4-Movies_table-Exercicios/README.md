@@ -4,17 +4,22 @@
 ***
 
 - # SUMÁRIO: :round_pushpin:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
 
 ***
 
 <br>
 
 - # AMBIENTAÇÃO:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - ## Docker + PostgreSQL + pgAdmin
 
 <br>
 
 ### 1. PULL de imagens:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)<br>
+
 obs: pulling the images is optional, because they can be pulled atomatically when you execute ***step ()***.
 
 i. PostgreSQL<sup>1</sup>
@@ -32,6 +37,8 @@ ii. pgAdmin<sup>2</sup>
 <br>
 
 ## 2. Docker Compose:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)<br>
+
 
 ``Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration.``
 
@@ -48,6 +55,8 @@ ii. pgAdmin<sup>2</sup>
 ![](./images/running-docker_compose.png)
 
 ## 3. Accessing and configurating pgAdmin:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)<br>
+
 ### i. Accessing pgAdmin:
 - You must access via browser on: [localhost:8080](localhost:8080).<br>
 ![](./images/accessing-pgadmin.png)
@@ -67,6 +76,7 @@ ii. pgAdmin<sup>2</sup>
     ![](./images/entering-connection-informations.png)
 
 ## 4. Connecting to VsCode:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)<br>
 
 ### i. Open VsCode.
 ### ii. Download PostgreSQL extension.
@@ -88,6 +98,8 @@ ii. pgAdmin<sup>2</sup>
 ![](./images/query-connection-successfully.png)
 
 ## 5. Running query and CREATEing TABLE:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)<br>
+
 ### i. Run CREATE, INSERT TABLE query:
 - [Check query](./queries/disney_plus_titles-create-insert-table.sql).<br>
 ![](./images/run-disney_plus_titles-create-insert-table.png)
@@ -97,6 +109,8 @@ ii. pgAdmin<sup>2</sup>
 ![](./images/run-disney_plus_titles-select-table.png)
 
 ## 6. Referências:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)<br>
+
 1. [Docker Bridge Network](https://docs.docker.com/network/bridge/).
 
 <br>
@@ -116,6 +130,7 @@ ii. pgAdmin<sup>2</sup>
 <br>
 
 - # Exercise solution:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - ## DER: DIAGRAMA DE ENTIDADE E RELACIONAMENTO - para resolução dos exercícios.
 ![imagem-der](./images/der-disney.png)
 
