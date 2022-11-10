@@ -3,20 +3,17 @@
 
 ***
 
-## SUMÁRIO: :round_pushpin:
+- # SUMÁRIO: :round_pushpin:
 
 ***
-
-***
-
-- # Enunciado: :man_teacher:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
-> pipipipopopo
 
 <br>
 
-- # Implementação:
+- # AMBIENTAÇÃO:
 - ## Docker + PostgreSQL + pgAdmin
+
+<br>
+
 ### 1. PULL de imagens:
 obs: pulling the images is optional, because they can be pulled atomatically when you execute ***step ()***.
 
@@ -99,8 +96,8 @@ ii. pgAdmin<sup>2</sup>
 - [Check query.](./queries/disney_plus_titles-select-table.sql)<br>
 ![](./images/run-disney_plus_titles-select-table.png)
 
-
-
+## 6. Referências:
+1. [Docker Bridge Network](https://docs.docker.com/network/bridge/).
 
 <br>
 
@@ -108,9 +105,17 @@ ii. pgAdmin<sup>2</sup>
 
 <br>
 
-## Referências:
-1. [Docker Bridge Network](https://docs.docker.com/network/bridge/).
+- # Enunciado: :man_teacher:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+> pipipipopopo
 
+<br>
 
-- # DER: DIAGRAMA DE ENTIDADE E RELACIONAMENTO
+***
+
+<br>
+
+- # Exercise solution:
+- ## DER: DIAGRAMA DE ENTIDADE E RELACIONAMENTO - para resolução dos exercícios.
 ![imagem-der](./images/der-disney.png)
+
