@@ -6,6 +6,25 @@
 - # SUMÁRIO: :round_pushpin:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
+- [AMBIENTAÇÃO:](#ambientação):
+    - [PULL de imagens](#1-pull-de-imagens);
+    - [Docker compose](#2-docker-compose);
+    - [Accessing and Configurating pgAdmin](#3-accessing-and-configurating-pgadmin);
+    - [Connecting to VsCode](#4-connecting-to-vscode);
+    - [Running query and CREATEing table](#5-running-query-and-createing-table);
+    - [Referências](#6-referências).
+
+<br>
+
+- [ENUNCIADO](#enunciado-man_teacher):
+    - [Contexto](#1-contexto);
+    - [Exercícios de normalização](#2-exercícios-de-normalização);
+    - [Exercícios de casos de uso](#3-exercícios-de-casos-de-uso).
+
+<br>
+
+- [Exercise solution](#exercise-solution):
+    - [DER - para resolução de exercícios](#1-der-diagrama-de-entidade-e-relacionamento---para-resolução-dos-exercícios);
 
 ***
 
@@ -123,10 +142,10 @@ ii. pgAdmin<sup>2</sup>
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 <br>
 
-- Contexto: <br>
+## 1. Contexto: <br>
 ``Somos uma empresa de Streaming que conseguiu um contrato para retransmitir dos nossos parceiros netflix, disney_plus e amazon_prime os seus conteúdos. A equipe de dados solicitou ao time diversas entregas que precisam ser realizadas para ajustes na base assim como as regras de negócio.``
 
-- Questões: <br>
+## 2. Exercícios de normalização: <br>
 1. ``A base possui diversos valores nulos. Preencha nas colunas onde os valores são nulls com 'NAN'.``
 2. ``Normalize a coluna CAST criando uma nova tabela 'cast_table' de modo que tenhamos separadamente, ou seja, uma coluna com o nome do elenco de cada filme.``<br><br>
 Exemplo:<br>
@@ -144,13 +163,61 @@ coluna:<br>
 n1 Ação<br>
 n1 Comédia<br>
 n1 Aventura<br>
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
+
+4. ``Normalize a coluna listed_in criando uma nova tabela 'genre_table' de modo que tenhamos separadamente os gêneros
+de cada programação.`` <br><br>
+Exemplo:<br>
+Linha: n1 Ação, Aventura, Comédia<br><br>
+coluna:<br>
+n1 Ação<br>
+n1 Comédia<br>
+n1 Aventura<br>
+
+5. ``Normalize a coluna date_added em uma nova base 'date_table' e construa as seguintes colunas:``<br>
+coluna day: DD<br>
+coluna mouth: MM<br>
+coluna year: YY<br>
+coluna iso_date_1: YYYY-MM-DD<br>
+coluna iso_date_2: YYYY/MM/DD<br>
+coluna iso_date_3: YYMMDD<br>
+coluna iso_date_4: YYYYMMDD<br>
+
+6. ``Normalize a coluna duration e construa uma nova base 'time_table' e faça as seguintes conversões.``
+- Converta a coluna duration para horas e crie a coluna hours hh. Obs. A média de cada 
+season TV SHOW é 10 horas, assim também converta para horas
+- Converta todas as horas para minutos e armazena na coluna minutes mm.<br>
+
+7.  ``Normalize a coluna country criando uma nova tabela 'country_table' de modo que tenhamos separadamente uma coluna com o nome do país de cada filme.``
+<br>
+
+## 3. Exercícios de casos de uso: <br>
+
+8. Qual o filme de duração máxima em minutos ?
+
+9.  Qual o filme de duraçã mínima em minutos ?
+
+10. Qual a série de duração máxima em minutos ?
+
+11. Qual a série de duração mínima em minutos ?
+
+12. Qual a média de tempo de duração dos filmes?
+
+13. Qual a média de tempo de duração das series?
+
+14. Qual a lista de filmes o ator Leonardo DiCaprio participa?
+
+15. Quantas vezes o ator Tom Hanks apareceu nas telas do netflix, ou seja, tanto série quanto filmes?
+
+16. Quantas produções séries e filmes brasileiras já foram ao ar no netflix?
+
+17. Quantos filmes americanos já foram para o ar no netflix?
+
+18. Crie uma nova coluna com o nome last_name_director com uma nova formatação para o nome dos diretores, por exemplo.
+João Roberto para Roberto, João.
+
+19. Procure a lista de conteúdos que tenha como temática a segunda guerra mundial (WWII)?
+
+20. Conte o número de produções dos países que apresentaram conteúdos no netflix?
 
 
 <br>
@@ -161,6 +228,6 @@ n1 Aventura<br>
 
 - # Exercise solution:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
-- ## DER: DIAGRAMA DE ENTIDADE E RELACIONAMENTO - para resolução dos exercícios.
+## 1. DER: DIAGRAMA DE ENTIDADE E RELACIONAMENTO - para resolução dos exercícios.
 ![imagem-der](./images/der-disney.png)
 
