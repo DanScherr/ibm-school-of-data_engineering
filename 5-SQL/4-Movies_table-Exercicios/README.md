@@ -39,7 +39,7 @@
 ### 1. PULL de imagens:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)<br>
 
-obs: pulling the images is optional, because they can be pulled atomatically when you execute ***step ()***.
+obs: pulling the images is optional, because they can be pulled atomatically when you execute ***step (2.ii.)***.
 
 i. PostgreSQL<sup>1</sup>
 -  $ docker pull postgres
