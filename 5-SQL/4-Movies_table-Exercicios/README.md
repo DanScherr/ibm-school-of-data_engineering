@@ -47,15 +47,8 @@ i. PostgreSQL<sup>1</sup>
 ii. pgAdmin<sup>2</sup>
 - $ docker pull dpage/pgadmin
 
-<br>
 
-- Referências:
-1. [PostgreSQL on DockerHUB](https://hub.docker.com/_/postgres/).
-2. [pgAdmin on DockerHUB](https://hub.docker.com/r/dpage/pgadmin4/).
-
-<br>
-
-## 2. Docker Compose:
+## 2. Docker Compose<sup>3</sup>:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)<br>
 
 
@@ -67,13 +60,13 @@ ii. pgAdmin<sup>2</sup>
 - it shows the logs live
 - It creates automatically bridges networks between services:
 
-``In terms of Docker, a bridge network uses a software bridge which allows containers connected to the same bridge network to communicate, while providing isolation from containers which are not connected to that bridge network.``<sup>1</sup>
+``In terms of Docker, a bridge network uses a software bridge which allows containers connected to the same bridge network to communicate, while providing isolation from containers which are not connected to that bridge network.``<sup>4</sup>
 
 ### ii. Building docker-compose:
 - $ docker-compose -f docker-compose.yml up --remove-orphans<br>
 ![](./images/running-docker_compose.png)
 
-## 3. Accessing and configurating pgAdmin:
+## 3. Accessing and configurating pgAdmin<sup>5</sup>:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)<br>
 
 ### i. Accessing pgAdmin:
@@ -99,7 +92,7 @@ ii. pgAdmin<sup>2</sup>
 
 ### i. Open VsCode.
 ### ii. Download PostgreSQL extension.
-![](./images/postgresql-extension.png)
+![Extensão do PostgreSQL](./images/postgresql-extension.png).
 
 ### iii. Connecting to server
 - crtl + shift + P -> new query<br>
@@ -130,7 +123,11 @@ ii. pgAdmin<sup>2</sup>
 ## 6. Referências:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)<br>
 
-1. [Docker Bridge Network](https://docs.docker.com/network/bridge/).
+1. [PostgreSQL docker-hub image](https://hub.docker.com/_/postgres)
+2. [pgAdmin docker-hub image](https://hub.docker.com/r/dpage/pgadmin4)
+3. [Docker compose](https://docs.docker.com/compose/)
+4. [Docker Bridge Network](https://docs.docker.com/network/bridge/).
+5. [pgAdmin home page](https://www.pgadmin.org/)
 
 <br>
 
