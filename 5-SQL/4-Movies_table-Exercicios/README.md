@@ -25,6 +25,7 @@
 
 - [Exercise solution](#exercise-solution):
     - [DER - para resolução de exercícios](#1-der-diagrama-de-entidade-e-relacionamento---para-resolução-dos-exercícios);
+    - [Normalização](#2-normalização)
 
 ***
 
@@ -227,4 +228,29 @@ João Roberto para Roberto, João.
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 ## 1. DER: DIAGRAMA DE ENTIDADE E RELACIONAMENTO - para resolução dos exercícios.
 ![imagem-der](./images/der-disney.png)
+
+## 2. Normalização:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
+- Segue a baixo a ordem em que as queries foram executadas.
+    
+    I. CREATE/INSERT TABLE: [Disney movie type](./queries/disney_plus_movie_type-create-insert-table.sql)
+
+    II. CREATE/INSERT TABLE: [Disney movie category](./queries/disney_plus_category-create-insert-table.sql)
+
+    III. CREATE/INSERT TABLE: [Disney movie director](./queries/disney_plus_director-create-insert-table.sql)
+
+    IV. CREATE/INSERT TABLE: [Disney movie movie](./queries/disney_plus_movie-create-insert-table.sql)
+
+    V. CREATE/INSERT TABLE: [Disney movie movieXdirector](./queries/disney_plus_movieXdirector-create-insert-table.sql)
+
+    VI. CREATE/INSERT TABLE: [Disney movie país](./queries/disney_plus_pais-create-insert-table.sql)
+
+    VII. CREATE/INSERT TABLE: [Disney movie cast](./queries/disney_plus_cast-create-insert-table.sql)
+
+    VIII. CREATE/INSERT TABLE: [Disney movie movieXcast](./queries/disney_plus_movieXcast-create-insert-table.sql)
+
+    IX. CREATE/INSERT TABLE: [Disney movie titles]()
+
+    obs: tabela IX seria a "tabelona".
 
