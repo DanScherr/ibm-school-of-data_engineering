@@ -1,1 +1,2 @@
-SELECT * FROM public.disney_plus_title
+SELECT country FROM disney_plus_titles
+    WHERE country != ''

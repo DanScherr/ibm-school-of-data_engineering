@@ -2,13 +2,14 @@
 -- NORMZALIZING, CREATING AND POPULATING DISNEY MOVIE CATEGORY TABLE --
 -----------------------------------------------------------------------
 
--- DROP TABLE IN CASE IT DOESNT EXISTS
-DROP TABLE IF EXISTS disney_movie_director;
+-- DROP TABLE IN CASE IT DOESNT EXISTS: 
+-- *the constraint from movieXdirector will be droped.
+DROP TABLE IF EXISTS disney_movie_director CASCADE;
 
 -- CREATE TABLE WITH AUTO INCREMENTAL PRIMARY KEY
 CREATE TABLE IF NOT EXISTS public.disney_movie_director
 (
-    "id" VARCHAR(10 )SERIAL NOT NULL UNIQUE PRIMARY KEY,
+    "id" SERIAL NOT NULL UNIQUE PRIMARY KEY,
     "name" VARCHAR(50) NOT NULL
 );
 
