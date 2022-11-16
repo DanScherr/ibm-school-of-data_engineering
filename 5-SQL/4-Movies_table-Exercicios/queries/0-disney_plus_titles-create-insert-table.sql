@@ -1483,3 +1483,9 @@ INSERT INTO
         ('s1448','Movie','Eddie the Eagle','Dexter Fletcher','Tom Costello, Jo Hartley, Keith Allen, Dickon Tolson, Jack Costello, Taron Egerton','United Kingdom, Germany, United States','December 18, 2020','2016','PG-13','107 min','Biographical, Comedy, Drama','True story of Eddie Edwards, a British ski-jumper whose Olympic performance wins the hearts of fans.'), 
         ('s1449','Movie','Bend It Like Beckham','Gurinder Chadha','Parminder Nagra, Keira Knightley, Jonathan Rhys-Meyers, Anupam Kher, Archie Panjabi, Shaznay Lewis','United Kingdom, Germany, United States','September 18, 2020','2003','PG-13','112 min','Buddy, Comedy, Coming of Age','Despite the wishes of their traditional families, two girls aim for careers in professional soccer.'), 
         ('s1450','Movie','Captain Sparky vs. The Flying Saucers','Mark Waring','Charlie Tahan','United States','April 1, 2020','2012','TV-G','2 min','Action-Adventure, Animals & Nature, Animation','View one of Sparky''s favorite home movies.');
+
+-- show table
+SELECT 
+    * 
+FROM 
+    disney_plus_titles;
