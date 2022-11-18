@@ -26,6 +26,7 @@
 - [Exercise solution](#exercise-solution):
     - [DER - para resolução de exercícios](#1-der-diagrama-de-entidade-e-relacionamento---para-resolução-dos-exercícios);
     - [Normalização](#2-normalização)
+    - [Resolução](#3-resolução)
 
 ***
 
@@ -259,13 +260,13 @@ João Roberto para Roberto, João.
 1. [Check query](./queries/38-querie.sql)
 1. [Check query](./queries/39-querie.sql)
 1. [Check query](./queries/310-querie.sql)
-1. [Check query](./queries/3011-querie.sql)
-1. [Check query](./queries/3012-querie.sql)
-1. [Check query](./queries/3013-querie.sql)
-1. [Check query](./queries/3014-querie.sql)
-1. [Check query](./queries/3015-querie.sql)
-1. [Check query](./queries/3016-querie.sql)
-1. [Check query](./queries/3017-querie.sql)
-1. [Check query](./queries/3018-querie.sql)
-1. [Check query](./queries/3019-querie.sql)
-1. [Check query](./queries/3020-querie.sql)
+1. [Check query](./queries/311-querie.sql)
+1. [Check query](./queries/312-querie.sql)
+1. [Check query](./queries/313-querie.sql)
+1. [Check query](./queries/314-querie.sql)
+1. [Check query](./queries/315-querie.sql)
+1. [Check query](./queries/316-querie.sql)
+1. [Check query](./queries/317-querie.sql)
+1. [Check query](./queries/318-querie.sql)
+1. [Check query](./queries/319-querie.sql)
+1. [Check query](./queries/320-querie.sql)
