@@ -123,24 +123,45 @@ Se tiver os 4 criterios ganha 4 estrelas '****', assim susessivamente ate nenhum
 - # Exercise solution:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 ## 1. DER: DIAGRAMA DE ENTIDADE E RELACIONAMENTO - para resolução dos exercícios.
-![imagem-der](./images/der-disney.png)
+![imagem-der](../4-Movies_table-Exercicios/images/der-disney.png)
 
 ## 2. Normalização:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - Segue a baixo a ordem em que as queries foram executadas.
     
-    I. CREATE/INSERT TABLE: [Disney plus titles](./queries/0-disney_plus_titles-create-insert-table.sql)
+    I. CREATE/INSERT TABLE: 
+    - [Amazon prime](./queries/1_N-prime.sql)
+    - [Disney plus titles](./queries/1_N-disney_plus.sql)
+    - [Netflix](./queries/1_N-netflix.sql)
 
-    II. Passando para a 1ª forma normal com UNNEST nas tuplas: [View.](./queries/1-forma-disney_plus_titles-unnested-all.sql.sql)
+    ![](./images/1_N-tables.png)
 
-    III. Passando para a 2ª forma normal: <br>
-    [Criação de 3 tabelas](./queries/2-forma-disney_plus_titles-unnested-all.sql), de relacionamento n <-> m:
-    1. disney_plus_titlesXcast
-    2. disney_plus_titlesXdirectors
-    3. disney_plus_titlesXlisted_in.
+    ```As tabelas foram criadas normalmente, adicionando apenas uma coluna chamada "platform" com valores default para cada nome de plataforma de streaming.```
+
+    II. Passando para a 1ª normal e unindo bases à tabela [Streamers titles](./queries/1_N-streamers_all.sql) <br>
+
+    ![](./images/1_N-streamers-table.png)
+
+    ```Para a união das três tabelas em uma só, criou-se primeiramente o esquema da tabela "streamers_titles" com a coluna "platform" e, além disso, criou-se um "show_id" auto incrementável. Isto foi feito para que não nos preocupássemos com pipelines de processemento dos ids provenientes de cada tabela e termos uma numeração contínua.```
+    
+    ```A distinção sobre a plataforma, se dá pela coluna "platform", criada no passo I.```
+    
+    III. Passando para a 2ª forma normal com UNNEST nas tuplas: [View.](./queries/2_N-streamers_titles.sql), de relacionamento n <-> m:
+    1. streamers_titlesXdirectors
+    2. streamers_titlesXcast
+    2. streamers_titlesXcountry
+    3. streamers_titlesXlisted_in.
+
+![](./images/2_N-streamers-table.png)
+
 
 ```A segunda forma já é suficiente para respondermos as questões apresentadas.```
+
+## 3. Construção de tabelas auxiliares:
+I. [Date.](./queries/aux_table-date.sql)
+
+II. [Time.](./queries/aux_table-time.sql)
 
 ## 3 RESOLUÇÃO:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
