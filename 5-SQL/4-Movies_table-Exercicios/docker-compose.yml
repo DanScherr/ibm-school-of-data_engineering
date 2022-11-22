@@ -20,7 +20,7 @@ services:
     depends_on:
       - db
     ports:
-      -8080:80
+      - 8080:80
     environment:
       PDADMIN_DEFAULT_EMAIL: username@email.com
       PDADMIN_DEFAULT_PASSWORD: 123456

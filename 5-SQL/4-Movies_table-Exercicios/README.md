@@ -26,6 +26,7 @@
 - [Exercise solution](#exercise-solution):
     - [DER - para resolução de exercícios](#1-der-diagrama-de-entidade-e-relacionamento---para-resolução-dos-exercícios);
     - [Normalização](#2-normalização)
+    - [Resolução](#3-resolução)
 
 ***
 
@@ -234,23 +235,38 @@ João Roberto para Roberto, João.
 
 - Segue a baixo a ordem em que as queries foram executadas.
     
-    I. CREATE/INSERT TABLE: [Disney movie type](./queries/disney_plus_movie_type-create-insert-table.sql)
+    I. CREATE/INSERT TABLE: [Disney plus titles](./queries/0-disney_plus_titles-create-insert-table.sql)
 
-    II. CREATE/INSERT TABLE: [Disney movie category](./queries/disney_plus_category-create-insert-table.sql)
+    II. Passando para a 1ª forma normal com UNNEST nas tuplas: [View.](./queries/1-forma-disney_plus_titles-unnested-all.sql.sql)
 
-    III. CREATE/INSERT TABLE: [Disney movie director](./queries/disney_plus_director-create-insert-table.sql)
+    III. Passando para a 2ª forma normal: <br>
+    [Criação de 3 tabelas](./queries/2-forma-disney_plus_titles-unnested-all.sql), de relacionamento n <-> m:
+    1. disney_plus_titlesXcast
+    2. disney_plus_titlesXdirectors
+    3. disney_plus_titlesXlisted_in.
 
-    IV. CREATE/INSERT TABLE: [Disney movie movie](./queries/disney_plus_movie-create-insert-table.sql)
+```A segunda forma já é suficiente para respondermos as questões apresentadas.```
 
-    V. CREATE/INSERT TABLE: [Disney movie movieXdirector](./queries/disney_plus_movieXdirector-create-insert-table.sql)
+## 3 RESOLUÇÃO:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
-    VI. CREATE/INSERT TABLE: [Disney movie país](./queries/disney_plus_pais-create-insert-table.sql)
-
-    VII. CREATE/INSERT TABLE: [Disney movie cast](./queries/disney_plus_cast-create-insert-table.sql)
-
-    VIII. CREATE/INSERT TABLE: [Disney movie movieXcast](./queries/disney_plus_movieXcast-create-insert-table.sql)
-
-    IX. CREATE/INSERT TABLE: [Disney movie titles]()
-
-    obs: tabela IX seria a "tabelona".
-
+1. [Check query](./queries/31-querie.sql)
+1. Solucionada com o processo de normalização. [Ir para](#2-normalização)
+1. Solucionada com o processo de normalização. [Ir para](#2-normalização)
+1. Solucionada com o processo de normalização. [Ir para](#2-normalização)
+1. [Check query](./queries/35-querie.sql)
+1. [Check query](./queries/36-querie.sql)
+1. [Check query](./queries/37-querie.sql)
+1. [Check query](./queries/38-querie.sql)
+1. [Check query](./queries/39-querie.sql)
+1. [Check query](./queries/310-querie.sql)
+1. [Check query](./queries/311-querie.sql)
+1. [Check query](./queries/312-querie.sql)
+1. [Check query](./queries/313-querie.sql)
+1. [Check query](./queries/314-querie.sql)
+1. [Check query](./queries/315-querie.sql)
+1. [Check query](./queries/316-querie.sql)
+1. [Check query](./queries/317-querie.sql)
+1. [Check query](./queries/318-querie.sql)
+1. [Check query](./queries/319-querie.sql)
+1. [Check query](./queries/320-querie.sql)
