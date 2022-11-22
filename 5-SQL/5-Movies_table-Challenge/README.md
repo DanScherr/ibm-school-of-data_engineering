@@ -6,7 +6,7 @@
 - # SUMÁRIO: :round_pushpin:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
-- [AMBIENTAÇÃO:](#ambientação):
+- [AMBIENTAÇÃO:](#ambientação-man_technologist):
 
 <br>
 
@@ -29,7 +29,7 @@
 
 <br>
 
-- # AMBIENTAÇÃO:
+- # AMBIENTAÇÃO: :man_technologist:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - Será utilizado o mesmo banco desenvolvido na [aula 4](../4-Movies_table-Exercicios/README.md).
 
