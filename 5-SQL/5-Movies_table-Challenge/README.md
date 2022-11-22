@@ -13,14 +13,17 @@
 - [ENUNCIADO](#enunciado-man_teacher):
     - [Contexto](#1-contexto);
     - [Exercícios de normalização](#2-exercícios-de-normalização);
-    - [Exercícios de casos de uso](#3-exercícios-de-casos-de-uso).
+    - [Exercícios de negocio](#3-exercícios-de-casos-de-uso).
 
 <br>
 
 - [Exercise solution](#exercise-solution):
-    - [DER - para resolução de exercícios](#1-der-diagrama-de-entidade-e-relacionamento---para-resolução-dos-exercícios);
-    - [Normalização](#2-normalização)
-    - [Resolução](#3-resolução)
+    - [Normalização](#1-normalização)
+    - [Tabelas auxiliares](#2-construção-de-tabelas-auxiliares)
+    - [Resolução](#3-exercícios-de-negócio)
+    - [Desafio](#desafio-sukita)
+
+<br>
 
 ***
 
@@ -122,10 +125,8 @@ Se tiver os 4 criterios ganha 4 estrelas '****', assim susessivamente ate nenhum
 
 - # Exercise solution:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
-## 1. DER: DIAGRAMA DE ENTIDADE E RELACIONAMENTO - para resolução dos exercícios.
-![imagem-der](../4-Movies_table-Exercicios/images/der-disney.png)
 
-## 2. Normalização:
+## 1. Normalização:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - Segue a baixo a ordem em que as queries foram executadas.
@@ -158,31 +159,21 @@ Se tiver os 4 criterios ganha 4 estrelas '****', assim susessivamente ate nenhum
 
 ```A segunda forma já é suficiente para respondermos as questões apresentadas.```
 
-## 3. Construção de tabelas auxiliares:
+## 2. Construção de tabelas auxiliares:
 I. [Date.](./queries/aux_table-date.sql)
 
 II. [Time.](./queries/aux_table-time.sql)
 
-## 3 RESOLUÇÃO:
+## 3. RESOLUÇÃO:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
-1. [Check query](./queries/31-querie.sql)
-1. Solucionada com o processo de normalização. [Ir para](#2-normalização)
-1. Solucionada com o processo de normalização. [Ir para](#2-normalização)
-1. Solucionada com o processo de normalização. [Ir para](#2-normalização)
-1. [Check query](./queries/35-querie.sql)
-1. [Check query](./queries/36-querie.sql)
-1. [Check query](./queries/37-querie.sql)
-1. [Check query](./queries/38-querie.sql)
-1. [Check query](./queries/39-querie.sql)
-1. [Check query](./queries/310-querie.sql)
-1. [Check query](./queries/311-querie.sql)
-1. [Check query](./queries/312-querie.sql)
-1. [Check query](./queries/313-querie.sql)
-1. [Check query](./queries/314-querie.sql)
-1. [Check query](./queries/315-querie.sql)
-1. [Check query](./queries/316-querie.sql)
-1. [Check query](./queries/317-querie.sql)
-1. [Check query](./queries/318-querie.sql)
-1. [Check query](./queries/319-querie.sql)
-1. [Check query](./queries/320-querie.sql)
+1. [Check query](./queries/query_5)
+1. [Check query](./queries/query_6)
+1. [Check query](./queries/query_7)
+1. [Check query](./queries/query_8)
+1. [Check query](./queries/query_9)
+
+### Desafio sukita:
+1. [Check query](./queries/query_10)
+
+```Foi realizada a construção de 2 funções suportes e uma função principal que retorna o filme desejado pelo usuário, mediante a sua opção de escolha (se não gostar pode ir mudando a opção) ou de conteúdo (pode escolher entre filme ou tv show).```
