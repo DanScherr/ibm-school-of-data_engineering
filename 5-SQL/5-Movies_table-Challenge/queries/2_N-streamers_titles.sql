@@ -86,7 +86,7 @@ CREATE TABLE IF NOT ExISTS "streamers_titlesxlisted_in"
 WITH "instant_table" AS (
     SELECT 
         "show_id",
-        TRIM(UNNEST(string_to_array(t."listed_in", ',', ' ,'))) AS "listed_in"
+        TRIM(UNNEST(string_to_array(t."listed_in", ',', ' ,'))) AS "name"
     FROM "streamers_titles" as t
 )
 INSERT INTO "streamers_titlesxlisted_in" AS dmt ("show_id", "name")
@@ -128,13 +128,13 @@ INSERT INTO "streamers_titlesxlisted_in" AS dmt ("show_id", "name")
                         THEN 'Thriller'
                     ELSE
                         fr."name"
-                END AS listed_in
-    FROM "instant_table"
-        WHERE "listed_in" IS NOT NULL
-        ORDER BY "listed_in";
+                END AS name
+    FROM "instant_table" AS fr
+        WHERE "name" IS NOT NULL
+        ORDER BY "name";
 
 ALTER TABLE streamers_titles
-DROP COLUMN IF EXISTS "director";
+DROP COLUMN IF EXISTS "listed_in";
 
 SELECT * FROM "streamers_titlesxlisted_in"; -- percebe-se uma relação de nxm
 
