@@ -102,6 +102,7 @@ Todos os seus dados são criptografados em movimento e em repouso.
 ![](./images/nova-credencial-2-expansao-chave.png)
 
 #### 4.4. Criar um arquivo .env e copiar as informações da credencial nova: ```username; password; host; port; database.```
+```certifique-se que seu arquivo .env esteja no seu gitignore.```
 
 ![](./images/creating-dot-env-file.png)
 
