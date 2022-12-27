@@ -1,6 +1,6 @@
 # :robot: IBM school of data engineering 
 
-## :sailboat: **Kubernetes + Minikube** :game_die:
+## :eye::bee::cloud: **IBM Cloud + DB2** :game_die::chains:
 
 <br>
 
