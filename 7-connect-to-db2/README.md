@@ -182,5 +182,5 @@ Todos os seus dados são criptografados em movimento e em repouso.
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
 
 <a href="https://github.com/DanScherr">
-    <img src='./../../images/the-end-img.png' width=50%>
+    <img src='./../images/the-end-img.png' width=50%>
 </a>
