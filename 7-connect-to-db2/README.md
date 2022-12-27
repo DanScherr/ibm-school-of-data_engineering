@@ -14,9 +14,9 @@
     - [Altamente disponível](#altamente-disponível)
     - [Altamente confiável](#altamente-confiável)
     - [Seguro de cima abaixo](#seguro-de-cima-abaixo)
-- [Instanciando]()
-    
-    
+- [Instanciando](#instanciando-busts_in_silhouette)
+- [Conectando com VSCode](#conectando-com-vscode-satelliteglobe_with_meridians)
+- [Rodando Queries](#rodando-querys-cyclonelink)    
 
 <br><br>
 
