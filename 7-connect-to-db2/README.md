@@ -73,7 +73,7 @@ Todos os seus dados são criptografados em movimento e em repouso.
 <br>
 
 # **Conectando com VSCode:** :satellite::globe_with_meridians:
-[:top: ***Voltar ao topo***]
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 ### **1. Após criação, no Painel Principal, clique em "Listar recursos"**;
 
