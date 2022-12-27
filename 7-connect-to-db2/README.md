@@ -73,6 +73,7 @@ Todos os seus dados são criptografados em movimento e em repouso.
 <br>
 
 # **Conectando com VSCode:** :satellite::globe_with_meridians:
+[:top: ***Voltar ao topo***]
 
 ### **1. Após criação, no Painel Principal, clique em "Listar recursos"**;
 
