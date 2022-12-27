@@ -1,0 +1,6 @@
+
+CREATE TABLE FXK17670.MYTAB (
+  col1 INT,
+  col2 VARCHAR(20),
+  col3 INT
+);
