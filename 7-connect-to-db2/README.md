@@ -1,4 +1,4 @@
-# **Learning Courses:**
+# :robot: IBM school of data engineering 
 
 ## :sailboat: **Kubernetes + Minikube** :game_die:
 
@@ -14,13 +14,15 @@
     - [Altamente disponível](#altamente-disponível)
     - [Altamente confiável](#altamente-confiável)
     - [Seguro de cima abaixo](#seguro-de-cima-abaixo)
-- [Instanciando]()
-    
-    
+- [Instanciando](#instanciando-busts_in_silhouette)
+- [Conectando com VSCode](#conectando-com-vscode-satelliteglobe_with_meridians)
+- [Rodando Queries](#rodando-querys-cyclonelink)    
 
 <br><br>
 
 # **Resumo:** :memo:
+
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 ## **Descrição:**
 
@@ -48,6 +50,7 @@ Todos os seus dados são criptografados em movimento e em repouso.
 <br>
 
 # **Instanciando:** :busts_in_silhouette:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 ### **1. Fazer cadastro na ibm cloud**;
 ### **2 Realizar Log-In**;
@@ -70,6 +73,7 @@ Todos os seus dados são criptografados em movimento e em repouso.
 <br>
 
 # **Conectando com VSCode:** :satellite::globe_with_meridians:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 ### **1. Após criação, no Painel Principal, clique em "Listar recursos"**;
 
@@ -98,10 +102,9 @@ Todos os seus dados são criptografados em movimento e em repouso.
 ![](./images/nova-credencial-2-expansao-chave.png)
 
 #### 4.4. Criar um arquivo .env e copiar as informações da credencial nova: ```username; password; host; port; database.```
+```certifique-se que seu arquivo .env esteja no seu gitignore.```
 
 ![](./images/creating-dot-env-file.png)
-
-
 
 ### **5. Volte a aba "Gerenciar" e clique em "Open UI"**;
 
@@ -161,6 +164,7 @@ Todos os seus dados são criptografados em movimento e em repouso.
 ![](./images/db2-connection-successfully.png)
 
 # **Rodando Querys**: :cyclone::link:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 ### **1. Encontre o Schema com seu user ID e expanda a aba;**
 
@@ -182,5 +186,5 @@ Todos os seus dados são criptografados em movimento e em repouso.
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
 
 <a href="https://github.com/DanScherr">
-    <img src='./../../images/the-end-img.png' width=50%>
+    <img src='./../images/the-end-img.png' width=50%>
 </a>
