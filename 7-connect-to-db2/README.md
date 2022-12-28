@@ -1,6 +1,6 @@
 # :robot: IBM school of data engineering 
 
-## :sailboat: **Kubernetes + Minikube** :game_die:
+## :eye::bee::cloud: **IBM Cloud + DB2** :game_die::chains:
 
 <br>
 
@@ -15,7 +15,7 @@
     - [Altamente confiável](#altamente-confiável)
     - [Seguro de cima abaixo](#seguro-de-cima-abaixo)
 - [Instanciando](#instanciando-busts_in_silhouette)
-- [Conectando com VSCode](#conectando-com-vscode-satelliteglobe_with_meridians)
+- [Conectando com VSCode](#conectando-com-vscode-por-extensao-satelliteglobe_with_meridians)
 - [Rodando Queries](#rodando-querys-cyclonelink)    
 
 <br><br>
@@ -72,7 +72,11 @@ Todos os seus dados são criptografados em movimento e em repouso.
 
 <br>
 
-# **Conectando com VSCode:** :satellite::globe_with_meridians:
+***
+
+<br>
+
+# **Conectando com VSCode por Extensão:** :satellite::globe_with_meridians:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 ### **1. Após criação, no Painel Principal, clique em "Listar recursos"**;
@@ -180,6 +184,27 @@ Todos os seus dados são criptografados em movimento e em repouso.
 
 ### 4. Para criar views, vá na aba Views e em seguida no mais à esquerda;
 ```e assim sucessivamente para cada aba dentro do Schema para o seu Login.```
+
+<br>
+
+***
+
+<br>
+
+# Connect on Jupyter Notebook:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
+## 1. Criar um ambiente virtual para testar e baixar bibliotecas;
+[to know how, click here to access.](https://github.com/DanScherr/learning-courses/tree/main/infra/ambiente-virtual-python) :point_left::link:
+
+## 2. Create a new Jupyter Notebook file;
+
+## 3. Change the kernel of the Jupyter Notebook file to your venv python kernel;
+```./venv/Scripts/python.exe```
+
+![](./images/jupyter-notebook/1-changing-kernel.png)
+
+## 4. 
 
 ***
 
