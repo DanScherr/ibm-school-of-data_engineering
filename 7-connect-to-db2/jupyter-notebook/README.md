@@ -9,6 +9,7 @@
 1. [Criando e configurando ambiente virtual;](#1-criando-e-configurando-ambiente-virtual)
 2. [Install and Configure CliDriver;](#2-install-and-configure-clidriver)
 3. [Code your Jupyter Notebook file.](#3-code-your-jupyter-nootebook-file)
+4. [Referencias](#4-referencias)
 
 
 ***
