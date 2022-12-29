@@ -126,6 +126,14 @@ Para que nossa conexão possa ser estabelecida, precisamos de um driver. Por iss
 
 <br>
 
+## **4. Referencias:**
+- [Application development in Python with ibm_db](https://www.ibm.com/docs/en/db2/9.7?topic=framework-application-development-db)
+- [Connecting to an IBM database server in Python](https://www.ibm.com/docs/en/db2/9.7?topic=db-connecting-database-server)
+- [Fetching rows or columns from result sets in Python](https://www.ibm.com/docs/en/db2/9.7?topic=db-fetching-rows-columns-from-result-sets)
+
+
+<br>
+
 ***
 
 * [Voltar ao topo](#robot-ibm-school-of-data-engineering)
