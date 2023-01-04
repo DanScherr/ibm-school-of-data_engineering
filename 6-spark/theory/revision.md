@@ -1,9 +1,9 @@
-## 1) Transformação de dados:
+## **1) Transformação de dados:**
 
-- ### Condição
+- ### **Condição**
     - case when
 
-- ### String
+- ### **String**
     - substring
     - lpad
     - rpad
@@ -11,7 +11,7 @@
     - lower
     - pow
 
-- ### Data/Time
+- ### **Data/Time**
     - datediff
     - year
     - month
@@ -23,7 +23,7 @@
 
 ***
 
-## 2) Funções de agregação:
+## **2) Funções de agregação:**
 
 - max
 - min
@@ -33,16 +33,16 @@
 
 ***
 
-## 3) Filtros:
+## **3) Filtros:**
 - where
 - having
 
 ***
 
-## 4) Importante: 
+## **4) Importante:**
 Revisar o uso de **over partition by**.
 
-- ### Transact SQL
+- ### **Transact SQL**
     - lead
     - lag
     - rank
