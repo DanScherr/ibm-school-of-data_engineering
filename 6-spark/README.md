@@ -31,8 +31,20 @@ Foi solicitado pela gestora Angelica, que revisassemos os conceitos e funções 
 
 - Para realizar as consultas, serão utilizadas as tabelas criadas na [aula 5](./../5-SQL/5-Movies_table-Challenge/) de SQL.
 
-### 1.1. 
-
+### **1.1. OVER**
+- Determina o particionamento e a ordenação de um conjunto de linhas antes da aplicação da função de janela associada.
+```
+OVER (   
+       [ <PARTITION BY clause> ]  
+       [ <ORDER BY clause> ]   
+       [ <ROW or RANGE clause> ]  
+      )
+```
+- Uma função de janela computa um valor para cada linha na janela. E estas são classificadas como:
+    - Funções de [classificação](./theory/revision.md/#funções-de-classificação):
+    - Funções de [agregação](./theory/revision.md/#funções-de-agregação):
+    - Funções [analíticas](./theory/revision.md/#funções-analíticas):
+    - Função [NEXT VALUE FOR](./theory/revision.md/#função-next-value-for):
 
 <br>
 
