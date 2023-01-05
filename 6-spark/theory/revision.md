@@ -1,4 +1,4 @@
-## **1) Transformação de dados:**
+## **1. Transformação de dados:**
 
 - ### **Condição**
     - case when
@@ -23,7 +23,14 @@
 
 ***
 
-## **2) Funções de agregação:**
+## **2. Filtros:**
+- where
+- having
+
+***
+
+## **3. Funções de agregação:**
+Necessário o uso de **group by**.
 
 - max
 - min
@@ -33,17 +40,10 @@
 
 ***
 
-## **3) Filtros:**
-- where
-- having
+## **4. Transact-SQL:**
+Necessário o uso de **over partition by**.
 
-***
-
-## **4) Importante:**
-Revisar o uso de **over partition by**.
-
-- ### **Transact SQL**
-    - lead
-    - lag
-    - rank
-    - row_number
+- lead
+- lag
+- rank
+- row_number
