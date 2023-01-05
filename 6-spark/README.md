@@ -40,11 +40,23 @@ OVER (
        [ <ROW or RANGE clause> ]  
       )
 ```
+
+- Argumentos:
+    - PARTITION BY divide o conjunto de resultados da consulta em partições.
+    - ORDER BY define a ordem lógica das linhas dentro de cada partição do conjunto de resultados.
+    - ROWS/RANGE limita as linhas dentro da partição com a especificação de pontos iniciais e finais na partição. Isso requer o argumento ORDER BY, e o valor padrão é do início da partição até o elemento atual se o argumento ORDER BY for especificado.
+
 - Uma função de janela computa um valor para cada linha na janela. E estas são classificadas como:
-    - Funções de [classificação](./theory/revision.md/#funções-de-classificação):
-    - Funções de [agregação](./theory/revision.md/#funções-de-agregação):
-    - Funções [analíticas](./theory/revision.md/#funções-analíticas):
-    - Função [NEXT VALUE FOR](./theory/revision.md/#função-next-value-for):
+    - Funções de [classificação](./theory/revision.md/#funções-de-classificação);
+    - Funções de [agregação](./theory/revision.md/#funções-de-agregação);
+    - Funções [analíticas](./theory/revision.md/#funções-analíticas);
+    - Função [NEXT VALUE FOR](./theory/revision.md/#função-next-value-for).
+
+- As funções passadas como atenção seguem: ```Classificação: RANK e ROW_NUMBER; Analíticas: LAG e LEAD.```
+Por isso, serão cobertas 2 funções para cada tipo.
+
+### **1.2. RANK**:
+
 
 <br>
 
