@@ -59,7 +59,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 ### **1.2. Classificação**:
 
 - #### **RANK():**
-    As tabelas a seguir mostram a função RANK com, respectivamente, [over partition by](./query/1-query.sql), [over order by](./query/3-query.sql) e [group by](./query/2-query.sql).
+    As tabelas a seguir mostram a função [RANK()](https://learn.microsoft.com/pt-br/sql/t-sql/functions/rank-transact-sql?view=sql-server-ver16) com, respectivamente, [over partition by](./query/1-partition-by.sql), [over order by](./query/1-order-by.sql) e [group by](./query/1-count-group-by.sql).
 
     ![](./images/1-revision-count-partitionby-tbl.png)
     ![](./images/1-revision-count-orderby-tbl.png)
@@ -71,11 +71,11 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 - #### **ROW_NUMBER()**: 
 
-    - Numera a saída de um conjunto de resultados. Mais especificamente, retorna o número sequencial de uma linha em uma partição de um conjunto de resultados, começando em 1 na primeira linha de cada partição.
+    - A função [ROW_NUMBER()](https://learn.microsoft.com/pt-br/sql/t-sql/functions/row-number-transact-sql?view=sql-server-ver16) numera a saída de um conjunto de resultados. Mais especificamente, retorna o número sequencial de uma linha em uma partição de um conjunto de resultados, começando em 1 na primeira linha de cada partição.
 
     - ROW_NUMBER e RANK são semelhantes. ROW_NUMBER numera todas as linhas em sequência (por exemplo 1, 2, 3, 4, 5). RANK fornece o mesmo valor numérico para empates (por exemplo 1, 2, 2, 4, 5).
 
-    - Assim como a função RANK, ROW_COUNT é reiniciada por agrupamento com o PARTITION BY e empilhada com o ORDER BY, como podemos nas tabelas abaixo respectivamente:
+    - Assim como a função RANK, ROW_COUNT é reiniciada por agrupamento com o PARTITION BY e empilhada com o ORDER BY, como podemos nas tabelas abaixo respectivamente, [over partition by](./query/1-partition-by.sql) e [over order by](./query/1-order-by.sql):
 
     ![](./images/1-revision-row_number-partitionby-tbl.png)
     ![](./images/1-revision-row_number-orderby-tbl.png)
@@ -83,7 +83,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 ### **1.3. Agregação:**
 
 - #### **MIN() e MAX()**
-    - Assim como a função RANK e ROW_COUNT, MIN E MAX são reiniciadas por agrupamento com o PARTITION BY e empilhadas com o ORDER BY, como podemos nas tabelas abaixo respectivamente:
+    - Assim como a função RANK e ROW_COUNT, [MIN()](https://learn.microsoft.com/pt-br/sql/t-sql/functions/min-transact-sql?view=sql-server-ver16) E [MAX()](https://learn.microsoft.com/pt-br/sql/t-sql/functions/max-transact-sql?view=sql-server-ver16) são reiniciadas por agrupamento com o PARTITION BY e empilhadas com o ORDER BY, como podemos nas tabelas abaixo respectivamente, [over partition by](./query/1-partition-by.sql) e [over order by](./query/1-order-by.sql):
 
     ![](./images/1-revision-agregacao-partitionby-tbl.png)
     ![](./images/1-revision-agregacao-orderby-tbl.png)
@@ -91,14 +91,14 @@ Por isso, serão cobertas 2 funções para cada tipo.
 ### **1.4. Analiticas:**
 
 - #### **LAG() e LEAD():**
-    - **LAG():** Acessa os dados de uma linha anterior no mesmo conjunto de resultados sem usar uma autojunção.
+    - [LAG()](https://learn.microsoft.com/pt-br/sql/t-sql/functions/lag-transact-sql?view=sql-server-ver16): Acessa os dados de uma linha anterior no mesmo conjunto de resultados sem usar uma autojunção.
 
         ```
         LAG (scalar_expression [,offset] [,default])  
         OVER ( [ partition_by_clause ] order_by_clause )  
         ```
 
-    - **LEAD():** Acessa os dados de uma linha anterior no mesmo conjunto de resultados sem usar uma autojunção.
+    - [LEAD()](https://learn.microsoft.com/pt-br/sql/t-sql/functions/lead-transact-sql?view=sql-server-ver16): Acessa os dados de uma linha anterior no mesmo conjunto de resultados sem usar uma autojunção.
 
         ```
         LEAD (scalar_expression [,offset] [,default])  
@@ -113,7 +113,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
             O valor a ser retornado quando offset estiver além do escopo da partição. Se um valor padrão não for especificado, NULL será retornado. default pode ser uma coluna, subconsulta ou outra expressão, mas não pode ser uma função analítica. default deve ter o tipo compatível com scalar_expression.
 
-    - Segue a mesma lógica para partition by e order by e estão representadas nas imagens abaixo respectivamente:
+    - Segue a mesma lógica para partition by e order by e estão representadas nas imagens abaixo respectivamente, [over partition by](./query/1-partition-by.sql) e [over order by](./query/1-order-by.sql):
         
         ![](./images/1-revision-lag-partitionby-tbl.png)
         ![](./images/1-revision-lag-orderby-tbl.png)
