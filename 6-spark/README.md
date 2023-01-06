@@ -55,28 +55,36 @@ OVER (
 - As funções passadas como atenção seguem: ```Classificação: RANK e ROW_NUMBER; Analíticas: LAG e LEAD.```
 Por isso, serão cobertas 2 funções para cada tipo.
 
-### **1.2. RANK**:
+### **1.2. Classificação**:
 
-As tabelas a seguir mostram a função RANK com, respectivamente, [over partition by](./query/1-query.sql), [over order by](./query/3-query.sql) e [group by](./query/2-query.sql).
+- #### **RANK():**
+    As tabelas a seguir mostram a função RANK com, respectivamente, [over partition by](./query/1-query.sql), [over order by](./query/3-query.sql) e [group by](./query/2-query.sql).
 
-![](./images/1-revision-count-partitionby-tbl.png)
-![](./images/1-revision-count-orderby-tbl.png)
-![](./images/1-revision-count-groupby-tbl.png)
+    ![](./images/1-revision-count-partitionby-tbl.png)
+    ![](./images/1-revision-count-orderby-tbl.png)
+    ![](./images/1-revision-count-groupby-tbl.png)
 
-- Nota-se que **na primeira**, a contagem faz-se exclusivamente por cada partição, obedecendo a expressão dada pelo usuário. Ou seja, a contagem é zerada e realizada a partir de cada partição, indicando a contagem de linhas por partição.
-- Já **na segunda**, percebe-se que não ocorre um particionamento que segmenta a contagem, esta flui de modo ordenada, criando como se fosse um sumário, indicando o segmento relativo à expressão dada pelo usuário e a contagem da primeira ocorrência deste na tabela.
-- Por fim, **na terceira**, ocorre um ***resumo da primeira.*** Ou seja, ao invés de trazer todas as linhas da tabela (de forma repetitiva), trás a informação apenas uma vez.
+    - Nota-se que **na primeira**, a contagem faz-se exclusivamente por cada partição, obedecendo a expressão dada pelo usuário. Ou seja, a contagem é zerada e realizada a partir de cada partição, indicando a contagem de linhas por partição.
+    - Já **na segunda**, percebe-se que não ocorre um particionamento que segmenta a contagem, esta flui de modo ordenada, criando como se fosse um sumário, indicando o segmento relativo à expressão dada pelo usuário e a contagem da primeira ocorrência deste na tabela.
+    - Por fim, **na terceira**, ocorre um ***resumo da primeira.*** Ou seja, ao invés de trazer todas as linhas da tabela (de forma repetitiva), trás a informação apenas uma vez.
 
-### **1.3. ROW_COUNT**: 
+- #### **ROW_COUNT()**: 
 
-- Numera a saída de um conjunto de resultados. Mais especificamente, retorna o número sequencial de uma linha em uma partição de um conjunto de resultados, começando em 1 na primeira linha de cada partição.
+    - Numera a saída de um conjunto de resultados. Mais especificamente, retorna o número sequencial de uma linha em uma partição de um conjunto de resultados, começando em 1 na primeira linha de cada partição.
 
-- ROW_NUMBER e RANK são semelhantes. ROW_NUMBER numera todas as linhas em sequência (por exemplo 1, 2, 3, 4, 5). RANK fornece o mesmo valor numérico para empates (por exemplo 1, 2, 2, 4, 5).
+    - ROW_NUMBER e RANK são semelhantes. ROW_NUMBER numera todas as linhas em sequência (por exemplo 1, 2, 3, 4, 5). RANK fornece o mesmo valor numérico para empates (por exemplo 1, 2, 2, 4, 5).
 
-- Assim como a função RANK, ROW_COUNT é reiniciada por agrupamento com o PARTITION BY e empilha com o ORDER BY, como podemos nas tabelas abaixo respectivamente:
+    - Assim como a função RANK, ROW_COUNT é reiniciada por agrupamento com o PARTITION BY e empilhada com o ORDER BY, como podemos nas tabelas abaixo respectivamente:
 
-![](./images/1-revision-row_number-partitionby-tbl.png)
-![](./images/1-revision-row_number-orderby-tbl.png)
+    ![](./images/1-revision-row_number-partitionby-tbl.png)
+    ![](./images/1-revision-row_number-orderby-tbl.png)
+
+### 1.3. Agregação:
+
+- #### MIN e MAX
+    - Assim como a função RANK e ROW_COUNT, MIN E MAX são reiniciadas por agrupamento com o PARTITION BY e empilhadas com o ORDER BY, como podemos nas tabelas abaixo respectivamente:
+    ![](./images/1-revision-agregacao-partitionby-tbl.png)
+    ![](./images/1-revision-agregacao-orderby-tbl.png)
 
 <br>
 
