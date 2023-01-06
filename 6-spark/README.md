@@ -57,7 +57,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 ### **1.2. RANK**:
 
-As tabelas a seguir mostram uma contagem com, respectivamente, [over partition by](./query/1-query.sql), [over order by](./query/3-query.sql) e [group by](./query/2-query.sql).
+As tabelas a seguir mostram a função RANK com, respectivamente, [over partition by](./query/1-query.sql), [over order by](./query/3-query.sql) e [group by](./query/2-query.sql).
 
 ![](./images/1-revision-count-partitionby-tbl.png)
 ![](./images/1-revision-count-orderby-tbl.png)
@@ -67,8 +67,16 @@ As tabelas a seguir mostram uma contagem com, respectivamente, [over partition b
 - Já **na segunda**, percebe-se que não ocorre um particionamento que segmenta a contagem, esta flui de modo ordenada, criando como se fosse um sumário, indicando o segmento relativo à expressão dada pelo usuário e a contagem da primeira ocorrência deste na tabela.
 - Por fim, **na terceira**, ocorre um ***resumo da primeira.*** Ou seja, ao invés de trazer todas as linhas da tabela (de forma repetitiva), trás a informação apenas uma vez.
 
+### **1.3. ROW_COUNT**: 
 
+- Numera a saída de um conjunto de resultados. Mais especificamente, retorna o número sequencial de uma linha em uma partição de um conjunto de resultados, começando em 1 na primeira linha de cada partição.
 
+- ROW_NUMBER e RANK são semelhantes. ROW_NUMBER numera todas as linhas em sequência (por exemplo 1, 2, 3, 4, 5). RANK fornece o mesmo valor numérico para empates (por exemplo 1, 2, 2, 4, 5).
+
+- Assim como a função RANK, ROW_COUNT é reiniciada por agrupamento com o PARTITION BY e empilha com o ORDER BY, como podemos nas tabelas abaixo respectivamente:
+
+![](./images/1-revision-row_number-partitionby-tbl.png)
+![](./images/1-revision-row_number-orderby-tbl.png)
 
 <br>
 
