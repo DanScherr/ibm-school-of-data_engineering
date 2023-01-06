@@ -1,5 +1,5 @@
 SELECT 
-    COUNT("country"),
+    ROW_NUMBER(),
     "country"
 FROM
     amazon_prime_titles
