@@ -91,7 +91,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 ### **1.4. Analiticas:**
 
 - #### **LAG() e LEAD():**
-    - **LAG:** Acessa os dados de uma linha anterior no mesmo conjunto de resultados sem usar uma autojunção.
+    - **LAG():** Acessa os dados de uma linha anterior no mesmo conjunto de resultados sem usar uma autojunção.
 
         ```
         LAG (scalar_expression [,offset] [,default])  
