@@ -20,7 +20,7 @@
 
 <br>
 
-## 1. **Revisão de conceitos:**
+## **1. Revisão de conceitos:**
 Foi solicitado pela gestora Angelica, que revisassemos os conceitos e funções de SQL para prosseguirmos com PySpark. 
 
 - Para verificar **lista de tópicos a revisar**, [acessar.](./theory/revision.md) :point_left::computer_mouse:
@@ -79,12 +79,33 @@ Por isso, serão cobertas 2 funções para cada tipo.
     ![](./images/1-revision-row_number-partitionby-tbl.png)
     ![](./images/1-revision-row_number-orderby-tbl.png)
 
-### 1.3. Agregação:
+### **1.3. Agregação:**
 
-- #### MIN e MAX
+- #### **MIN() e MAX()**
     - Assim como a função RANK e ROW_COUNT, MIN E MAX são reiniciadas por agrupamento com o PARTITION BY e empilhadas com o ORDER BY, como podemos nas tabelas abaixo respectivamente:
     ![](./images/1-revision-agregacao-partitionby-tbl.png)
     ![](./images/1-revision-agregacao-orderby-tbl.png)
+
+### **1.4. Analiticas:**
+
+- #### **LAG():**
+    - Acessa os dados de uma linha anterior no mesmo conjunto de resultados sem usar uma autojunção.
+        ```
+        LAG (scalar_expression [,offset] [,default])  
+        OVER ( [ partition_by_clause ] order_by_clause )  
+        ```
+        - **offset**:
+
+            O número de linhas atrás da linha atual da qual obter um valor. Se não for especificado, o padrão será 1. offset pode ser uma coluna, subconsulta ou outra expressão avaliada para um inteiro positivo ou pode ser convertida implicitamente em bigint. offset não pode ser um valor negativo nem uma função analítica.
+
+        - **default**:
+
+            O valor a ser retornado quando offset estiver além do escopo da partição. Se um valor padrão não for especificado, NULL será retornado. default pode ser uma coluna, subconsulta ou outra expressão, mas não pode ser uma função analítica. default deve ter o tipo compatível com scalar_expression.
+    - Segue a mesma lógica para partition by e order by e estão representadas nas imagens abaixo respectivamente:
+        
+        ![](./images/1-revision-lag-partitionby-tbl.png)
+        ![](./images/1-revision-lag-orderby-tbl.png)
+
 
 <br>
 
