@@ -68,7 +68,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
     - Já **na segunda**, percebe-se que não ocorre um particionamento que segmenta a contagem, esta flui de modo ordenada, criando como se fosse um sumário, indicando o segmento relativo à expressão dada pelo usuário e a contagem da primeira ocorrência deste na tabela.
     - Por fim, **na terceira**, ocorre um ***resumo da primeira.*** Ou seja, ao invés de trazer todas as linhas da tabela (de forma repetitiva), trás a informação apenas uma vez.
 
-- #### **ROW_COUNT()**: 
+- #### **ROW_NUMBER()**: 
 
     - Numera a saída de um conjunto de resultados. Mais especificamente, retorna o número sequencial de uma linha em uma partição de um conjunto de resultados, começando em 1 na primeira linha de cada partição.
 
@@ -110,6 +110,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
         
         ![](./images/1-revision-lag-partitionby-tbl.png)
         ![](./images/1-revision-lag-orderby-tbl.png)
+
 
 
 <br>
