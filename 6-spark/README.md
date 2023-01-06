@@ -57,9 +57,18 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 ### **1.2. RANK**:
 
+As tabelas a seguir mostram uma contagem com, respectivamente, [over partition by](./query/1-query.sql), [over order by](./query/3-query.sql) e [group by](./query/2-query.sql).
+
 ![](./images/1-revision-count-partitionby-tbl.png)
 ![](./images/1-revision-count-orderby-tbl.png)
 ![](./images/1-revision-count-groupby-tbl.png)
+
+- Nota-se que **na primeira**, a contagem faz-se exclusivamente por cada partição, obedecendo a expressão dada pelo usuário. Ou seja, a contagem é zerada e realizada a partir de cada partição, indicando a contagem de linhas por partição.
+- Já **na segunda**, percebe-se que não ocorre um particionamento que segmenta a contagem, esta flui de modo ordenada, criando como se fosse um sumário, indicando o segmento relativo à expressão dada pelo usuário e a contagem da primeira ocorrência deste na tabela.
+- Por fim, **na terceira**, ocorre um ***resumo da primeira.*** Ou seja, ao invés de trazer todas as linhas da tabela (de forma repetitiva), trás a informação apenas uma vez.
+
+
+
 
 <br>
 
