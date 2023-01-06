@@ -57,6 +57,9 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 ### **1.2. RANK**:
 
+![](./images/1-revision-count-partitionby-tbl.png)
+![](./images/1-revision-count-orderby-tbl.png)
+![](./images/1-revision-count-groupby-tbl.png)
 
 <br>
 
