@@ -43,7 +43,45 @@ Necessário o uso de **group by**.
 ## **4. Transact-SQL:**
 Necessário o uso de **over partition by**.
 
-- lead
-- lag
-- rank
-- row_number
+- ### Funções de classificação:
+    - **RANK**
+    - DENSE_RANK
+    - NTILE
+    - **ROW_NUMBER**
+
+- ### Funções de agregação:
+    - APPROX_COUNT_DISTINCT
+    - AVG
+    - CHECKSUM_AGG
+    - COUNT
+    - COUNT_BIG
+    - GROUPING
+    - GROUPING_ID
+    - MAX
+    - MIN
+    - STDEV
+    - STDEVP
+    - STRING_AGG
+    - SUM
+    - VAR
+    - VARP
+
+    - ```Com exceção de count, as funções de agregação ignoram valores nulos```
+
+- ### Funções analíticas:
+    - CUME_DIST (Transact-SQL)
+    - FIRST_VALUE (Transact-SQL)
+    - **LAG** (Transact-SQL)
+    - LAST_VALUE (Transact-SQL)
+    - **LEAD** (Transact-SQL)
+    - PERCENT_RANK (Transact-SQL)
+    - PERCENTILE_CONT (Transact-SQL)  
+    - PERCENTILE_DISC (Transact-SQL)
+
+- ### Função NEXT VALUE FOR.
+
+- #### Funções solicitadas pela gestora como atenção:
+    - lead
+    - lag
+    - rank
+    - row_number
