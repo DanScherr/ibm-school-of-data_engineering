@@ -177,7 +177,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 <br>
 
-#### **1. Arquitetura**:
+### **1. Arquitetura**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - **Driver:** Inicializar uma ***SparkSession***. Solicita recursos computacionais do ***Cluster Manager***, transforma as operações em ***DAGs*** e distribui estas pelos **Executers**.
@@ -189,7 +189,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 ![](./images/2-arquitetura-spark.png)
 
-#### **2. Elementos**:
+### **2. Elementos**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - **SparkContext**: Conexão transparente com o Cluster.
@@ -204,7 +204,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 - **SparkSession**: Seção. Acesso ao SparkContext.
 - **Aplication**: programa.
 
-#### **3. Componentes**:
+### **3. Componentes**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - **Job**: Tarefa.
@@ -213,7 +213,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 ![](./images/2-componentes.png)
 
-#### **4. Transformações e ações**:
+### **4. Transformações e ações**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - O processamento de transformação de fato só ocorre quando há uma ação, **Lazy Evaluation**: it only takes action after the "show" clause. In other words, if you tell spark to do some transformation operations (as filter, union, sample, etc.), it will only make them after the show clause, so that it can work a more efficient way of making them all together by simplifying the data engeneering transformation algorithym.
@@ -223,8 +223,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 - **Um data frame é imutável:** traz tolerância a falha
 - **Uma transformação gera um novo data frame**.
 
-##### **1. Transformações**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+#### **1. Transformações**:
 
 - **Narrow**: os dados estão em uma mesma partição
 
@@ -237,31 +236,24 @@ Por isso, serão cobertas 2 funções para cada tipo.
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - #### **Ubuntu Desktop**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - [.iso Download](https://ubuntu.com/download/desktop).
 
 - #### **Virtual box**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - [Download](https://www.virtualbox.org/wiki/Downloads).
 
 #### **1. Instanciar máquina Ubuntu na VM**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - [Follow these steps](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#2-create-a-new-virtual-machine)
 
 #### **2. Instalando Spark na instância**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 ##### **3. Preparando o ambiente**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 1. ```$ sudo apt update```
 2. ```$ sudo apt -y upgrade```
 ##### **4. Instalando Java**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 1. ```sudo apt install curl mlocate default-jdk -y```
 ##### **5. Instalando Spark**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 1. [Access](https://spark.apache.org/downloads.html) !
 2. Clique the link to the download page,
@@ -271,7 +263,6 @@ Por isso, serão cobertas 2 funções para cada tipo.
 6. Mover para past opt (onde ficam os aplicativos de pacotes de softw do linux. Questões de boas práticas): ```sudo mv <nome-pasta>/ /opt/spark```
 
 ##### **6. Definindo variáveis de ambiente**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - Se encontram no arquivo **.bashrc**
 1. Editando .bashrc: ```sudo gedit ~/.bashrc```
@@ -282,7 +273,6 @@ Por isso, serão cobertas 2 funções para cada tipo.
 3. Informar o sistema que o arquivo foi atualizado: ```source ~/.bashrc```
 
 ##### **7. Inicializando Spark**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 1. Iniciar master stand-alone do Spark: ```start-master.sh```
 -> permite acessar o spark no local host
@@ -296,14 +286,12 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 
 ##### **8. Instalando bibliotecas adicionais**:
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 1. Instalar o instalador de pacotes pip: ```sudo apt install python3-pip```
 2. ```pip install numpy```
 3. ```pip install pandas```
 
 #### **9. Console putty para operar máquina virtual (SSH):**
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 1. Habilitar SSH na VM
 2. [Instalar putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) no Windows.
