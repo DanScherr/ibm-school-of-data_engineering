@@ -9,7 +9,51 @@
 
 <br>
 
-- ### :man_student::books: [Introdução](#introdução-man_studentbooks)
+- ## :man_student::books: **[Introdução](#introdução-man_studentbooks)**
+
+
+- ### **[1. Revisão de conceitos](#1-revisão-de-conceitos)**
+    - **[1.1. Over](#11-over)**
+    - **[1.2. Classificação](#12-classificação)**
+        - [Rank()](#rank)
+        - [Row_Number()](#row_number)
+
+    - **[1.3. Agregação](#13-agregação)**
+
+    - **[1.4. Analíticas](#14-analiticas)**
+        - [Lag e Lead](#lag-e-lead)
+
+- ### **[2. Spark](#2-spark)**
+    - **[1. Arquitetura](#1-arquitetura)**
+    - **[2. Elementos](#2-elementos)**
+    - **[3. Componentes](#3-componentes)**
+    - **[4. Transformações e ações](#4-transformações-e-ações)**
+        - [1. Transformações](#1-transformações)
+    - **[5. Instalação](#5-instalação)**
+        - [1. VM com Ubuntu](#1-vm-com-ubuntu)
+            - [Ubuntu Desktop](#ubuntu-desktop)
+            - [Virtual Box](#virtual-box)
+            - [1.Instanciar máquina Ubuntu na VM](#1-instanciar-máquina-ubuntu-na-vm)
+            - [2. Instalando Spark na instância](#2-instalando-spark-na-instância)
+            - [3. Preparando o ambiente](#3-preparando-o-ambiente)
+            - [4. Instalando Java](#4-instalando-java)
+            - [5. Instalando Spark](#5-instalando-spark)
+            - [6. Definindo variáveis de ambiente](#6-definindo-variáveis-de-ambiente)
+            - [7. Inicializando Spark](#7-inicializando-spark)
+            - [8. Instalando bibliotecas adicionais](#8-instalando-bibliotecas-adicionais)
+            - [9. Console putty para operar máquina virtual (SSH)](#9-console-putty-para-operar-máquina-virtual-ssh)
+    - **[6. Estrutura de pastas do Spark](#6-estrutura-de-pastas-do-spark)**
+    - **[7. Baixar dados de exemplo](#7-baixar-dados-de-exemplo)**
+    - **[8. Estruturas de dados](#8-estruturas-de-dados)**
+        - [1. RDDs](#1-rdds)
+            - [1 Transformações e ações de um RDD](#1-transformações-e-ações-de-um-rdd)
+            - [2. Data Set](#2-data-set)
+            - [3. Data Frame](#3-data-frame)
+
+
+
+- ### **[3. Big Data](#3-big-data)**
+
 
 <br>
 
@@ -133,10 +177,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 <br>
 
-### **2.1. Introdução:**
-[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
-
-#### **2.1.1. Arquitetura**:
+#### **1. Arquitetura**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - **Driver:** Inicializar uma ***SparkSession***. Solicita recursos computacionais do ***Cluster Manager***, transforma as operações em ***DAGs*** e distribui estas pelos **Executers**.
@@ -148,7 +189,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 ![](./images/2-arquitetura-spark.png)
 
-#### **2.1.2. Elementos**:
+#### **2. Elementos**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - **SparkContext**: Conexão transparente com o Cluster.
@@ -163,7 +204,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 - **SparkSession**: Seção. Acesso ao SparkContext.
 - **Aplication**: programa.
 
-#### **2.1.3. Componentes**:
+#### **3. Componentes**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - **Job**: Tarefa.
@@ -172,7 +213,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 ![](./images/2-componentes.png)
 
-#### **2.1.4. Transformações e ações**:
+#### **4. Transformações e ações**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - O processamento de transformação de fato só ocorre quando há uma ação, **Lazy Evaluation**: it only takes action after the "show" clause. In other words, if you tell spark to do some transformation operations (as filter, union, sample, etc.), it will only make them after the show clause, so that it can work a more efficient way of making them all together by simplifying the data engeneering transformation algorithym.
@@ -182,44 +223,44 @@ Por isso, serão cobertas 2 funções para cada tipo.
 - **Um data frame é imutável:** traz tolerância a falha
 - **Uma transformação gera um novo data frame**.
 
-##### **2.1.4.1. Transformações**:
+##### **1. Transformações**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - **Narrow**: os dados estão em uma mesma partição
 
 - **Wide**: os dados estão em mais de uma partição
 
-## **2.2. Instalação**:
+## **5. Instalação**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
-### **2.2.1. VM com Ubuntu**:
+### **1. VM com Ubuntu**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
-#### **2.2.1.1. Ubuntu Desktop**:
+- #### **Ubuntu Desktop**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - [.iso Download](https://ubuntu.com/download/desktop).
 
-#### **2.2.1.2. Virtual box**:
+- #### **Virtual box**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - [Download](https://www.virtualbox.org/wiki/Downloads).
 
-#### **2.2.2.3. Instanciar máquina Ubuntu na VM**:
+#### **1. Instanciar máquina Ubuntu na VM**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - [Follow these steps](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#2-create-a-new-virtual-machine)
 
-#### **2.2.1.4. Instalando Spark na instância**:
+#### **2. Instalando Spark na instância**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
-##### **2.2.2.4.1. Preparando o ambiente**:
+##### **3. Preparando o ambiente**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 1. ```$ sudo apt update```
 2. ```$ sudo apt -y upgrade```
-##### **2.2.2.4.2. Instalando Java**:
+##### **4. Instalando Java**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 1. ```sudo apt install curl mlocate default-jdk -y```
-##### **2.2.2.4.3. Instalando Spark**:
+##### **5. Instalando Spark**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 1. [Access](https://spark.apache.org/downloads.html) !
@@ -229,7 +270,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 5. Extraindo arquivo tar: ```tar xvf <nome-arquivo>```
 6. Mover para past opt (onde ficam os aplicativos de pacotes de softw do linux. Questões de boas práticas): ```sudo mv <nome-pasta>/ /opt/spark```
 
-##### **2.2.2.4.4. Definindo variáveis de ambiente**:
+##### **6. Definindo variáveis de ambiente**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - Se encontram no arquivo **.bashrc**
@@ -240,7 +281,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 3. Informar o sistema que o arquivo foi atualizado: ```source ~/.bashrc```
 
-##### **2.2.2.4.5. Inicializando Spark**:
+##### **7. Inicializando Spark**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 1. Iniciar master stand-alone do Spark: ```start-master.sh```
@@ -254,26 +295,16 @@ Por isso, serão cobertas 2 funções para cada tipo.
 - É possível rodar Script de Spark no Shell do Spark de forma interativa, ou podemos criar uma aplicação SPark .py e rodá-la no shell de comando do próprio linux.
 
 
-##### **2.2.2.4.5. Instalando bibliotecas adicionais**:
+##### **8. Instalando bibliotecas adicionais**:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
 1. Instalar o instalador de pacotes pip: ```sudo apt install python3-pip```
 2. ```pip install numpy```
 3. ```pip install pandas```
 
+#### **9. Console putty para operar máquina virtual (SSH):**
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
-## 2.3. Estrutura de pastas do Spark:
-- /opt/saprl/
-- /examples/src/main/python/: exemplos para rodar
-    - para executar: ```run-example SparkPi``` --> calculo de pi
-    - script de contagem de palavra com arquivos de log:
-        - ```cd /var/log```
-        - ```run-example JavaWordCount kern.log```
-
-## 2.4. Baixar dados de exemplo:
-- ```cd ~```
-1. ```wget www.datascientist.com.br/bigdata/download.zip```
-2. ```unzip download.zip```
-
-## 2.5. Console putty para operar máquina virtual (SSH):
 1. Habilitar SSH na VM
 2. [Instalar putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) no Windows.
 3. Configurar no Linux: 
@@ -297,6 +328,50 @@ Por isso, serão cobertas 2 funções para cada tipo.
     2. clicar "Open"
     3. Fazer Log-in
 5. Acessar
+
+
+## 6. Estrutura de pastas do Spark:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
+- /opt/saprl/
+- /examples/src/main/python/: exemplos para rodar
+    - para executar: ```run-example SparkPi``` --> calculo de pi
+    - script de contagem de palavra com arquivos de log:
+        - ```cd /var/log```
+        - ```run-example JavaWordCount kern.log```
+
+## 7. Baixar dados de exemplo:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
+- ```cd ~```
+1. ```wget www.datascientist.com.br/bigdata/download.zip```
+2. ```unzip download.zip```
+
+
+
+## **8. Estruturas de dados:**
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
+### **1. RDDs**:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
+ - Estrutura básica de baixo nível, complexo e verboso
+ - Dados imutáveis distribuídos nos clusters
+ - Em memória
+ - Pode ser persistido em disco
+ - Tolerante a falha
+ - Operações sobre um RDD criam um novo RDD (por serem imutáveis)
+
+#### **1 Transformações e ações de um RDD**:
+![](./images/2-rdds-transf-e-acoes.png)
+
+### **2. Data Set**:
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
+
+### **3. Data Frame**: 
+[:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
+
 
 
 <br>
