@@ -246,14 +246,14 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 #### **2. Instalando Spark na instância**:
 
-##### **3. Preparando o ambiente**:
+#### **3. Preparando o ambiente**:
 
 1. ```$ sudo apt update```
 2. ```$ sudo apt -y upgrade```
-##### **4. Instalando Java**:
+#### **4. Instalando Java**:
 
 1. ```sudo apt install curl mlocate default-jdk -y```
-##### **5. Instalando Spark**:
+#### **5. Instalando Spark**:
 
 1. [Access](https://spark.apache.org/downloads.html) !
 2. Clique the link to the download page,
@@ -262,7 +262,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 5. Extraindo arquivo tar: ```tar xvf <nome-arquivo>```
 6. Mover para past opt (onde ficam os aplicativos de pacotes de softw do linux. Questões de boas práticas): ```sudo mv <nome-pasta>/ /opt/spark```
 
-##### **6. Definindo variáveis de ambiente**:
+#### **6. Definindo variáveis de ambiente**:
 
 - Se encontram no arquivo **.bashrc**
 1. Editando .bashrc: ```sudo gedit ~/.bashrc```
@@ -272,7 +272,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 3. Informar o sistema que o arquivo foi atualizado: ```source ~/.bashrc```
 
-##### **7. Inicializando Spark**:
+#### **7. Inicializando Spark**:
 
 1. Iniciar master stand-alone do Spark: ```start-master.sh```
 -> permite acessar o spark no local host
@@ -285,7 +285,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 - É possível rodar Script de Spark no Shell do Spark de forma interativa, ou podemos criar uma aplicação SPark .py e rodá-la no shell de comando do próprio linux.
 
 
-##### **8. Instalando bibliotecas adicionais**:
+#### **8. Instalando bibliotecas adicionais**:
 
 1. Instalar o instalador de pacotes pip: ```sudo apt install python3-pip```
 2. ```pip install numpy```
