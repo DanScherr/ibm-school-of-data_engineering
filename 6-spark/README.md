@@ -1,4 +1,4 @@
-# :robot: IBM school of data engineering 
+# :robot: **IBM school of data engineering**
 #### :mortar_board: *This folder contains the PySpark theory and challenges* :game_die::chains:
 
 <br>
@@ -13,14 +13,14 @@
 
 
 - ### **[1. Revisão de conceitos](#1-revisão-de-conceitos)**
-    - **[1.1. Over](#11-over)**
-    - **[1.2. Classificação](#12-classificação)**
+    - **[1. Over](#1-over)**
+    - **[2. Classificação](#2-classificação)**
         - [Rank()](#rank)
         - [Row_Number()](#row_number)
 
-    - **[1.3. Agregação](#13-agregação)**
+    - **[3. Agregação](#3-agregação)**
 
-    - **[1.4. Analíticas](#14-analiticas)**
+    - **[4. Analíticas](#4-analiticas)**
         - [Lag e Lead](#lag-e-lead)
 
 - ### **[2. Spark](#2-spark)**
@@ -47,8 +47,8 @@
     - **[8. Estruturas de dados](#8-estruturas-de-dados)**
         - [1. RDDs](#1-rdds)
             - [1 Transformações e ações de um RDD](#1-transformações-e-ações-de-um-rdd)
-            - [2. Data Set](#2-data-set)
-            - [3. Data Frame](#3-data-frame)
+        - [2. Data Set](#2-data-set)
+        - [3. Data Frame](#3-data-frame)
 
 
 
@@ -77,7 +77,7 @@ Foi solicitado pela gestora Angelica, que revisassemos os conceitos e funções 
 
 - Para realizar as consultas, serão utilizadas as tabelas criadas na [aula 5](./../5-SQL/5-Movies_table-Challenge/) de SQL.
 
-### **1.1. OVER**
+### **1. OVER**
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - Determina o particionamento e a ordenação de um conjunto de linhas antes da aplicação da função de janela associada.
@@ -104,7 +104,7 @@ OVER (
 - As funções passadas como atenção seguem: ```Classificação: RANK e ROW_NUMBER; Analíticas: LAG e LEAD.```
 Por isso, serão cobertas 2 funções para cada tipo.
 
-### **1.2. Classificação**:
+### **2. Classificação**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - #### **RANK():**
@@ -129,7 +129,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
     ![](./images/1-revision-row_number-partitionby-tbl.png)
     ![](./images/1-revision-row_number-orderby-tbl.png)
 
-### **1.3. Agregação:**
+### **3. Agregação:**
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - #### **MIN() e MAX()**
@@ -138,7 +138,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
     ![](./images/1-revision-agregacao-partitionby-tbl.png)
     ![](./images/1-revision-agregacao-orderby-tbl.png)
 
-### **1.4. Analiticas:**
+### **4. Analiticas:**
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 
 - #### **LAG() e LEAD():**
