@@ -50,19 +50,9 @@
             - [2. Rodando exemplo na VM](#2-rodando-exemplo-na-vm)
         - [2. Data Set](#2-data-set)
         - [3. Data Frame](#3-data-frame)
-            - Tabelas com linhas e colunas;
-            - Imutáveis;
-            - Com schema conhecido;
-            - Linhagem preservada (preserva as etapas que o dataframe vem sendo transformado);
-            - Colunas podem ter tipos da dados diferentes;
-            - Existem análises comuns: agrupar, ordenar e filtrar;
-            - Spark pode otimizar estas analises através de planos de execução (processamento so ocorre após uma ação - Lazy Evaluation).
-            - Tipos de dados:
-                
-                ![](./images/8-tipos-de-dados.png)
-                - É possível deixar para o Spark inferir o Schema a partir de parte dos dados,
-                - definir você mesmo o Schema,
-                    - vantagens: tipo correto e sem overhead.
+            - [1. Funções e Atributos comuns](#1-funções-e-atributos-comuns)
+            - [2. Importing Data](#2-importing-data)
+            - [3. Filtrando dados](#3-filtrando-dados)
 
 
 
@@ -402,7 +392,68 @@ Por isso, serão cobertas 2 funções para cada tipo.
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
 - Semelhante a uma tabela de banco de dados
 - Compatível com objetos Dataframe do R e Python
-- ***Disponível em R e Python***
+- ***Disponível em R e Python***´
+- Tabelas com linhas e colunas;
+- Imutáveis;
+- Com schema conhecido;
+- Linhagem preservada (preserva as etapas que o dataframe vem sendo transformado);
+- Colunas podem ter tipos da dados diferentes;
+- Existem análises comuns: agrupar, ordenar e filtrar;
+- Spark pode otimizar estas analises através de planos de execução (processamento so ocorre após uma ação - Lazy Evaluation).
+- Tipos de dados:
+    
+    ![](./images/8-tipos-de-dados.png)
+    - É possível deixar para o Spark inferir o Schema a partir de parte dos dados,
+    - definir você mesmo o Schema,
+        - vantagens: tipo correto e sem overhead.
+
+#### **1. Funções e Atributos comuns:**
+- **Exemplo - DataFrame:**
+    - [from pyspark.sql import SparkSession](https://spark.apache.org/docs/3.1.1/api/python/reference/api/pyspark.sql.SparkSession.html)
+    - [pyspark.sql.SparkSession.createDataFrame()](https://spark.apache.org/docs/3.1.1/api/python/reference/api/pyspark.sql.SparkSession.createDataFrame.html)
+    - [pyspark.sql.DataFrame.show()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.DataFrame.show.html#)
+
+        ![](./images/3-1-dataframe-example-1.png)
+
+- **Example - Group By:**
+    - [from pyspark.sql.function import sum](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.functions.sum.html)
+    -[pyspark.sql.DataFrame.groupBy()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.DataFrame.groupBy.html)
+
+        ![](./images/3-1-dataframe-example-2.png)
+
+- **Example - Select**:
+    - [pyspark.sql.DataFrame.select()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.DataFrame.select.html)
+
+        ![](./images/3-1-dataframe-example-3.png)
+
+    - [pyspark.sql.DataFrame.selectExpr()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.DataFrame.selectExpr.html)
+
+        ![](./images/3-2-dataframe-example-4.png)
+
+- **Example - Dataframe Atributes**:
+    - [pyspark.sql.DataFrame.schema]()
+    - [pyspark.sql.DataFrame.columns]()
+
+        ![](./images/3-3-dataframe-example-1.png)
+
+#### **2. Importing Data**:
+- from pyspark.sql.types import *
+- [pyspark.sql.SparkSession.read](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.SparkSession.read.html)
+1. [pyspark.sql.DataFrameReader.csv()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.DataFrameReader.csv.html)
+
+    ![](./images/2-import-data-example-1.png)
+
+2. [pyspark.sql.DataFrameReader.load()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.DataFrameReader.load.html)
+
+    ![](./images/2-import-data-example-2.png)
+
+- Comparando so métodos:
+
+    ![](./images/2-import-data-example-3.png)
+
+#### **3. Filtrando dados:**
+
+
 
 <br>
 
