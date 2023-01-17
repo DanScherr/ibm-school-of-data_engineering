@@ -353,14 +353,42 @@ Por isso, serão cobertas 2 funções para cada tipo.
 #### **1 Transformações e ações de um RDD**:
 ![](./images/2-rdds-transf-e-acoes.png)
 
+#### **2. Rodando exemplo na VM**:
+- **Ações**:
+
+    ![](./images/2-rdd-rodando-exemplo.png)
+
+- **Transformação**:
+    - como é imutável, é necessário atribuir a outra variavel;
+    - resultado só será visto após uma ação;
+
+        ![](./images/2-rdd-rodando-exemplo-transformacao.png)
+
+        ![](./images/2-rdd-rodando-exemplo-transformacao-2.png)
+
+        ![](./images/2-rdd-rodando-exemplo-transformacao-3.png)
+
+        ![](./images/2-rdd-rodando-exemplo-transformacao-4.png)
+
+- **Exemplo:**
+    - Estrutura de dicionario: (chave, valor)
+
+    ![](./images/2-rdd-rodando-exemplo-1.png)
+
+    ![](./images/2-rdd-rodando-exemplo-1-2.png)
+
+
 ### **2. Data Set**:
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
-
+- Semelhante a uma tabela de banco de dados
+- Compatível com objetos Dataframe do R e Python
+- ***Disponível apenas em Java e Scala (ñ em R e Python)***
 
 ### **3. Data Frame**: 
 [:top: ***Voltar ao topo***](#robot-ibm-school-of-data-engineering)
-
-
+- Semelhante a uma tabela de banco de dados
+- Compatível com objetos Dataframe do R e Python
+- ***Disponível em R e Python***
 
 <br>
 
