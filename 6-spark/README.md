@@ -47,8 +47,22 @@
     - **[8. Estruturas de dados](#8-estruturas-de-dados)**
         - [1. RDDs](#1-rdds)
             - [1 Transformações e ações de um RDD](#1-transformações-e-ações-de-um-rdd)
+            - [2. Rodando exemplo na VM](#2-rodando-exemplo-na-vm)
         - [2. Data Set](#2-data-set)
         - [3. Data Frame](#3-data-frame)
+            - Tabelas com linhas e colunas;
+            - Imutáveis;
+            - Com schema conhecido;
+            - Linhagem preservada (preserva as etapas que o dataframe vem sendo transformado);
+            - Colunas podem ter tipos da dados diferentes;
+            - Existem análises comuns: agrupar, ordenar e filtrar;
+            - Spark pode otimizar estas analises através de planos de execução (processamento so ocorre após uma ação - Lazy Evaluation).
+            - Tipos de dados:
+                
+                ![](./images/8-tipos-de-dados.png)
+                - É possível deixar para o Spark inferir o Schema a partir de parte dos dados,
+                - definir você mesmo o Schema,
+                    - vantagens: tipo correto e sem overhead.
 
 
 
