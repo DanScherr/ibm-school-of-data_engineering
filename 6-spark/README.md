@@ -1,6 +1,8 @@
 # :robot: **IBM school of data engineering**
 #### :mortar_board: *This folder contains the PySpark theory and challenges* :game_die::chains:
 
+![](./images/Spark-logo-192x100px.png)
+
 <br>
 
 ***
@@ -417,7 +419,7 @@ Por isso, serão cobertas 2 funções para cada tipo.
 
 - **Example - Group By:**
     - [from pyspark.sql.function import sum](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.functions.sum.html)
-    -[pyspark.sql.DataFrame.groupBy()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.DataFrame.groupBy.html)
+    - [pyspark.sql.DataFrame.groupBy()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.DataFrame.groupBy.html)
 
         ![](./images/3-1-dataframe-example-2.png)
 
@@ -452,8 +454,24 @@ Por isso, serão cobertas 2 funções para cada tipo.
     ![](./images/2-import-data-example-3.png)
 
 #### **3. Filtrando dados:**
+- from pyspark.sql import functions as Func
+- [pyspark.sql.DataFrame.where()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.DataFrame.where.html)
 
+    ![](./images/2-filter-data-example-1.png)
 
+#### **4. Trabalhando com colunas e views:**
+- [pyspark.sql.DataFrame.withColumnRenamed()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.DataFrame.withColumnRenamed.html)
+
+![](./images/2-working-with-columns-example-2.png)
+
+- [pyspark.sql.functions.year()](https://spark.apache.org/docs/3.2.0/api/python/reference/api/pyspark.sql.functions.year.html)
+
+    ![](./images/2-working-with-columns-example-.png)
+
+    ![](./images/2-working-with-columns-example-3.png)
+
+#### **5. Resumo com Jupyter Notebook**:
+- [Access to view](./spark.ipynb). :point_left::computer_mouse:
 
 <br>
 
