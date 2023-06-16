@@ -1,0 +1,27 @@
+col_name;data_type;comment
+ts_atl_tran;timestamp;Data e hora de atualizacao das informacoes de transacoes da cartao de credito.
+cd_ct_crt;char(100);Identifica de forma unica a conta pagamento pos-paga do cliente, mantendo as regras de imutabilidade dentro da instituicao transmissora.
+cd_idfr_tran;char(100);Codigo ou identificador unico prestado pela instituicao que mantem a conta para representar a transacao individual.
+tx_idfr_crt;char(100);Numero de identificacao do cartao: corresponde aos 4 ultimos digitos do cartao para PF, ou entao, preencher com um identificador para PJ, com as caracteristicas definidas para os IDs no Open Banking.
+nm_lncd;char(50);Nome da linha de credito do cartao.\r\nCREDITO_A_VISTA \r\nCREDITO_PARCELADO \r\nSAQUE_CREDITO_BRASIL \r\nSAQUE_CREDITO_EXTERIOR \r\nEMPRESTIMO_CARTAO_CONSIGNADO \r\nOUTROS
+nm_tran;char(100);Campo de livre preenchimento. Literal usada na instituicao financeira para identificar a transacao
+cd_idfr_fat;char(100);Informacao que identifica a fatura onde consta a transacao informada.
+tx_tip_lcto;char(7);Indicador do tipo de lancamento:\r\nCREDITO \r\nDEBITO
+tx_tip_tran;char(50);Traz os tipos de Transacao\r\nPAGAMENTO \r\nTARIFA \r\nOPERACOES_CREDITO_CONTRATADAS_CARTAO \r\nESTORNO \r\nCASHBACK \r\nOUTROS
+tx_adc_tran;char(140);Campo livre, de preenchimento obrigatorio quando selecionado tipo de transacao OUTROS
+tx_tip_pgto_tran;char(7);Traz os tipos de pagamento. A_VISTA \r\nA_PRAZO
+tx_tip_tarf;char(40);Traz os tipos de Tarifas:\r\nANUIDADE \r\nSAQUE_CARTAO_BRASIL \r\nSAQUE_CARTAO_EXTERIOR \r\nAVALIACAO_EMERGENCIAL_CREDITO \r\nEMISSAO_SEGUNDA_VIA \r\nTARIFA_PAGAMENTO_CONTAS \r\nSMS \r\nOUTRA
+tx_adc_tip_tarf;char(140);Campo livre, de preenchimento obrigatorio quando selecionada tipo de tarifa OUTRA
+tx_tip_opr_crd;char(40);Traz outros tipos de credito contratados no cartao.\r\nCREDITO_ROTATIVO \r\nPARCELAMENTO_FATURA \r\nEMPRESTIMO \r\nOUTROS
+tx_adc_opr_crd;char(50);Campo livre, de preenchimento obrigatorio quando selecionado tipo de credito OUTROS
+tx_idfr_pcl;char(50);Identificador da parcela que esta sendo informada. Campo de livre preenchimento
+qt_pcl_tran;smallint;Quantidade de parcelas as quais a transacao faz referencia.
+vl_moen;decimal(17,2);Valor da transacao.
+vl_extr;decimal(17,2);Valor da transacao efetuada no exterior e convertida em moeda nacional.
+cd_moe_vl_extr;char(3);Moeda referente ao valor da transacao, se a operacao foi efetuada em moeda  estrangeira, segundo modelo ISO-4217.
+dt_tran;date;Data original da transacao
+dt_lcto_fat;date;Data em que a transacao foi inserida na fatura
+cd_ctgr_cia;int;O MCC ou o codigo da categoria do estabelecimento comercial. Os MCCs sao agrupados segundo suas similaridades. O MCC e usado para classificar o negocio pelo tipo fornecido de bens ou servicos. Os MCCs sao atribuidos por tipo de comerciante (por exemplo, um para hoteis, um para lojas de materiais de escritorio, etc.) ou por nome de comerciante (por exemplo, 3000 para a United Airlines).
+nr_idfr_pss;decimal(14,0);Identificador do detentor da conta (CPF ou CNPJ).?
+cd_tip_pss;smallint;Codigo que identifica o tipo de pessoa.\r\nEx: 1 - Pessoa Fisica, 2 - Pessoa Juridica
+cd_tip_mvt_opb;char(1);Codigo que identifica o tipo de movimento das informacoes de openbanking entre o Banco do Brasil e as demais instituicoes.\r\n\r\nT - Transmissor\r\nR - Receptor\r\n
